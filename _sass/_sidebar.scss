@@ -123,16 +123,11 @@
 
 .author__bio {
   margin: 0;
-  line-height: 1;
 
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
   }
-}
-
-.sidebar .author__bio {
-  line-height: 1;
 }
 
 .author__urls-wrapper {
