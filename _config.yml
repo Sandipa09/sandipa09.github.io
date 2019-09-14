@@ -84,7 +84,7 @@ author:
   avatar           : "profile.jpg"
   bio              : "PhD Candidate"
   location         : &location "Buffalo, NY"
-  university       : &university "University at Buffalo, State University of New York"
+  university       : &university "University at Buffalo, SUNY"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
