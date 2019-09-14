@@ -82,8 +82,9 @@ analytics:
 author:
   name             : "Sandipa Bhattacharya"
   avatar           : "profile.jpg"
-  bio              : "PhD Candidate at University at Buffalo, SUNY"
+  bio              : "PhD Candidate"
   location         : &location "Buffalo, NY"
+  university       : &university "University at Buffalo, State University of New York"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
