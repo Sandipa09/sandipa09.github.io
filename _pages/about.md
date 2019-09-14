@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 Hi there! Welcome to my webpage!   
+   
 I am a PhD candidate at University at Buffalo, State University of New York. I am currently located at Buffalo, NY. 
 
 ### Research Interests: 
