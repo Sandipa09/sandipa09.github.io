@@ -16,17 +16,9 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    <ul class="author__name" style="list-style-type:none">
-      {% if author.bio %} 
-        <li>{{ author.bio }}</li>
-      {% endif %}
-      {% if author.university %}
-        <li>{{ author.university }}</li>
-      {% endif %}
-      {% if author.location %}
-        <li>{{ author.location }}</li>
-      {% endif %}
-    </ul>
+    {% if author.bio %}<h4 class="author__bio">{{ author.bio }}</h4>{% endif %}
+    {% if author.university %}<h4 class="author__bio">{{ author.university }}</h4>{% endif %}
+    {% if author.location %}<h4 class="author__bio">{{ author.location }}</h4>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
