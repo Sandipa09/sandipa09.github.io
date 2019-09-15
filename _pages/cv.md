@@ -12,4 +12,4 @@ redirect_from:
 - Masters for Arts (M.A) at Jadavpur University, Kolkata, India
 - Bachelor of Arts (B.A) at Jadavpur University, Kolkata, India
 
-Click [here](http://sandipa09.github.io/files/Sandipa_Bhattacharjee_CV_final.pdf)
+Click [here](http://sandipa09.github.io/files/Sandipa_Bhattacharjee_CV_final.pdf) for a detailed Curriculam Vitae.
