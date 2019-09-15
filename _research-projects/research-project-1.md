@@ -9,6 +9,5 @@ collection: research-projects
 >were prepped for their respective roles of spy and government, our study found very little correlation
 >with the Nash Equilibrium of the game. Instead, we got to know that there are other psychological
 >factors that drove the minds of the players.   
-
 You can download the paper [here](http://sandipa09.github.io/files/project-1.pdf)
 
