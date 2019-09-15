@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sandipa Bhattacharya"
+title                    : "Sandipa Bhattacharjee"
 title_separator          : "-"
-name                     : &name "Sandipa Bhattacharya"
+name                     : &name "Sandipa Bhattacharjee"
 description              : &description "PhD Candidate at University at Buffalo, SUNY"
 url                      : https://sandipa09.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Sandipa Bhattacharya"
+  name             : "Sandipa Bhattacharjee"
   avatar           : "profile.jpg"
   bio              : "PhD Candidate"
   location         : "Buffalo, NY"
