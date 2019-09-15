@@ -14,4 +14,4 @@ author_profile: true
 - Macroeconomics (Summer 2019)
 - US Economic History (Winter 2020)
 
->Teaching evaluations of each semester are available upon request.
+**Note:** Teaching evaluations of each semester are available upon request.
