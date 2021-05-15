@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! Welcome to my webpage!   
+Hi! Welcome to my webpage!   
    
-I am a PhD candidate at University at Buffalo, State University of New York. I am currently located at Buffalo, NY. 
+I am a PhD candidate at the Department of Economics, University at Buffalo, State University of New York. 
 
 ### Research Interests: 
 - Economics of Discrimination
@@ -19,3 +19,9 @@ I am a PhD candidate at University at Buffalo, State University of New York. I a
 - Development Economics
 
 > I am also interested in topics of applied microeconomics, particularly problems related to discrimination, migration, gender inequality, human capital accumulation, health issues, inter- generational mobility and social interactions. I also take particular interest in policy evaluations.
+
+### References:
+- Dr. Neel Rao (Chair)
+- Dr. Sean Fahle (Committee Member)
+- Dr. Zhiqiang Liu (Committee Member)
+- Dr. Aisling Winston (Teaching)
