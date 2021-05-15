@@ -1,6 +1,9 @@
 # main links links
 main:
 
+  - title: "Education & CV"
+    url: /cv/
+
   - title: "Research"
     url: /research-projects/    
 
@@ -10,8 +13,14 @@ main:
   - title: "Work Experience"
     url: /work-experience/
     
-  - title: "Education & CV"
-    url: /cv/
+  - title: "Awards"
+    url: /awards/
+  
+  - title: "Conferences"
+    url: /conferences/
     
   - title: "Contact"
     url: /contact/
+    
+  - title: "Other Links"
+    url: /other-links/
