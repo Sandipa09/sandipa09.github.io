@@ -5,6 +5,14 @@ permalink: /research-projects/
 author_profile: true
 ---
 
+## Age Discrimination and Health of Older Workers
+
+## Employment Precarity and Health of Workers: Evidence from USA
+
+## Exchange Rate Volatility and International Students' Educational Choice: Evidence from USA"
+
+## “Effect of Affordable Care Act (ACA) on Insurance Coverage by the Immigrants and Natives”
+
 ## Constructed a simple variation of Ultimatum Game by designing a fictional Espionage Game scenario and validating it by conducting experiment
 
 >In this paper, we have attempted to construct a simple variation of the Ultimatum Game by designing
