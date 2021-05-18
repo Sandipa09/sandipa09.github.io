@@ -8,7 +8,7 @@ author_profile: true
 ### Work in Progress:
 
 - "Age Discrimination and Health of Older Workers"
-- "Employment Precarity and Health of Workers: Evidence from USA"
+- "Employment Precarity and Health of Workers: Evidence from USA" with Soumak BasuMallik
 - "Exchange Rate Volatility and International Students' Educational Choice: Evidence from USA"
 - “Effect of Affordable Care Act (ACA) on Insurance Coverage by the Immigrants and Natives”
 
