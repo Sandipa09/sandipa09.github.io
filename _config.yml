@@ -86,8 +86,8 @@ author:
   location         : "Buffalo, NY"
   university       : "University at Buffalo, SUNY"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : 
+  googlescholar    : 
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -95,7 +95,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "https://www.facebook.com/sandi.sunflower/"
   foursquare       :
   github           : "https://github.com/Sandipa09/"
   google_plus      :
