@@ -7,9 +7,9 @@ author_profile: true
 
 ### Conference:
 
-- New York State Economics Association, NY, USA (2021)
-- Southern Economic Association, Houston, TX, USA (2021)
-- Bengal Economic Association, Kolkata, WB, India (2014)
+- New York State Economics Association, *NY, USA* (2021)
+- Southern Economic Association, *Houston, TX, USA* (2021)
+- Bengal Economic Association, *Kolkata, WB, India* (2014)
 
 ### Webinars:
 
