@@ -10,7 +10,7 @@ author_profile: true
 
 - ECO 181: Intro to Macroeconomics (*Summer* 2019, 2020, 2021; *Winter* 2022)
 
-### Teaching Assistant (TA) at University at Buffalo, SUNY: (Aug 2017 - Aug 2021)
+### Teaching Assistant (TA) at University at Buffalo, SUNY: (August 2017 - August 2021)
 > Held discussion sessions, wrote exams, graded and proctored the following courses:
 
 - ECO 181: Intro to Macroeconomics (*Fall* 2017, 2019, 2020; *Spring* 2018, 2020, 2021; *Summer* 2020, 2021; *Winter* 2021)
