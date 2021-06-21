@@ -16,10 +16,12 @@ author_profile: true
   - Spring 2018, 2020, 2021
   - Summer 2020, 2021         
   - Winter 2021 
+  
 - ECO 182: Intro to Microeconomics 
   - Fall 2018                 
   - Spring 2019, 2021
   - Winter 2020
+  
 - ECO 416/516: Economic Development 
   - Fall 2017
 
