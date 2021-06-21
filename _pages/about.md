@@ -23,4 +23,5 @@ I am a PhD candidate at the Department of Economics, University at Buffalo, Stat
 - Dr. Neel Rao (Chair)
 - Dr. Sean Fahle (Committee Member)
 - Dr. Zhiqiang Liu (Committee Member)
+- Dr. Mingliang Li (Committee Member)
 - Dr. Aisling Winston (Teaching)
