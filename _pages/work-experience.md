@@ -6,10 +6,10 @@ author_profile: true
 ---
 
 ## Research Experience
-- Research Associate at Indian Institute of Management, Calcutta (IIMC), India (Jun 2015 - Aug 2015)
+- Research Associate at Indian Institute of Management, Calcutta (IIMC), India (Jun 2015 - Aug 2015); Mentor: Dr. Somprakash Bandyopadhyay
   - Project: Productive ageing: A socio-economic study on the elderly middle class in Kolkata
   - The project aimed to study whether the unutilized resources like knowledge and experiences of the elderly people can be used to enhance quality of education of children and ounger generation, in order to bridge the generation gap and to imbibe in them the productive instinct
-- Research Intern at Confederation of Indian Industry (CII), Kolkata (Jun 2014 - Aug 2014)
+- Research Intern at Confederation of Indian Industry (CII), Kolkata (Jun 2014 - Aug 2014); Mentor: Dr. Abhishikta Roychowdhury
   - Created several reports on the following areas:
     - An analysis of export potential of Chattisgarh (*Published in CII Report Journal, 2014*)
     - Agricultural in West Bengal-Status and Way Forward (*Published in CII Report Journal, 2014*)
