@@ -8,6 +8,7 @@ author_profile: true
 ### Adjunct Instructor at University at Buffalo, SUNY : (Undergraduate, June 2018- present)
 > Designed my own curriculum and lectured the following courses:
 
+- ECO 208: Intro to Environmental Economics (*Fall* 2021)
 - ECO 181: Intro to Macroeconomics (*Summer* 2019, 2020, 2021; *Winter* 2022)
 
 ### Teaching Assistant (TA) at University at Buffalo, SUNY: (August 2017 - August 2021)
