@@ -18,10 +18,5 @@ from Advanced Topics in Political Data Science, [here](/teaching-materials).
 - ECO 181: Introduction to Microeconomics (Fall 2018; Spring 2019, 2021; Winter 2020)
 - ECO 416/516: Economic Development and Growth (Fall 2017)
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
 **Note:** *Teaching evaluations of each semester are available upon request.*
 
