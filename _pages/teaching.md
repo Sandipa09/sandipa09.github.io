@@ -13,7 +13,7 @@ from Advanced Topics in Political Data Science, [here](/teaching-materials).
 - ECO 181: Introduction to Macroeconomics (Summer 2019, 2020, 2021; Winter 2022)
     - [Syllabus](/files/pdf/teaching/PS 3171 Syllabus.pdf)
 
-## Teaching Assitant, [University at Buffalo, SUNY](https://arts-sciences.buffalo.edu/economics.html) 
+## Teaching Assistant, [University at Buffalo, SUNY](https://arts-sciences.buffalo.edu/economics.html) 
 - ECO 181: Introduction to Macroeconomics (Fall 2017, 2019, 2020; Spring 2018, 2020, 2021; Summer 2020, 2021; Winter 2021)
     - [Syllabus](/files/pdf/teaching/POLI 281 Syllabus.pdf)
 - ECO 181: Introduction to Microeconomics (Fall 2018; Spring 2019, 2021; Winter 2020)
