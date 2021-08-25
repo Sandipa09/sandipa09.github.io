@@ -8,16 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a Postdoctoral Research Fellow in the
-[Weidenbaum Center on the Economy, Government, and Public Policy](https://wc.wustl.edu/) 
-and [Department of Political Science](https://polisci.wustl.edu/) at
-[Washington University in St. Louis](https://wustl.edu/). I am also an
-affiliated researcher with the
-[Data-driven Analysis of Peace Project](https://dapp-lab.org) lab. I specialize
-in International Relations and Political Methodology. I earned my Ph.D in
-Political Science from the
-[University *of* North Carolina *at* Chapel Hill](https://www.unc.edu/) and my
-B.A. in Political Science from [Haverford College](https://www.haverford.edu/).
+Welcome! I am a PhD Candidate in the [Department of Economics](https://arts-sciences.buffalo.edu/economics.html) at
+[University at Buffalo, SUNY](http://www.buffalo.edu/). 
+
+My research interests are broadly in Applied Microeconomics, Labor Economics, Health and Development Economics. I am also interested studying topics of discrimination and inequality with a focus on how preferences and beliefs affect economic outcomes, immigration issues and economics of education. I also work on evaluation of economic policies.
+
+References: 
+- [Dr. Neel Rao](http://www.acsu.buffalo.edu/~neelrao/), Dissertation Chair
+- [Dr. Sean Fahle](https://sites.google.com/site/seanpfahle/), Committee Member
+- [Dr. Zhiqiang Liu](https://arts-sciences.buffalo.edu/economics/faculty/faculty-directory/liu-zhiqiang.html), Committee Member
+- [Dr. Mingliang Li](http://www.acsu.buffalo.edu/~mli3/), Committee Member
+- [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home), Teaching
+
+For more information, please see my [CV](CV), [research](research), [teaching](teaching) page. 
 
 My work has been [published](publications) in
 *International Studies Quarterly*, *Conflict Management and Peace Science*, and
