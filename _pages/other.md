@@ -14,7 +14,7 @@ Here are some useful links:
 - [NBER Public Use Data Archive](https://www.nber.org/research/data?page=1&perPage=50) - Electic mix of public use data
 - [BREAD](http://ipl.econ.duke.edu/dthomas/dev_data/) - A useful data source for researchers in development economics
 - [MOSPI](http://mospi.nic.in/) - The go to source for Indian data
-- [ECON GRAPHS](https://www.econgraphs.org/) - Interactive visualizations of key concepts in Economics
+- [ECON Graphs](https://www.econgraphs.org/) - Interactive visualizations of key concepts in Economics
 
 **Teaching Economics**
 - [Starting Point: Teaching and Learning Economics](https://serc.carleton.edu/econ/teaching_methods/index.html)
