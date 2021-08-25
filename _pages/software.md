@@ -1,6 +1,6 @@
 ---
-permalink: /conference/
-title: "Conference"
+permalink: /software/
+title: "Software"
 gallery:
   - url: software/table.png
     image_path: software/table.png
