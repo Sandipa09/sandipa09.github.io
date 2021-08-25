@@ -10,4 +10,4 @@ redirect_from:
 <iframe src="/files/pdf/Sandipa_CV_for_Teaching.pdf" width="100%" height="500" frameborder="no" marginwidth="0" marginheight="0">
 </iframe>
 
-You can download a PDF copy of my CV [here](/files/pdf/Williams CV.pdf).
+You can download my CV [here](/files/pdf/Williams CV.pdf).
