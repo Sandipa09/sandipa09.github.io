@@ -23,7 +23,7 @@ Here are some useful links:
 
 **Interesting Blogs**
 - [Chhota Pegs, Debraj Ray](http://debrajray.blogspot.com/) - Debraj Ray on anything that can be read with a good single malt.
-- [Cheap Talks by Jeff Ely and Sandeep Baliga](https://cheaptalk.org/) - A blog about economics and politics.
-- [NYT Columns by Paul Krugman](https://www.nytimes.com/column/paul-krugman) - Macroeconomics, trade, health care, social policy, politics and more.
+- [Cheap Talks, Jeff Ely and Sandeep Baliga](https://cheaptalk.org/) - A blog about economics and politics.
+- [NYT Columns, Paul Krugman](https://www.nytimes.com/column/paul-krugman) - Macroeconomics, trade, health care, social policy, politics and more.
 - [Dani Rodrik's weblog](https://rodrik.typepad.com/) - Unconventional thoughts on economic development and globalization
 
