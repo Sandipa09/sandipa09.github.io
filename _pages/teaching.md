@@ -9,7 +9,7 @@ from Advanced Topics in Political Data Science, [here](/teaching-materials).
 
 **Adjunct Instructor, [University at Buffalo, SUNY](https://arts-sciences.buffalo.edu/economics.html)**
 - ECO 208: Introduction to Environmental Economics (Fall 2021)
-    - [Syllabus](/files/pdf/teaching/PS 3090 Syllabus.pdf)
+    - [Syllabus](/files/pdf/teaching/ECO 208 Syllabus_2021_Fall.pdf)
 - ECO 181: Introduction to Macroeconomics (Summer 2019, 2020, 2021; Winter 2022)
     - [Syllabus](/files/pdf/teaching/PS 3171 Syllabus.pdf)
 
