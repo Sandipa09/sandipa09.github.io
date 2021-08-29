@@ -22,7 +22,7 @@ Here are some useful links:
 - [Thinking Like an Economist](https://podcasts.apple.com/us/podcast/think-like-an-economist/id1523898793) - You’ll see the world more clearly, empowering you to make better decisions at work, at home, and in your community
 
 **Interesting Blogs**
-- [Chhota Pegs, Debraj Ray](http://debrajray.blogspot.com/) - Debraj Ray on anything that can be read with a good single malt
+- [Chhota Pegs, Debraj Ray](http://debrajray.blogspot.com/) - On anything that can be read with a good single malt
 - [Cheap Talks, Jeff Ely and Sandeep Baliga](https://cheaptalk.org/) - A blog about economics and politics
 - [NYT Columns, Paul Krugman](https://www.nytimes.com/column/paul-krugman) - Macroeconomics, trade, health care, social policy, politics and more
 - [Dani Rodrik's weblog](https://rodrik.typepad.com/) - Unconventional thoughts on economic development and globalization
