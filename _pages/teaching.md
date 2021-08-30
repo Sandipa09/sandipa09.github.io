@@ -7,16 +7,16 @@ You can view my teaching portfolio [here](/files/pdf/teaching/Portfolio.pdf).
 You can find a selection of my teaching materials, including all of the labs
 from Advanced Topics in Political Data Science, [here](/teaching-materials).
 
-**Adjunct Instructor, [University at Buffalo, SUNY](https://arts-sciences.buffalo.edu/economics.html)**
-> Designed my own curriculum and lectured the following courses:
+**Adjunct Instructor, [University at Buffalo, SUNY](https://arts-sciences.buffalo.edu/economics.html)**  
+> Designed my own curriculum and lectured the following courses:  
 
  - ECO 208: Introduction to Environmental Economics <span style="font-size:13px">(Fall 2021)</span>
      - [Syllabus](/files/pdf/teaching/ECO 208 Syllabus_2021_Fall.pdf)
  - ECO 181: Introduction to Macroeconomics <span style="font-size:13px">(Summer 2019, 2020, 2021; Winter 2022)</span>
      - [Syllabus](/files/pdf/teaching/PS 3171 Syllabus.pdf)
 
-**Teaching Assistant, [University at Buffalo, SUNY](https://arts-sciences.buffalo.edu/economics.html)** 
-> Held discussion sessions and office hours, wrote exams, graded, and proctored the following courses:
+**Teaching Assistant, [University at Buffalo, SUNY](https://arts-sciences.buffalo.edu/economics.html)**  
+> Held discussion sessions and office hours, wrote exams, graded, and proctored the following courses:  
 
  - ECO 181: Introduction to Macroeconomics <span style="font-size:13px">(Fall 2017, 2019, 2020; Spring 2018, 2020, 2021; Summer 2020, 2021; Winter 2021)</span>
  - ECO 182: Introduction to Microeconomics <span style="font-size:13px">(Fall 2018; Spring 2019, 2021; Winter 2020)</span>
