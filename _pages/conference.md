@@ -10,7 +10,7 @@ header:
 **Conference**
 - Southern Economic Assiciation, Houston, TX, USA [2021] [^1]
 - New York State Economics Association, NY, USA [2021] [^1]
-- Bengal Economic Association, Kolkata, India [2014][^1]
+- Bengal Economic Association, Kolkata, India [2014] [^1]
 
 **Workshops/ Seminars**
 - ASHEcon Health Mentoring Workshop, AEA-CSWEP and ASHEcon (Virtual) [2021] [^1]
@@ -21,4 +21,4 @@ header:
 - Fifth Professor Dipak Banerjee Memorial Annual Lecture by Dr. Joseph Stiglitz, Presidency University, Kolkata, India [2012]
 - Confluence, Department of Economics, St. Xavier's University, Kolkata, India [2011] [^1]
 
-[^1]: presented
+[^1]: presented.
