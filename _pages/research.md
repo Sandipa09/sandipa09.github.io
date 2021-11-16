@@ -11,17 +11,17 @@ header:
 
 "Effect of Compulsory Schooling Laws on Marriage and Fertility in India"
 
-/*Abstract:*/
+*Abstract:*
 
 **Working Paper**
 
 "Exchange Rate Volatility and International Students’ Educational Choice: Evidence from USA"
 
-/*Abstract:*/
+*Abstract:*
 
 “Effect of Affordable Care Act (ACA) on Insurance Coverage by the Immigrants and Natives”
 
-/*Abstract:*/
+*Abstract:*
 
 **Work in Progress**
 
