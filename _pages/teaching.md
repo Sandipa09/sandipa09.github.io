@@ -23,9 +23,23 @@ from Advanced Topics in Political Data Science, [here](/teaching-materials).
 > Held discussion sessions and office hours, wrote exams, graded, and proctored the following courses:  
 
 
- - ECO 181: Introduction to Macroeconomics <span style="font-size:13px">(Fall 2017, 2019, 2020; Spring 2018, 2020, 2021; Summer 2020, 2021; Winter 2021)</span>
- - ECO 182: Introduction to Microeconomics <span style="font-size:13px">(Fall 2018; Spring 2019, 2021; Winter 2020)</span>
- - ECO 416/516: Economic Development and Growth <span style="font-size:13px">(Fall 2017)</span>
+ - ECO 181: Introduction to Macroeconomics 
+     - Fall 2020 - 3 sections
+     - Fall 2019 - 3 sections
+     - Fall 2017 - 2 sections
+     - Spring 2021 - 3 sections
+     - Spring 2020 - 3 sections
+     - Spring 2018 - 2 sections
+     - Summer 2020 - 1 section
+     - Summer 2021 - 1 section
+     - Winter 2021 - 1 section
+ - ECO 182: Introduction to Microeconomics 
+     - Fall 2018 - 2 sections
+     - Spring 2021 - 1 section
+     - Spring 2019 - 3 sections
+     - Winter 2020 - 1 section
+ - ECO 416/516: Economic Development and Growth 
+     - Fall 2017
 
 **Note:** *Teaching evaluations of each semester are available upon request.*
 
