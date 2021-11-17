@@ -10,11 +10,12 @@ from Advanced Topics in Political Data Science, [here](/teaching-materials).
 **Adjunct Instructor, [University at Buffalo, SUNY](https://arts-sciences.buffalo.edu/economics.html)**  
 > Designed my own curriculum and lectured the following courses: 
 
-
+ - ECO 211: Introduction to Health Economics 
+     - Spring 2022 [Syllabus](/files/pdf/teaching/.pdf)
  - ECO 208: Introduction to Environmental Economics 
      - Fall 2021 [Syllabus](/files/pdf/teaching/ECO 208 Syllabus_2021_Fall.pdf)
  - ECO 181: Introduction to Macroeconomics 
-     - Winter 2022 [Syllabus](/files/pdf/teaching/PS 3171 Syllabus.pdf)
+     - Winter 2022 [Syllabus](/files/pdf/teaching/.pdf)
      - Summer 2021
      - Summer 2020
      - Summer 2019
