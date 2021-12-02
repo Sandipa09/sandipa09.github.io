@@ -14,11 +14,11 @@ Welcome! I am a PhD Candidate in the [Department of Economics](https://arts-scie
 My research interests are broadly in Applied Microeconomics, Labor Economics, Health and Development Economics. I am also interested studying topics of discrimination and inequality with a focus on how preferences and beliefs affect economic outcomes; immigration issues and economics of education. I also work on evaluation of economic policies.
 
 **References:**
-- [Neel Rao](http://www.acsu.buffalo.edu/~neelrao/), Dissertation Chair
-- [Sean Fahle](https://sites.google.com/site/seanpfahle/), Committee Member
-- [Zhiqiang Liu](https://arts-sciences.buffalo.edu/economics/faculty/faculty-directory/liu-zhiqiang.html), Committee Member
-- [Mingliang Li](http://www.acsu.buffalo.edu/~mli3/), Committee Member
-- [Aisling Winston](https://sites.google.com/view/aisling-winston/home), Teaching
+- [Neel Rao](http://www.acsu.buffalo.edu/~neelrao/), Dissertation Chair, [University at Buffalo, SUNY](http://www.buffalo.edu/) 
+- [Sean Fahle](https://sites.google.com/site/seanpfahle/), Committee Member, [University of Tübingen](https://uni-tuebingen.de/)
+- [Zhiqiang Liu](https://arts-sciences.buffalo.edu/economics/faculty/faculty-directory/liu-zhiqiang.html), Committee Member, [University at Buffalo, SUNY](http://www.buffalo.edu/)
+- [Mingliang Li](http://www.acsu.buffalo.edu/~mli3/), Committee Member, [University at Buffalo, SUNY](http://www.buffalo.edu/)
+- [Aisling Winston](https://sites.google.com/view/aisling-winston/home), Teaching, [University at Buffalo, SUNY](http://www.buffalo.edu/)
 
 For more information, please see my [CV](cv), [research](research), [teaching](teaching) page. 
 
