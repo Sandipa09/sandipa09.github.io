@@ -7,7 +7,7 @@ header:
   og_image: "research/ecdf.png"
 ---
 - Graduate Fellowship `|` <span style="font-size:13px;"> Department of Economics, University at Buffalo, SUNY [2017-2021]</span>
-- Economics Graduate Student Association, Vice President `|` <span style="font-size:13px;">University at Buffalo, SUNY [2017-Present]</span>
+- Economics Graduate Student Association, Vice President `|` <span style="font-size:13px;">University at Buffalo, SUNY [2017-2021]</span>
 - Research Assistantship `|` <span style="font-size:13px;">Indian Institute of Management (IIM), Kolkata, India [2015]</span>
 - Heterodox Economics Student Association, Core Committee `|` <span style="font-size:13px;">Jadavpur University [2013-2015]</span>
 - Young Economist Students' Meet (YESM), Core Committee `|` <span style="font-size:13px;">Jadavpur University [2013]</span>
