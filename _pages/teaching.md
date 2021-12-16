@@ -15,7 +15,7 @@ from Advanced Topics in Political Data Science, [here](/teaching-materials).
  - ECO 208: Introduction to Environmental Economics 
      - Fall 2021 [Syllabus](/files/pdf/teaching/ECO 208 Syllabus_2021_Fall.pdf)
  - ECO 181: Introduction to Macroeconomics 
-     - Winter 2022 [Syllabus](/files/pdf/teaching/.pdf)
+     - Winter 2022 [Syllabus](/files/pdf/teaching/ECO 181 Syllabus Winter 2022.pdf)
      - Summer 2021
      - Summer 2020
      - Summer 2019
