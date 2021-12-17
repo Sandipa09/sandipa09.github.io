@@ -13,12 +13,12 @@ from Advanced Topics in Political Data Science, [here](/teaching-materials).
  - ECO 211: Introduction to Health Economics 
      - Spring 2022 [Syllabus](/files/pdf/teaching/.pdf)
  - ECO 208: Introduction to Environmental Economics 
-     - Fall 2021 [Syllabus](/files/pdf/teaching/ECO 208 Syllabus_2021_Fall.pdf)
+     - Fall 2021 [Syllabus](/files/pdf/teaching/ECO 208 Syllabus Fall 2021.pdf) [Evaluation](/files/pdf/evaluation/ECO 208 Evaluation Fall 2021.pdf)
  - ECO 181: Introduction to Macroeconomics 
-     - Winter 2022 [Syllabus](/files/pdf/teaching/ECO 181 Syllabus Winter 2022.pdf)
-     - Summer 2021
-     - Summer 2020
-     - Summer 2019
+     - Winter 2022 [Syllabus](/files/pdf/teaching/ECO 181 Syllabus Winter 2022.pdf) [Evaluation](/files/pdf/evaluation/ECO 181 Evaluation Winter 2022.pdf)
+     - Summer 2021 [Syllabus](/files/pdf/teaching/ECO 181 Syllabus Summer 2021.pdf) [Evaluation](/files/pdf/evaluation/ECO 181 Evaluation Summer 2021.pdf)
+     - Summer 2020 [Syllabus](/files/pdf/teaching/ECO 181 Syllabus Summer 2020.pdf) [Evaluation](/files/pdf/evaluation/ECO 181 Evaluation Summer 2020.pdf)
+     - Summer 2019 [Syllabus](/files/pdf/teaching/ECO 181 Syllabus Summer 2019.pdf) [Evaluation](/files/pdf/evaluation/ECO 181 Evaluation Summer 2019.pdf)
 
 **Teaching Assistant, [University at Buffalo, SUNY](https://arts-sciences.buffalo.edu/economics.html)**  
 > Held discussion sessions and office hours, wrote exams, graded, and proctored the following courses:  
