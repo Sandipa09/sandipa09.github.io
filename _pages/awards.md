@@ -10,7 +10,7 @@ header:
 - Graduate Fellowship `|` <span style="font-size:13px;"> Department of Economics, University at Buffalo, SUNY [2017-2021]</span>
 - Economics Graduate Student Association, Vice President `|` <span style="font-size:13px;">University at Buffalo, SUNY [2017-2021]</span>
 - Bronze Award for Exemplary Performance in Risk Analytics `|` <span style="font-size:13px;">Genpact, India [2016]</span>
-- Research Assistantship `|` <span style="font-size:13px;">Indian Institute of Management (IIM), Kolkata, India [2015]</span>
+- Research Assistantship `|` <span style="font-size:13px;">Indian Institute of Management Calcutta (IIMC), India [2015]</span>
 - Research Fellowship `|` <span style="font-size:13px;">Confederation of Indian Industry (CII), India [2014]</span>
 - Heterodox Economics Student Association, Core Committee `|` <span style="font-size:13px;">Jadavpur University [2013-2015]</span>
 - Young Economist Students' Meet, Core Committee `|` <span style="font-size:13px;">Jadavpur University [2013]</span>
