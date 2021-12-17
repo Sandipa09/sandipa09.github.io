@@ -42,5 +42,5 @@ from Advanced Topics in Political Data Science, [here](/teaching-materials).
  - ECO 416/516: Economic Development and Growth 
      - Fall 2017
 
-**Note:** *Teaching evaluations of each semester, each session as a Teaching Assitant are available upon request.*
+**Note:** *Teaching evaluations of each semester, each session as a Teaching Assistant are available upon request.*
 
