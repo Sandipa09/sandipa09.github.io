@@ -11,7 +11,7 @@ from Advanced Topics in Political Data Science, [here](/teaching-materials).
 > Designed my own curriculum and lectured the following courses: 
 
  - ECO 211: Introduction to Health Economics 
-     - Spring 2022 [[Syllabus](/files/pdf/teaching/.pdf)]
+     - Spring 2022 [[Syllabus](/files/pdf/teaching/ECO 211 Syllabus Spring 2022.pdf)]
  - ECO 208: Introduction to Environmental Economics 
      - Fall 2021 [[Syllabus](/files/pdf/teaching/ECO 208 Syllabus Fall 2021.pdf)] [[Evaluation](/files/pdf/evaluation/ECO 208 Evaluation Fall 2021.pdf)]
  - ECO 181: Introduction to Macroeconomics 
