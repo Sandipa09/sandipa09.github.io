@@ -6,6 +6,9 @@ author_profile: true
 header:
   og_image: "research/ecdf.png"
 ---
+University at Buffalo, SUNY, Department of Economics, Student News:
+ - [Graduate Assistant Spotlight](https://arts-sciences.buffalo.edu/economics/news-events/student-news/graduate-assistant-spotlight-sandipa-bhattacharjee.html)
+
 Here are some useful links:
 
 **Economics Content**
