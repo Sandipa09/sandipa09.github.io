@@ -16,8 +16,8 @@ My research interests are broadly in Applied Microeconomics, Labor Economics, He
 **References:**
 - [Neel Rao](http://www.acsu.buffalo.edu/~neelrao/), Dissertation Chair, [University at Buffalo, SUNY](http://www.buffalo.edu/) 
 - [Sean Fahle](https://sites.google.com/site/seanpfahle/), Committee Member, [University of Tübingen](https://uni-tuebingen.de/)
-- [Zhiqiang Liu](https://arts-sciences.buffalo.edu/economics/faculty/faculty-directory/liu-zhiqiang.html), Committee Member, [University at Buffalo, SUNY](http://www.buffalo.edu/)
 - [Mingliang Li](http://www.acsu.buffalo.edu/~mli3/), Committee Member, [University at Buffalo, SUNY](http://www.buffalo.edu/)
+- [Zhiqiang Liu](https://arts-sciences.buffalo.edu/economics/faculty/faculty-directory/liu-zhiqiang.html), Committee Member, [University at Buffalo, SUNY](http://www.buffalo.edu/)
 - [Aisling Winston](https://sites.google.com/view/aisling-winston/home), Teaching, [University at Buffalo, SUNY](http://www.buffalo.edu/)
 
 For more information, please see my [CV](cv), [research](research), [teaching](teaching) page. 
