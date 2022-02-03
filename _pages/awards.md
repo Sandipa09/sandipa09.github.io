@@ -18,4 +18,4 @@ header:
 - Young Economist Students' Meet (YESM), Core Committee `|` <span style="font-size:13px;">Jadavpur University [2013]</span>
 - Class Representative `|` <span style="font-size:13px;">Department of Economics, Jadavpur University [2011-2015]</span>
 - Paper Presentation Winner `|` <span style="font-size:13px;">Department of Economics, Jadavpur University [2011]</span>
-- Student Lecture Winner, Mock Classroom `|` <span style="font-size:13px;">Young Economist Students' Meet(YESM), Jadavpur University [2011]</span>
+- Student Lecture Winner, Mock Classroom `|` <span style="font-size:13px;">Young Economist Students' Meet (YESM), Jadavpur University [2011]</span>
