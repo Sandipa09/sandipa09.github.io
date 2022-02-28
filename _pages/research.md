@@ -38,6 +38,6 @@ header:
 
 - Did state age discrimination protections moderate the effect of the Great Recession on the health of older worker
 
-- Women Empowerment in India: Evidence from Conditional Cash Transfer (CCT) policy
+- Women Empowerment in India: Evidence from Conditional Cash Transfer (CCT) policy <span style="font-size:13px;"> *with [Sharbani Bhattacharjee](https://sites.google.com/view/sharbani/home?authuser=0)* </span>
 
 
