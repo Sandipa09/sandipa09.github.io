@@ -36,8 +36,8 @@ header:
 
 - Precarious employment and its impact on health: Evidence from states’ minimum wage levels <span style="font-size:13px;"> *with Soumak Basumallik* </span>
 
-- Did state age discrimination protections moderate the effect of the Great Recession on the health of older worker
+- Did state age discrimination protections moderate the effect of the Great Recession on the health of older worker?
 
-- Women Empowerment in India: Evidence from Conditional Cash Transfer (CCT) policy <span style="font-size:13px;"> *with [Sharbani Bhattacharjee](https://sites.google.com/view/sharbani/home?authuser=0)* </span>
+- Women Empowerment in India: Evidence from the Conditional Cash Transfer (CCT) policy <span style="font-size:13px;"> *with [Sharbani Bhattacharjee](https://sites.google.com/view/sharbani/home?authuser=0)* </span>
 
 
