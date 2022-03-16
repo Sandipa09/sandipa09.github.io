@@ -11,7 +11,9 @@ redirect_from:
 Welcome! I am a PhD Candidate in the [Department of Economics](https://arts-sciences.buffalo.edu/economics.html) at
 [University at Buffalo, SUNY](http://www.buffalo.edu/). 
 
-My research interests are broadly in Applied Microeconomics, Labor Economics, Health and Development Economics. I work on evaluation of economic policies, immigration issues and economics of education. I am also interested in studying topics of discrimination and inequality with a focus on how preferences and beliefs affect economic outcomes. 
+I am on the job market for AY 2022-2023 and will be available for interviews at the 2023 ASSA Virtual Meeting and other remote meetings.  
+
+My research interests are broadly in Applied Microeconomics, Labor Economics, Health and Development Economics. I work on evaluation of economic policies, gender issues, immigration issues and economics of education. I am also interested in studying topics of discrimination and inequality with a focus on how preferences and beliefs affect economic outcomes. 
 
 **References:**
 - [Neel Rao](http://www.acsu.buffalo.edu/~neelrao/), Dissertation Chair, [University at Buffalo, SUNY](http://www.buffalo.edu/) 
