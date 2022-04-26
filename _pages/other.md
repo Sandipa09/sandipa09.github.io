@@ -7,6 +7,7 @@ header:
   og_image: "research/ecdf.png"
 ---
  - [Graduate Assistant Spotlight](https://arts-sciences.buffalo.edu/economics/news-events/student-news/graduate-assistant-spotlight-sandipa-bhattacharjee.html) - University at Buffalo, SUNY, Department of Economics, Student News
+ - [Choir & Chorus Performance](https://www.youtube.com/watch?v=G9PeJJipmQY&t=5122s) - University at Buffalo, SUNY, Department of Music
 
 Here are some useful links:
 
