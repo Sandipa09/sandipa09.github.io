@@ -6,6 +6,8 @@ author_profile: true
 header:
   og_image: "research/ecdf.png"
 ---
+- UUP Individual Development Award `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2022]</span>
+- SUNY PRODiG Fellowship `|` <span style="font-size:13px;"> Department of Accounting, Economics & Finance, SUNY Brocprot [2022]</span> *(Declined)
 - Graduate Student Association Conference Funding `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2021]</span>
 - Graduate Fellowship `|` <span style="font-size:13px;"> Department of Economics, University at Buffalo, SUNY [2017-2021]</span>
 - International Student Mentoring Program Volunteer (ISMP) `|` <span style="font-size:13px;">University at Buffalo, SUNY [2018]</span>
