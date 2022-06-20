@@ -15,7 +15,7 @@ header:
 
 **Workshops/ Seminars**
 - Precarious Work: Health and Economic Threats Symposium (Virtual) [2022] `|` <span style="font-size:13px;"> Discussant </span>
-- ASHEcon Health Mentoring Workshop, AEA-CSWEP and ASHEcon (Virtual) [2021] `|` <span style="font-size:13px;"> Presenter </span>
+- ASHEcon Health Mentoring Workshop, AEA-CSWEP and ASHEcon (Virtual) [2021] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - Applied Young Economist Webinar (AYEW), University of Warwick & Monash Business School [2021]
 - Nobel Prize Dialogue Pretoria, The University of Pretoria [2021]
 - PhD Seminar Series, Department of Economics, University at Buffalo, SUNY [2019-Present] `|` <span style="font-size:13px;"> Presenter </span>
