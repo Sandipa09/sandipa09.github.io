@@ -8,11 +8,13 @@ header:
 ---
 
 **Conference**
+- Association for Public Policy Analysis & Management, Washington, DC, USA [2022] `|` <span style="font-size:13px;"> Co-author Presenter </span>
 - Southern Economic Assiciation, Houston, TX, USA [2021]  `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - New York State Economics Association, NY, USA [2021] `|` <span style="font-size:13px;"> Session Chair, Presenter, Discussant </span>
 - Bengal Economic Association, Kolkata, India [2014]  `|` <span style="font-size:13px;"> Presenter </span>
 
 **Workshops/ Seminars**
+- Precarious Work: Health and Economic Threats Symposium (Virtual) [2022] `|` <span style="font-size:13px;"> Discussant </span>
 - ASHEcon Health Mentoring Workshop, AEA-CSWEP and ASHEcon (Virtual) [2021] `|` <span style="font-size:13px;"> Presenter </span>
 - Applied Young Economist Webinar (AYEW), University of Warwick & Monash Business School [2021]
 - Nobel Prize Dialogue Pretoria, The University of Pretoria [2021]
