@@ -8,9 +8,9 @@ title: "Teaching"
 > Designed my own curriculum and lectured the following courses: 
 
  - **ECO 405: Microeconomic Theory**
-     - Summer 2022
+     - Summer 2022 [[Syllabus](/files/pdf/teaching/ECO 405 Syllabus Summer 2022.pdf)]
  - **ECO 182: Introduction to Microeconomics**
-     - Summer 2022 
+     - Summer 2022 [[Syllabus](/files/pdf/teaching/ECO 182 Syllabus Summer 2022.pdf)]
  - **ECO 211: Introduction to Health Economics**
      - Spring 2022 [[Syllabus](/files/pdf/teaching/ECO 211 Syllabus Spring 2022.pdf)] [[Evaluation](/files/pdf/evaluation/ECO 211 Evaluation Spring 2022.pdf)]
  - **ECO 208: Introduction to Environmental Economics** 
