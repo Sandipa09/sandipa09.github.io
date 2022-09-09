@@ -28,22 +28,22 @@ title: "Teaching"
 
 
  - **ECO 181: Introduction to Macroeconomics** 
-     - Fall 2020 - 3 sections `|` (Dr. Aisling Winston)
-     - Fall 2019 - 3 sections `|` (Dr. Aisling Winston, Prof. James Mulcahy)
-     - Fall 2017 - 2 sections `|` (Dr. Monica Litzenberger)
-     - Spring 2021 - 3 sections `|` (Dr. Aisling Winston)
-     - Spring 2020 - 3 sections `|` (Dr. Aisling Winston)
-     - Spring 2018 - 2 sections `|` (Dr. Monica Litzenberger)
+     - Fall 2020 - 3 sections `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home)
+     - Fall 2019 - 3 sections `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home)
+     - Fall 2017 - 2 sections `|` [Dr. Monica Litzenberger](https://www.sjf.edu/profiles/profile-last-name-1974-en.html)
+     - Spring 2021 - 3 sections `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home)
+     - Spring 2020 - 3 sections `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home)
+     - Spring 2018 - 2 sections `|` [Dr. Monica Litzenberger](https://www.sjf.edu/profiles/profile-last-name-1974-en.html)
      - Summer 2020 - 1 section `|` (Sandipa Bhattacharjee)
      - Summer 2021 - 1 section `|` (Sandipa Bhattacharjee)
      - Winter 2021 - 1 section `|` (Sungmin Park)
  - **ECO 182: Introduction to Microeconomics** 
-     - Fall 2018 - 2 sections `|` (Dr. Monica Litzenberger)
-     - Spring 2021 - 1 section `|` (Dr. Aisling Winston)
-     - Spring 2019 - 3 sections `|` (Dr. Monica Litzenberger)
+     - Fall 2018 - 2 sections `|` [Dr. Monica Litzenberger](https://www.sjf.edu/profiles/profile-last-name-1974-en.html)
+     - Spring 2021 - 1 section `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home)
+     - Spring 2019 - 3 sections `|` [Dr. Monica Litzenberger](https://www.sjf.edu/profiles/profile-last-name-1974-en.html)
      - Winter 2020 - 1 section `|` (Agni Bose)
  - **ECO 416/516: Economic Development and Growth** 
-     - Fall 2017 `|` (Dr. Bibaswan Chatterjee)
+     - Fall 2017 `|` [Dr. Bibaswan Chatterjee](http://jinhe.xjtu.edu.cn/info/1027/2066.htm)
 
 **Note:** *Teaching evaluations of each semester, each session as a Teaching Assistant are available upon request.*
 
