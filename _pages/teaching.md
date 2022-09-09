@@ -34,14 +34,14 @@ title: "Teaching"
      - Spring 2021 - 3 sections `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home)
      - Spring 2020 - 3 sections `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home)
      - Spring 2018 - 2 sections `|` [Dr. Monica Litzenberger](https://www.sjf.edu/profiles/profile-last-name-1974-en.html)
-     - Summer 2020 - 1 section `|` (Sandipa Bhattacharjee)
-     - Summer 2021 - 1 section `|` (Sandipa Bhattacharjee)
-     - Winter 2021 - 1 section `|` (Sungmin Park)
+     - Summer 2020 - 1 section `|` Sandipa Bhattacharjee
+     - Summer 2021 - 1 section `|` Sandipa Bhattacharjee
+     - Winter 2021 - 1 section `|` Sungmin Park
  - **ECO 182: Introduction to Microeconomics** 
      - Fall 2018 - 2 sections `|` [Dr. Monica Litzenberger](https://www.sjf.edu/profiles/profile-last-name-1974-en.html)
      - Spring 2021 - 1 section `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home)
      - Spring 2019 - 3 sections `|` [Dr. Monica Litzenberger](https://www.sjf.edu/profiles/profile-last-name-1974-en.html)
-     - Winter 2020 - 1 section `|` (Agni Bose)
+     - Winter 2020 - 1 section `|` Agni Bose
  - **ECO 416/516: Economic Development and Growth** 
      - Fall 2017 `|` [Dr. Bibaswan Chatterjee](http://jinhe.xjtu.edu.cn/info/1027/2066.htm)
 
