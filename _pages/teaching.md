@@ -29,7 +29,7 @@ title: "Teaching"
 
  - **ECO 181: Introduction to Macroeconomics** 
      - Fall 2020 - 3 sections `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home)
-     - Fall 2019 - 3 sections `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home)
+     - Fall 2019 - 3 sections `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home), Prof. James Mulcahy
      - Fall 2017 - 2 sections `|` [Dr. Monica Litzenberger](https://www.sjf.edu/profiles/profile-last-name-1974-en.html)
      - Spring 2021 - 3 sections `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home)
      - Spring 2020 - 3 sections `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home)
