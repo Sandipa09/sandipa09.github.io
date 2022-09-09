@@ -7,7 +7,7 @@ header:
   og_image: "research/ecdf.png"
 ---
 
-**Conference**
+**Conferences**
 - Association for Public Policy Analysis & Management, Washington, DC, USA [2022] `|` <span style="font-size:13px;"> Co-author Presenter </span>
 - Southern Economic Assiciation, Houston, TX, USA [2021]  `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - New York State Economics Association, NY, USA [2021] `|` <span style="font-size:13px;"> Session Chair, Presenter, Discussant </span>
