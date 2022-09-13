@@ -35,7 +35,7 @@ header:
 - The Intergenerational Effect of Parental Education on Child Health: Evidence from India
     <details style="font-size:80%; background-color:#fffbfa;">
     <summary style="color:#a51417; font-family:courier; font-size:100%;"> Abstract </summary> 
-    This paper investigates the impact of parental education on child health, exploiting a compulsory schooling law implemented in India in 2010 that required students to complete eight years of primary education (age 6-14 years). It finds that it is maternal, rather than paternal, education that matters most for child health. There are also important differences in the effect according to child gender. Mother’s total years of education raises boys height-for-age by 0.163 standard deviations, whilst there is no statistically significant effect on girls height. Parental education appears to have little effect on weight-for-age of children. Estimated effects on height are driven by the rural sample, where an additional year of mother’s education raises boys height for age by 0.228 standard deviations and lowers the probability of a boy being classified as stunted by 6.6 percentage points. Results therefore suggest that - at least in rural areas - son preference in India has additional impacts beyond the sex-ratio at birth.  
+    Coming Soon!  
     </details>    
 
 **Work in Progress**
