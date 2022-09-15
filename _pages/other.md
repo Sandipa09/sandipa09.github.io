@@ -14,7 +14,7 @@ Here are some useful links:
 **Economics Content**
 - [Core Econ](https://www.core-econ.org/) - Free Economics textbooks organized by big problems (includes a textbook on using Excel to understand Economics)
 - [IPUMS](https://www.ipums.org/) - Probably the most comprehensive microlevel database
-- [NBER Public Use Data Archive](https://www.nber.org/research/data?page=1&perPage=50) - Electic mix of public use data
+- [NBER Public Use Data Archive](https://www.nber.org/research/data?page=1&perPage=50) - Eclectic mix of public use data
 - [BREAD](http://ipl.econ.duke.edu/dthomas/dev_data/) - A useful data source for researchers in development economics
 - [MOSPI](http://mospi.nic.in/) - The go to source for Indian data
 - [ECON Graphs](https://www.econgraphs.org/) - Interactive visualizations of key concepts in Economics
