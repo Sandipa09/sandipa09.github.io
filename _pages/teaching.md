@@ -34,8 +34,8 @@ title: "Teaching"
      - Spring 2021 - 3 sections `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home)
      - Spring 2020 - 3 sections `|` [Dr. Aisling Winston](https://sites.google.com/view/aisling-winston/home)
      - Spring 2018 - 2 sections `|` [Dr. Monica Litzenberger](https://www.sjf.edu/profiles/profile-last-name-1974-en.html)
-     - Summer 2020 - 1 section `|` Sandipa Bhattacharjee
      - Summer 2021 - 1 section `|` Sandipa Bhattacharjee
+     - Summer 2020 - 1 section `|` Sandipa Bhattacharjee
      - Winter 2021 - 1 section `|` Sungmin Park
  - **ECO 182: Introduction to Microeconomics** 
      - Fall 2018 - 2 sections `|` [Dr. Monica Litzenberger](https://www.sjf.edu/profiles/profile-last-name-1974-en.html)
