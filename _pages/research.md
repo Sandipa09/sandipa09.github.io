@@ -9,7 +9,7 @@ header:
 
 **Job Market Paper**
 
-- The Effect of the Right to Education Act in India on Fertility Behaviors and Marriage Characteristics [Paper Draft](/files/pdf/research/jmp.pdf)
+- The Effect of the Right to Education Act in India on Fertility Behaviors and Marriage Characteristics [[Paper Draft]](/files/pdf/research/jmp.pdf)
 
     <details style="font-size:80%; background-color:#fffbfa;">
     <summary style="color:#a51417; font-family:courier; font-size:100%;"> Abstract </summary> 
