@@ -20,6 +20,7 @@ header:
 
 **Services**
 
+- CAS Graduate Student Grievance Committee, Representative `|` <span style="font-size:13px;">University at Buffalo, SUNY [2022]</span>
 - Economics Graduate Student Association (EGSA), Vice President `|` <span style="font-size:13px;">University at Buffalo, SUNY [2017-2021]</span>
 - International Student Mentoring Program Volunteer (ISMP) `|` <span style="font-size:13px;">University at Buffalo, SUNY [2018]</span>
 - Heterodox Economics Student Association (HESA), Core Committee `|` <span style="font-size:13px;">Jadavpur University [2013-2015]</span>
