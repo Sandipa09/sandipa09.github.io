@@ -13,7 +13,7 @@ Welcome! I am a PhD Candidate in the [Department of Economics](https://arts-scie
 
 I am on the job market for AY 2022-2023 and will be available for interviews at the 2023 ASSA/AEA Meeting and other remote meetings.  
 
-My research interests broadly lie in the domain of Applied Microeconomics with a focused view on Labor, Health and Development Economics. I work on evaluation of economic policies, gender roles, immigration issues and economics of education. I am also interested in studying topics of discrimination, labour market inefficiencies of earning disparities and health of workers affecting economic outcomes. 
+My research interests broadly lie in the domain of Applied Microeconomics with a focused view on Labor, Health, Public and Development Economics. I work on evaluation of economic policies, gender roles, immigration issues and economics of education. I am also interested in studying topics of discrimination, labour market inefficiencies of earning disparities and health of workers affecting economic outcomes. 
 
 **References:**
 - [Neel Rao](http://www.acsu.buffalo.edu/~neelrao/), Dissertation Chair, [University at Buffalo, SUNY](http://www.buffalo.edu/) 
