@@ -9,9 +9,9 @@ redirect_from:
 ---
 
 Welcome! I am a PhD Candidate in the [Department of Economics](https://arts-sciences.buffalo.edu/economics.html) at
-[University at Buffalo, SUNY](http://www.buffalo.edu/). 
+[University at Buffalo, SUNY (UB)](http://www.buffalo.edu/). 
 
-I am on the job market for AY 2022-2023 and will be available for interviews at the 2023 ASSA/AEA Meeting and other remote meetings.  
+I am on the job market for AY 2022-2023 and will be available for interviews at the 2023 ASSA/AEA Meeting and other remote meetings. Prior to joining my PhD, I worked as a Business Analyst at Genpact, India. I received my Master's and Bachelor's in Economics from Jadavpur University, India.
 
 My research interests broadly lie in the domain of Applied Microeconomics with a focused view on Labor, Health, Public and Development Economics. I work on evaluation of economic policies, economics of education, gender roles, intergenerational effects, immigration issues and human capital acquisitions. I am also interested in studying topics of discrimination, labour market inefficiencies of earning disparities and health of workers affecting economic outcomes. 
 
