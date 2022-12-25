@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 Welcome! I am a PhD Candidate in the [Department of Economics](https://arts-sciences.buffalo.edu/economics.html) at the
-[University at Buffalo, The State University of New York (UB)](http://www.buffalo.edu/). Prior to joining my PhD, I worked as a Business Analyst at [Genpact, India](https://www.genpact.com/). I received my Master's and Bachelor's in Economics from [Jadavpur University, India](http://www.jaduniv.edu.in/).
+[University at Buffalo, The State University of New York (UB)](http://www.buffalo.edu/). Prior to joining my PhD, I worked as a Business Analyst at [Genpact](https://www.genpact.com/), India. I received my Master's and Bachelor's in Economics from [Jadavpur University](http://www.jaduniv.edu.in/), India.
 
 I am on the job market for AY 2022-2023 and will be available for interviews. 
 
