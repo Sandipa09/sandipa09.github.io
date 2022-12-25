@@ -3,7 +3,7 @@ permalink: /teaching/
 title: "Teaching"
 ---
 
-You can find my teaching portfolio [here](/files/pdf/teaching/Sandipa Bhattacharjee Teaching Portfolio.pdf).
+You can find my teaching portfolio [here](/files/pdf/teaching/Sandipa Bhattacharjee Teaching Portfolio.pdf) and 'Rate my Professor' ratings [here](https://www.ratemyprofessors.com/professor?tid=2591763).
 
 **Adjunct Instructor, [University at Buffalo, SUNY](https://arts-sciences.buffalo.edu/economics.html)**  
 > Designed my own curriculum and lectured the following courses: 
