@@ -12,7 +12,8 @@ header:
 - UUP Individual Development Award `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2022]</span>
 - SUNY PRODiG Fellowship `|` <span style="font-size:13px;"> Department of Accounting, Economics & Finance, SUNY Brockport [2022]</span> *(Declined)*
 - Graduate Student Association Conference Funding `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2021]</span>
-- Graduate Fellowship `|` <span style="font-size:13px;"> Department of Economics, University at Buffalo, SUNY [2017-2021]</span>
+- Graduate Teaching Assistant Fellowship `|` <span style="font-size:13px;"> Department of Economics, University at Buffalo, SUNY [2017-2021]</span>
+- Graduate Tuition Scholarship `|` <span style="font-size:13px;"> Department of Economics, University at Buffalo, SUNY [2017-2021]</span>
 - Bronze Award for Exemplary Performance in Financial Risk Analytics `|` <span style="font-size:13px;">Genpact, India [2016]</span>
 - Research Assistantship `|` <span style="font-size:13px;">Indian Institute of Management Calcutta (IIMC), India [2015]</span>
 - Research Fellowship `|` <span style="font-size:13px;">Confederation of Indian Industry (CII), India [2014]</span>
