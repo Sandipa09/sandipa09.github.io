@@ -8,8 +8,8 @@ header:
 ---
 
 **Conferences**
-- Midwest Economics Association, Cleveland, OH, USA [Mar 2023 Scheduled] `|` <span style="font-size:13px;"> Presenter </span>
-- Eastern Economic Association, Manhattan, NYC, USA [Feb 2023 Scheduled] `|` <span style="font-size:13px;"> Presenter </span>
+- Midwest Economics Association, Cleveland, OH, USA [2023] `|` <span style="font-size:13px;"> Presenter </span>
+- Eastern Economic Association, Manhattan, NYC, USA [2023] `|` <span style="font-size:13px;"> Presenter </span>
 - Association for Public Policy Analysis & Management, Washington, DC, USA [2022] `|` <span style="font-size:13px;"> Co-author Presenter </span>
 - Southern Economic Assiciation, Houston, TX, USA [2021]  `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - New York State Economics Association, NY, USA [2021] `|` <span style="font-size:13px;"> Session Chair, Presenter, Discussant </span>
