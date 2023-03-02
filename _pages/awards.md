@@ -8,7 +8,7 @@ header:
 ---
 **Awards and Honours**
 
-- 7th Annual 3 Minute Thesis Competition Finalist `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2022]</span> `|` [In News}(https://www.buffalo.edu/ubnow/stories/2023/02/3mt.html)
+- 7th Annual 3 Minute Thesis Competition Finalist `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2022]</span> `|` [In News(https://www.buffalo.edu/ubnow/stories/2023/02/3mt.html)
 - UUP Individual Development Award `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2022]</span>
 - SUNY PRODiG Fellowship `|` <span style="font-size:13px;"> Department of Accounting, Economics & Finance, SUNY Brockport [2022]</span> *(Declined)*
 - Graduate Student Association Conference Funding `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2021]</span>
