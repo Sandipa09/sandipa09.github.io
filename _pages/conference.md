@@ -8,7 +8,7 @@ header:
 ---
 
 **Conferences**
-- Midwest Economics Association, Cleveland, OH, USA [2023] `|` <span style="font-size:13px;"> Presenter </span>
+- Midwest Economics Association, Cleveland, OH, USA [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - Eastern Economic Association, Manhattan, NYC, USA [2023] `|` <span style="font-size:13px;"> Presenter </span>
 - Association for Public Policy Analysis & Management, Washington, DC, USA [2022] `|` <span style="font-size:13px;"> Co-author Presenter </span>
 - Southern Economic Assiciation, Houston, TX, USA [2021]  `|` <span style="font-size:13px;"> Presenter, Discussant </span>
