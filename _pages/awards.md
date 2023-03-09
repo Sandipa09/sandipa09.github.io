@@ -8,7 +8,7 @@ header:
 ---
 **Awards and Honours**
 
-- Student Academic Excellence Award `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2023]</span>
+- Graduate Student Academic Excellence Award `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2023]</span>
 - Professional Development Travel Fund `|` <span style="font-size:13px;"> Department of Economics, University at Buffalo, SUNY [2023]</span>
 - [3 Minute Thesis Competition](https://www.buffalo.edu/ubnow/stories/2023/02/3mt.html) *Second Place* and *People's Choice Award* [Winner](https://www.buffalo.edu/three-minute-thesis/upcoming-competition.html) `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2023]</span> 
 - UUP Individual Development Award `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2022]</span>
