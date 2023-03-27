@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : SandipaBhattac7
+  username               : sandipa_b
 facebook:
   username               :
   app_id                 :
@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "Sandipa Bhattacharjee"
   avatar           : "profile.jpg"
-  bio              : "PhD candidate in Economics, University at Buffalo, SUNY"
+  bio              : "PhD Candidate in Economics, University at Buffalo, SUNY"
   location         : "Buffalo, NY"
   employer         :
   pubmed           :
