@@ -8,6 +8,7 @@ header:
 ---
 **Awards and Honours**
 
+- Excellence in Research, Scholarship & Creativity Award `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2023]</span>
 - ALANA Academic Achievement Award `|` <span style="font-size:13px;"> Intercultural and Diversity Center, University at Buffalo, SUNY [2023]</span>
 - Graduate Student Academic Excellence Award `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2023]</span>
 - Professional Development Travel Fund `|` <span style="font-size:13px;"> Department of Economics, University at Buffalo, SUNY [2023]</span>
