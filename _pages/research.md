@@ -37,15 +37,16 @@ header:
    <details style="font-size:80%; background-color:#fffbfa;">
     <summary style="color:#a51417; font-family:courier; font-size:100%;"> Abstract </summary> 
     Global labor markets in the US have noticeably seen the rise of different forms of non‐standard work arrangements characterized by variable work schedules, reduced job security, lower wages, hazards at the workplace and stressful psycho-social working conditions since the early 1970s. Traditional non-standard work arrangements can be classified by part-time and precarious employment positions and a staggering 4.8 million American workers are a part of these employment practices. The Bureau of Labor Statistics (BLS) in 2019 reported that these non- standard jobs are mostly characterized by low wage and no benefits, and this type of work arrangments leave many workers mentally and physically exhausted leading to adverse health consequences. Using data from the 2009-18 years of the Current Population Survey (CPS) we investigate whether minimum wage increases in the US have any impact on precarious and part-time workers between 15 to 85 years of age. The results obtained suggests that increasing minimum wage have no effect on difficulty in remembering, having a disability limiting mobility and having any limitations to personal care for these workers. However, we do find strong evidence of minimum wage increases on improved self-reported health for these workers. Our results are robust to different age groups except teenagers and our results do not hold true for workers who are employed full-time implying changes in minimum wage only impact the health of those people who are underemployed.
+    </details>
+    
+- The Intergenerational Effect of Parental Education on Child Health: Evidence from India (Draft available upon request)
+    
+    <details style="font-size:80%; background-color:#fffbfa;">
+    <summary style="color:#a51417; font-family:courier; font-size:100%;"> Abstract </summary> 
+   The paper investigates the causal impact of parental education on child health outcomes by exploiting a compulsory schooling reform in India which required parents to complete eight years of primary education. The exogenous variation in parental education induced by the reform implementation timing in different states across the birth cohorts of parents is explored using an instrumental variable difference-in-difference approach. Findings based on data from the National Family Health Survey suggest that increased total years of parental education improved the birth weight, weight-for-age, and height of their offspring. Parental education also increased the probability of a child being currently breastfed and improved understanding of a child's measles immunization. I also examine different household socio-economic pathways which can impact children's health. I find significant improvements in all the household facilities and improved sanitation in Indian society. There is little evidence of a causal relationship between a father's education and his health behavior, but mothers in Indian society take better care of their health in terms of having antenatal and postnatal care and increased probability of health check-ups which gets transmitted to improved health outcomes for their children.
     </details> 
 
 **Works in Progress**
-
-- The Intergenerational Effect of Parental Education on Child Health: Evidence from India 
-    <details style="font-size:80%; background-color:#fffbfa;">
-    <summary style="color:#a51417; font-family:courier; font-size:100%;"> Abstract </summary> 
-    Coming Soon!  
-    </details> 
 
 - Women's Empowerment in India: Evidence from the Conditional Cash Transfer (CCT) policy <span style="font-size:13px;"> *with [Sharbani Bhattacharjee](https://sites.google.com/view/sharbani/home?authuser=0)* </span>
 
