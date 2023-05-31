@@ -9,20 +9,20 @@ You can find my teaching portfolio [here](/files/pdf/teaching/Sandipa Bhattachar
 > Designed my own curriculum and lectured the following courses: 
 
  - **ECO 211: Introduction to Health Economics**
-     - Spring 2023 [[Syllabus](/files/pdf/teaching/ECO 211 Syllabus Spring 2023.pdf)]
-     - Spring 2022 [[Syllabus](/files/pdf/teaching/ECO 211 Syllabus Spring 2022.pdf)] [[Evaluation](/files/pdf/evaluation/ECO 211 Evaluation Spring 2022.pdf)]
+     - Spring 2023 [[Evaluation](/files/pdf/evaluation/ECO 211 Evaluation Spring 2023.pdf)]
+     - Spring 2022 [[Evaluation](/files/pdf/evaluation/ECO 211 Evaluation Spring 2022.pdf)]
  - **ECO 208: Introduction to Environmental Economics** 
-     - Fall 2022 [[Syllabus](/files/pdf/teaching/ECO 208 Syllabus Fall 2022.pdf)] [[Evaluation](/files/pdf/evaluation/ECO 208 Evaluation Fall 2022.pdf)] 
-     - Fall 2021 [[Syllabus](/files/pdf/teaching/ECO 208 Syllabus Fall 2021.pdf)] [[Evaluation](/files/pdf/evaluation/ECO 208 Evaluation Fall 2021.pdf)]
+     - Fall 2022 [[Evaluation](/files/pdf/evaluation/ECO 208 Evaluation Fall 2022.pdf)] 
+     - Fall 2021 [[Evaluation](/files/pdf/evaluation/ECO 208 Evaluation Fall 2021.pdf)]
  - **ECO 405: Microeconomic Theory**
-     - Summer 2022 [[Syllabus](/files/pdf/teaching/ECO 405 Syllabus Summer 2022.pdf)] [[Evaluation](/files/pdf/evaluation/ECO 405 Evaluation Summer 2022.pdf)]
+     - Summer 2022 [[Evaluation](/files/pdf/evaluation/ECO 405 Evaluation Summer 2022.pdf)]
  - **ECO 182: Introduction to Microeconomics**
-     - Summer 2022 [[Syllabus](/files/pdf/teaching/ECO 182 Syllabus Summer 2022.pdf)] [[Evaluation](/files/pdf/evaluation/ECO 182 Evaluation Summer 2022.pdf)]
+     - Summer 2022 [[Evaluation](/files/pdf/evaluation/ECO 182 Evaluation Summer 2022.pdf)]
  - **ECO 181: Introduction to Macroeconomics** 
-     - Winter 2022 [[Syllabus](/files/pdf/teaching/ECO 181 Syllabus Winter 2022.pdf)] [[Evaluation](/files/pdf/evaluation/ECO 181 Evaluation Winter 2022.pdf)]
-     - Summer 2021 [[Syllabus](/files/pdf/teaching/ECO 181 Syllabus Summer 2021.pdf)] [[Evaluation](/files/pdf/evaluation/ECO 181 Evaluation Summer 2021.pdf)]
-     - Summer 2020 [[Syllabus](/files/pdf/teaching/ECO 181 Syllabus Summer 2020.pdf)] [[Evaluation](/files/pdf/evaluation/ECO 181 Evaluation Summer 2020.pdf)]
-     - Summer 2019 [[Syllabus](/files/pdf/teaching/ECO 181 Syllabus Summer 2019.pdf)] [[Evaluation](/files/pdf/evaluation/ECO 181 Evaluation Summer 2019.pdf)]
+     - Winter 2022 [[Evaluation](/files/pdf/evaluation/ECO 181 Evaluation Winter 2022.pdf)]
+     - Summer 2021 [[Evaluation](/files/pdf/evaluation/ECO 181 Evaluation Summer 2021.pdf)]
+     - Summer 2020 [[Evaluation](/files/pdf/evaluation/ECO 181 Evaluation Summer 2020.pdf)]
+     - Summer 2019 [[Evaluation](/files/pdf/evaluation/ECO 181 Evaluation Summer 2019.pdf)]
 
 
 **Teaching Assistant, [University at Buffalo, SUNY](https://arts-sciences.buffalo.edu/economics.html)**  
