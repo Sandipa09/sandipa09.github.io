@@ -8,12 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a Ph.D. Candidate in the [Department of Economics](https://arts-sciences.buffalo.edu/economics.html) at the
-[University at Buffalo, The State University of New York (UB)](http://www.buffalo.edu/). Prior to joining my Ph.D., I worked as a Business Analyst at [Genpact](https://www.genpact.com/), India. I received my Master's and Bachelor's in Economics from [Jadavpur University](http://www.jaduniv.edu.in/), India.
+Welcome! I am a tenure-track Assistant Professor of Economics at the [Anisfield School of Business](https://www.ramapo.edu/asb/) in [Ramapo College of New Jersey](https://www.ramapo.edu/). I received my Ph.D. in Economics from the [University at Buffalo, The State University of New York (UB)](http://www.buffalo.edu/) in 2023. Prior to joining my Ph.D., I worked as a Business Analyst at [Genpact](https://www.genpact.com/), India. I received my Master's and Bachelor's in Economics from [Jadavpur University](http://www.jaduniv.edu.in/), India.
 
-I am on the job market for AY 2022-2023 and will be available for interviews. 
-
-My research interests broadly lie in the domain of Applied Microeconomics with a focused view on Labor, Health, Public and Development Economics. I work on evaluation of economic policies, economics of education, gender roles, intergenerational effects, immigration issues and human capital acquisitions. I am also interested in studying topics of discrimination, labor market inefficiencies of earning disparities and health of workers affecting economic outcomes. 
+My research interests broadly lie in the domain of Applied Microeconomics with a focused view on Development Economics, Labor Economics, Health Economics, and Public Economics. I work on the evaluation of economic policies, the economics of education, gender roles, intergenerational effects, immigration issues, and human capital acquisitions. I am also interested in studying topics of discrimination, labor market inefficiencies of earning disparities, and the health of workers affecting economic outcomes. 
 
 **References:**
 - [Neel Rao](http://www.acsu.buffalo.edu/~neelrao/), Dissertation Chair, [University at Buffalo, SUNY](http://www.buffalo.edu/) 
