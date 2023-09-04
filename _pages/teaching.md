@@ -5,6 +5,11 @@ title: "Teaching"
 
 You can find my teaching portfolio [here](/files/pdf/teaching/Sandipa Bhattacharjee Teaching Portfolio.pdf) and 'Rate my Professor' ratings [here](https://www.ratemyprofessors.com/professor?tid=2591763).
 
+**Instructor, [Ramapo College of New Jersey](https://www.ramapo.edu/majors-minors/majors/economics/)**  
+
+ - **ECO 101: Microeconomics**
+     - Fall 2023 - 2 sections
+
 **Adjunct Instructor, [University at Buffalo, SUNY](https://arts-sciences.buffalo.edu/economics.html)**  
 > Designed my own curriculum and lectured the following courses: 
 
