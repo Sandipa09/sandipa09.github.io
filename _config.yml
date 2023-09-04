@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sandipa Bhattacharjee"
 title_separator          : "-"
 name                     : &name "Sandipa Bhattacharjee"
-description              : &description "PhD candidate in Economics, University at Buffalo, SUNY"
+description              : &description "Assistant Professor of Economics, Ramapo College of New Jersey"
 url                      : https://sandipa09.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sandipa09/sandipa09.github.io"
@@ -84,8 +84,8 @@ analytics:
 author:
   name             : "Sandipa Bhattacharjee"
   avatar           : "profile.jpg"
-  bio              : "PhD Candidate in Economics, University at Buffalo, SUNY"
-  location         : "Buffalo, NY"
+  bio              : "Assistant Professor of Economics, Ramapo College of New Jersey"
+  location         : "Mahwah, NJ"
   employer         :
   pubmed           :
   orcid            : 
