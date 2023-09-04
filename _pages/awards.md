@@ -11,7 +11,7 @@ header:
 - [Excellence in Research, Scholarship & Creativity Award](https://www.buffalo.edu/celebration-of-academic-excellence/StudentExcellence/CurrentStudentHonorees/UBawards/Excellence-in-Research-Scholarship-and-Creativity.html) `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2023]</span>
 - ALANA Academic Achievement Award `|` <span style="font-size:13px;"> Intercultural and Diversity Center, University at Buffalo, SUNY [2023]</span>
 - International Graduate Student Academic Excellence Award `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2023]</span>
-- [3 Minute Thesis](https://www.buffalo.edu/ubnow/stories/2023/02/3mt.html) [Competition](https://www.buffalo.edu/ubnow/ub-seen/photos/2023/03/3MT-winners.html) *Second Place* and *People's Choice Award* [Winner](https://www.buffalo.edu/three-minute-thesis/upcoming-competition.html) `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2023]</span> 
+- [3 Minute Thesis](https://www.buffalo.edu/ubnow/stories/2023/02/3mt.html) [Competition](https://www.buffalo.edu/ubnow/ub-seen/photos/2023/03/3MT-winners.html) *Second Place* and *People's Choice Award* [Winner](https://www.buffalo.edu/three-minute-thesis/past/2023.html) `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2023]</span> 
 - Excellence in Art of Research `|` <span style="font-size:13px;"> Buffalo Musuem of Science [2023]</span>
 - Professional Development Travel Grant `|` <span style="font-size:13px;"> Department of Economics, University at Buffalo, SUNY [2023]</span>
 - UUP Individual Development Award `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2022]</span>
