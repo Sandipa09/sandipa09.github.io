@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sandipa Bhattacharjee"
 title_separator          : "-"
 name                     : &name "Sandipa Bhattacharjee"
-description              : &description "Assistant Professor of Economics, Ramapo College of New Jersey"
+description              : &description "Assistant Professor | Economics, Ramapo College of New Jersey"
 url                      : https://sandipa09.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sandipa09/sandipa09.github.io"
@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "Sandipa Bhattacharjee"
   avatar           : "profile.jpg"
-  bio              : "Assistant Professor of Economics, Ramapo College of New Jersey"
+  bio              : "Assistant Professor | Economics, Ramapo College of New Jersey"
   location         : "Mahwah, NJ"
   employer         :
   pubmed           :
