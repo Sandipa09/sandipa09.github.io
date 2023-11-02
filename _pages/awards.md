@@ -9,7 +9,7 @@ header:
 **Awards and Honours**
 
 - GLO Virtual Young Scholars (VirtYS) Program 2023-24 Cohort [Fellow](https://glabor.org/user/sandipab/) `|` <span style="font-size:13px;"> Global Labor Organization [2023]</span>
-- GLO Affiliate (https://glabor.org/user/sandipab/) `|` <span style="font-size:13px;"> Global Labor Organization [2023]</span>
+- GLO Affiliate `|` <span style="font-size:13px;"> Global Labor Organization [2023]</span>
 - [Excellence in Research, Scholarship & Creativity Award](https://www.buffalo.edu/celebration-of-academic-excellence/StudentExcellence/CurrentStudentHonorees/UBawards/Excellence-in-Research-Scholarship-and-Creativity.html) `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2023]</span>
 - ALANA Academic Achievement Award `|` <span style="font-size:13px;"> Intercultural and Diversity Center, University at Buffalo, SUNY [2023]</span>
 - International Graduate Student Academic Excellence Award `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2023]</span>
