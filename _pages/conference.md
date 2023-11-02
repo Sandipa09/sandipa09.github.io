@@ -8,6 +8,7 @@ header:
 ---
 
 **Conferences**
+- GLO Seminar Series [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - XXXIIIrd Annual Conference on Contemporary Issues in Development Economics, Jadavpur University, Kolkata, India [2023] `|` <span style="font-size:13px;"> Presenter </span>
 - Midwest Economics Association, Cleveland, OH, USA [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - Eastern Economic Association, Manhattan, NYC, USA [2023] `|` <span style="font-size:13px;"> Presenter </span>
