@@ -20,6 +20,7 @@ header:
 **Workshops/ Seminars**
 - UC San Diego 21CIC Indian Economy Seminar [2023] `|` <span style="font-size:13px;"> Attendee </span>
 - Celebration of Student Academic Excellence [Student Showcase](https://www.buffalo.edu/celebration-of-academic-excellence/StudentExcellence/showcase/school-showcase.html#4), University at Buffalo [2023] `|` <span style="font-size:13px;"> Presenter </span>
+- AI in Education: University at Buffalo, SUNY Summer Design Challenge [2023] `|` <span style="font-size:13px;"> Presenter </span>
 - Applied Young Economist Webinar (AYEW), University of Warwick & Monash Business School [2021-2023] `|` <span style="font-size:13px;"> Attendee, Discussant </span>
 - Precarious Work: Health and Economic Threats Symposium, California Labor Lab (Virtual) [2022] `|` <span style="font-size:13px;"> Discussant </span>
 - PhD Seminar Series, Department of Economics, University at Buffalo, SUNY [2019-2022] `|` <span style="font-size:13px;"> Presenter </span>
