@@ -7,7 +7,13 @@ You can find my teaching portfolio [here](/files/pdf/teaching/Sandipa Bhattachar
 
 **Instructor, [Ramapo College of New Jersey](https://www.ramapo.edu/majors-minors/majors/economics/)**  
 
+ - **ECO 102: Introduction to Macroeconomics**
+     - Fall 2024, 2 sections
+     - Spring 2024, 2 sections
+
  - **ECO 101: Microeconomics**
+     - Fall 2024, 1 section
+     - Spring 2024, 1 section
      - Fall 2023 - 2 sections
 
 **Adjunct Instructor, [University at Buffalo, SUNY](https://arts-sciences.buffalo.edu/economics.html)**  
