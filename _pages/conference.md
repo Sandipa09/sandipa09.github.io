@@ -8,6 +8,8 @@ header:
 ---
 
 **Conferences**
+- Midwest Economics Association, Chicago, IL, USA [2024] | Presenter, Discussant
+- Eastern Economic Association, Boston, MA, USA [2024] | Presenter, Discussant
 - Global Labor Organization (GLO) Seminar Series [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - XXXIIIrd Annual Conference on Contemporary Issues in Development Economics, Jadavpur University, Kolkata, India [2023] `|` <span style="font-size:13px;"> Presenter </span>
 - Midwest Economics Association, Cleveland, OH, USA [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
@@ -17,6 +19,15 @@ header:
 - New York State Economics Association, NY, USA [2021] `|` <span style="font-size:13px;"> Session Chair, Presenter, Discussant </span>
 - Bengal Economic Association, Kolkata, India [2014]  `|` <span style="font-size:13px;"> Presenter </span>
 
+**Invited Talks**
+- Fordham University [2024] | (Forthcoming)
+- Dickinson College, Department of International Studies/Economics [2024]
+- Allegheny College, Department of Business and Economics [2023]
+- Capital One [2023]
+- Washington College, Department of Economics [2023]
+- Ramapo College of New Jersey, Department of Economics [2023]
+- The State University of New York at Oneonta, Department of Economics [2023]
+  
 **Workshops/ Seminars**
 - UC San Diego 21CIC Indian Economy Seminar [2023] `|` <span style="font-size:13px;"> Attendee </span>
 - Celebration of Student Academic Excellence [Student Showcase](https://www.buffalo.edu/celebration-of-academic-excellence/StudentExcellence/showcase/school-showcase.html#4), University at Buffalo [2023] `|` <span style="font-size:13px;"> Presenter </span>
