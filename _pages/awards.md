@@ -29,7 +29,8 @@ header:
 
 **Services**
 
-- International Honor Society (Phi Beta Delta), Faculty Advisor `|` <span style="font-size:13px;">Ramapo College of New Jersey [2023]</span>
+- Beta Gamma Sigma, Faculty Advisor `|` <span style="font-size:13px;">Ramapo College of New Jersey [2023-2024]</span>
+- International Honor Society (Phi Beta Delta), Faculty Advisor `|` <span style="font-size:13px;">Ramapo College of New Jersey [2023-2024]</span>
 - CAS Graduate Student Grievance Committee, Representative `|` <span style="font-size:13px;">University at Buffalo, SUNY [2022]</span>
 - Economics Graduate Student Association (EGSA), Vice President `|` <span style="font-size:13px;">University at Buffalo, SUNY [2017-2021]</span>
 - International Student Mentoring Program (ISMP), Volunteer `|` <span style="font-size:13px;">University at Buffalo, SUNY [2018]</span>
