@@ -8,8 +8,8 @@ header:
 ---
 
 **Conferences**
-- Midwest Economics Association, Chicago, IL, USA [2024] | Presenter, Discussant
-- Eastern Economic Association, Boston, MA, USA [2024] | Presenter, Discussant
+- Midwest Economics Association, Chicago, IL, USA [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
+- Eastern Economic Association, Boston, MA, USA [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - Global Labor Organization (GLO) Seminar Series [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - XXXIIIrd Annual Conference on Contemporary Issues in Development Economics, Jadavpur University, Kolkata, India [2023] `|` <span style="font-size:13px;"> Presenter </span>
 - Midwest Economics Association, Cleveland, OH, USA [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
@@ -20,7 +20,7 @@ header:
 - Bengal Economic Association, Kolkata, India [2014]  `|` <span style="font-size:13px;"> Presenter </span>
 
 **Invited Talks**
-- Fordham University [2024] | (Forthcoming)
+- Fordham University [2024] `|` <span style="font-size:13px;"> (Forthcoming) </span>
 - Dickinson College, Department of International Studies/Economics [2024]
 - Allegheny College, Department of Business and Economics [2023]
 - Capital One [2023]
