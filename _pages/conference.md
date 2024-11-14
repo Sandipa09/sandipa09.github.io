@@ -8,9 +8,13 @@ header:
 ---
 
 **Conferences**
+- Eurasian Business and Economic Society, Lisbon, PT, Europe [2025] `|` <span style="font-size:13px;"> Presenter, Discussant </span> (forthcoming)
+- The Global GLO-JOPE Conference, Maastricht, NL, Europe [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
+- Global Labor Organization (GLO) Virtual Young Scholar Seminar Series [2024] `|` <span style="font-size:13px;"> Presenter </span>
+- Western Economic Association International, Seattle, WA, USA [2024] `|` <span style="font-size:13px;"> Co-author Presenter </span>
 - Midwest Economics Association, Chicago, IL, USA [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - Eastern Economic Association, Boston, MA, USA [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
-- Global Labor Organization (GLO) Seminar Series [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
+- Global Labor Organization (GLO) Seminar Series (Virtual) [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - XXXIIIrd Annual Conference on Contemporary Issues in Development Economics, Jadavpur University, Kolkata, India [2023] `|` <span style="font-size:13px;"> Presenter </span>
 - Midwest Economics Association, Cleveland, OH, USA [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - Eastern Economic Association, Manhattan, NYC, USA [2023] `|` <span style="font-size:13px;"> Presenter </span>
@@ -20,6 +24,7 @@ header:
 - Bengal Economic Association, Kolkata, India [2014]  `|` <span style="font-size:13px;"> Presenter </span>
 
 **Invited Talks**
+- Towson University [2024] `|` <span style="font-size:13px;"> (Forthcoming) </span>
 - Fordham University [2024] `|` <span style="font-size:13px;"> (Forthcoming) </span>
 - Dickinson College, Department of International Studies/Economics [2024]
 - Allegheny College, Department of Business and Economics [2023]
@@ -29,7 +34,8 @@ header:
 - The State University of New York at Oneonta, Department of Economics [2023]
   
 **Workshops/ Seminars**
-- UC San Diego 21CIC Indian Economy Seminar [2023] `|` <span style="font-size:13px;"> Attendee </span>
+- Workshop on Household and Development Economics, Dickinson College [2024] `|` <span style="font-size:13px;"> Presenter </span>
+- UC San Diego 21CIC Indian Economy Seminar [2023 - Present] `|` <span style="font-size:13px;"> Attendee </span>
 - Celebration of Student Academic Excellence [Student Showcase](https://www.buffalo.edu/celebration-of-academic-excellence/StudentExcellence/showcase/school-showcase.html#4), University at Buffalo [2023] `|` <span style="font-size:13px;"> Presenter </span>
 - AI in Education: University at Buffalo, SUNY Summer Design Challenge [2023] `|` <span style="font-size:13px;"> Presenter </span>
 - Applied Young Economist Webinar (AYEW), University of Warwick & Monash Business School [2021-2023] `|` <span style="font-size:13px;"> Attendee, Discussant </span>
