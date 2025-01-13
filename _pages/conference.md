@@ -8,7 +8,8 @@ header:
 ---
 
 **Conferences**
-- Eurasian Business and Economic Society, Lisbon, PT, Europe [2025] `|` <span style="font-size:13px;"> Presenter, Discussant </span> (forthcoming)
+- Eastern Economic Association, Manhattan, NYC, USA [2025] `|` <span style="font-size:13px;"> Presenter, Discussant, Session Chair </span>
+- Eurasian Business and Economic Society, Lisbon, PT, Europe [2025] `|` <span style="font-size:13px;"> Presenter, Session Chair </span> 
 - The Global GLO-JOPE Conference, Maastricht, NL, Europe [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - Global Labor Organization (GLO) Virtual Young Scholar Seminar Series [2024] `|` <span style="font-size:13px;"> Presenter </span>
 - Western Economic Association International, Seattle, WA, USA [2024] `|` <span style="font-size:13px;"> Co-author Presenter </span>
@@ -24,8 +25,8 @@ header:
 - Bengal Economic Association, Kolkata, India [2014]  `|` <span style="font-size:13px;"> Presenter </span>
 
 **Invited Talks**
-- Towson University [2024] `|` <span style="font-size:13px;"> (Forthcoming) </span>
-- Fordham University [2024] `|` <span style="font-size:13px;"> (Forthcoming) </span>
+- Towson University [2025] `|` <span style="font-size:13px;"> (Forthcoming) </span>
+- Fordham University [2024] `|` <span style="font-size:13px;"> </span>
 - Dickinson College, Department of International Studies/Economics [2024]
 - Allegheny College, Department of Business and Economics [2023]
 - Capital One [2023]
@@ -35,6 +36,7 @@ header:
   
 **Workshops/ Seminars**
 - Workshop on Household and Development Economics, Dickinson College [2024] `|` <span style="font-size:13px;"> Presenter </span>
+- From Grad to Greatness - Your Guide to Successful Teaching, Macmilan Learning [2024] `|` <span style="font-size:13px;"> Discussant </span>
 - UC San Diego 21CIC Indian Economy Seminar [2023 - Present] `|` <span style="font-size:13px;"> Attendee </span>
 - Celebration of Student Academic Excellence [Student Showcase](https://www.buffalo.edu/celebration-of-academic-excellence/StudentExcellence/showcase/school-showcase.html#4), University at Buffalo [2023] `|` <span style="font-size:13px;"> Presenter </span>
 - AI in Education: University at Buffalo, SUNY Summer Design Challenge [2023] `|` <span style="font-size:13px;"> Presenter </span>
