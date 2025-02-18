@@ -30,6 +30,8 @@ header:
     Global labor markets in the US have noticeably seen the rise of different forms of non‐standard work arrangements characterized by variable work schedules, reduced job security, lower wages, hazards at the workplace and stressful psycho-social working conditions since the early 1970s. Traditional non-standard work arrangements can be classified by part-time and precarious employment positions and a staggering 4.8 million American workers are a part of these employment practices. The Bureau of Labor Statistics (BLS) in 2019 reported that these non- standard jobs are mostly characterized by low wage and no benefits, and this type of work arrangments leave many workers mentally and physically exhausted leading to adverse health consequences. Using data from the 2009-18 years of the Current Population Survey (CPS) we investigate whether minimum wage increases in the US have any impact on precarious and part-time workers between 15 to 85 years of age. The results obtained suggests that increasing minimum wage have no effect on difficulty in remembering, having a disability limiting mobility and having any limitations to personal care for these workers. However, we do find strong evidence of minimum wage increases on improved self-reported health for these workers. Our results are robust to different age groups except teenagers and our results do not hold true for workers who are employed full-time implying changes in minimum wage only impact the health of those people who are underemployed.
     </details>
 
+- Impact of COVID-19 Lockdowns on Childbirth Delivery Care in India <span style="font-size:13px;"> *with [Shamma Alam](https://sites.google.com/view/shamma-alam/home?authuser=0) and [Bijetri Bose](https://bijetri.github.io/)* </span> (Under Review)
+  
 - The Intergenerational Effect of Parental Education on Child Health: Evidence from India 
     
     <details style="font-size:80%; background-color:#fffbfa;">
@@ -43,8 +45,6 @@ header:
     <summary style="color:#a51417; font-family:courier; font-size:100%;"> Abstract </summary> 
     The Affordable Care Act (ACA) of 2010 included an expansion of Medicaid public health insurance to more low income individuals beginning in 2014. The ACA aimed to achieve nearly universal health insurance coverage in the United States through a combination of mandates, regulations on insurers, expanding Medicaid subsidies and health insurance exchanges, most of which took effect in 2014. This paper estimates the effects of the ACA on health insurance coverage using data from the American Community Survey (ACS) by utilizing difference-in-difference-in-differences model that exploit cross-sectional variation in the intensity of treatment arising from state participation in the Medicaid expansion in 2014 and comparing the effects among natives and immigrants. This study contributes to understand the limits of the ACA in reducing disparities in insurance coverage and exploring how patterns of coverage differ for different sources of insurance among the natives and immigrants. It is observed that the gap is lower in magnitude between the natives and immigrants in terms of public and Medicaid insurance coverage after the ACA implementation. 
     </details> 
-
-- Impact of COVID-19 Lockdowns on Childbirth Delivery Care in India <span style="font-size:13px;"> *with [Bijetri Bose](https://bijetri.github.io/)* </span> 
 
 **Works in Progress**
 
