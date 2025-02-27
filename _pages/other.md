@@ -16,6 +16,7 @@ header:
 Here are some useful links:
 
 **Economics Content**
+- [Resources for Students](https://www.aeaweb.org/resources/students) - Career opportunities and other go to resources
 - [Core Econ](https://www.core-econ.org/) - Free Economics textbooks organized by big problems (includes a textbook on using Excel to understand Economics)
 - [IPUMS](https://www.ipums.org/) - Probably the most comprehensive microlevel database
 - [NBER Public Use Data Archive](https://www.nber.org/research/data?page=1&perPage=50) - Eclectic mix of public use data
@@ -29,6 +30,7 @@ Here are some useful links:
 - [Thinking Like an Economist](https://podcasts.apple.com/us/podcast/think-like-an-economist/id1523898793) - You’ll see the world more clearly, empowering you to make better decisions at work, at home, and in your community
 
 **Interesting Blogs**
+- [AEA Research Highlights](https://www.aeaweb.org/research/podcasts), [Freakonomics](https://freakonomics.com/), [Econ Talk](https://www.econtalk.org/) - Interesting economics podcasts 
 - [Chhota Pegs, Debraj Ray](http://debrajray.blogspot.com/) - On anything that can be read with a good single malt
 - [Cheap Talks, Jeff Ely and Sandeep Baliga](https://cheaptalk.org/) - A blog about economics and politics
 - [NYT Columns, Paul Krugman](https://www.nytimes.com/column/paul-krugman) - Macroeconomics, trade, health care, social policy, politics and more
