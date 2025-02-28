@@ -9,9 +9,9 @@ header:
 
 **Working Papers**
 
-- "Do Compulsory Schooling Laws Affect Fertility Behaviors and Marriages? Evidence from India (Under Review)
+- Do Compulsory Schooling Laws Affect Fertility Behaviors and Marriages? Evidence from India (Under Review)
 
-- Exchange Rate Volatility and International Students’ Educational Choice: Evidence from US (Under Review)
+- Exchange Rate Volatility and International Students’ Educational Choice: Evidence from U.S. (Under Review)
 
 - Underemployed Worker’s Health: Evidence from States’ Minimum Wage Levels <span style="font-size:13px;"> *with [Soumak Basumallik](https://www.linkedin.com/in/soumakbasumallik/)* </span> (Under Review)
 
@@ -24,7 +24,7 @@ header:
    The paper investigates the causal impact of parental education on child health outcomes by exploiting a compulsory schooling reform in India which required parents to complete eight years of primary education. The exogenous variation in parental education induced by the reform implementation timing in different states across the birth cohorts of parents is explored using an instrumental variable difference-in-difference approach. Findings based on data from the National Family Health Survey suggest that increased total years of parental education improved the birth weight, weight-for-age, and height of their offspring. Parental education also increased the probability of a child being currently breastfed and improved understanding of a child's measles immunization. I also examine different household socio-economic pathways which can impact children's health. I find significant improvements in all the household facilities and improved sanitation in Indian society. There is little evidence of a causal relationship between a father's education and his health behavior, but mothers in Indian society take better care of their health in terms of having antenatal and postnatal care and increased probability of health check-ups which gets transmitted to improved health outcomes for their children.
     </details> 
 
-- The Effect of Affordable Care Act (ACA) on Insurance Coverage by the US Natives and Immigrants 
+- The Effect of Affordable Care Act (ACA) on Insurance Coverage by the U.S. Natives and Immigrants 
 
     <details style="font-size:80%; background-color:#fffbfa;">
     <summary style="color:#a51417; font-family:courier; font-size:100%;"> Abstract </summary> 
