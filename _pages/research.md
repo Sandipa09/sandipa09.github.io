@@ -11,7 +11,7 @@ header:
 
 - Do Compulsory Schooling Laws Affect Fertility Behaviors and Marriages? Evidence from India (Under Review)
 
-- Exchange Rate Volatility and International Students’ Educational Choice: Evidence from U.S. (Under Review)
+- Exchange Rate Volatility and International Students’ Educational Choice: Evidence from U.S. (Revise and Resubmit)
 
 - Underemployed Worker’s Health: Evidence from States’ Minimum Wage Levels <span style="font-size:13px;"> *with [Soumak Basumallik](https://www.linkedin.com/in/soumakbasumallik/)* </span> (Under Review)
 
