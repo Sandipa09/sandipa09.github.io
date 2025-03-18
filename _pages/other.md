@@ -6,6 +6,8 @@ author_profile: true
 header:
   og_image: "research/ecdf.png"
 ---
+**Media Links**
+
  - [Graduate Assistant Spotlight](https://arts-sciences.buffalo.edu/economics/news-events/student-news/graduate-assistant-spotlight-sandipa-bhattacharjee.html) - University at Buffalo, SUNY, Department of Economics, Student News
  - [In Student News](https://arts-sciences.buffalo.edu/economics/news-events/student-news/sandipa-bhattacharjee.html) - University at Buffalo, SUNY, Department of Economics
  - [Ph.D. Alumni](https://arts-sciences.buffalo.edu/economics/graduate/phd/phd-alumni-collapsable.html#collapsible_1808566155) - University at Buffalo, SUNY, Department of Economics
@@ -20,8 +22,6 @@ Here are some useful links:
 - [Core Econ](https://www.core-econ.org/) - Free Economics textbooks organized by big problems (includes a textbook on using Excel to understand Economics)
 - [IPUMS](https://www.ipums.org/) - Probably the most comprehensive microlevel database
 - [NBER Public Use Data Archive](https://www.nber.org/research/data?page=1&perPage=50) - Eclectic mix of public use data
-- [BREAD](http://ipl.econ.duke.edu/dthomas/dev_data/) - A useful data source for researchers in development economics
-- [MOSPI](http://mospi.nic.in/) - The go to source for Indian data
 - [ECON Graphs](https://www.econgraphs.org/) - Interactive visualizations of key concepts in Economics
 
 **Teaching Economics**
