@@ -8,25 +8,25 @@ header:
 ---
 
 **Conferences**
-- Eastern Economic Association, Manhattan, NYC, USA [2025] `|` <span style="font-size:13px;"> Presenter, Discussant, Session Chair </span>
-- Eurasian Business and Economic Society, Lisbon, PT, Europe [2025] `|` <span style="font-size:13px;"> Presenter, Session Chair </span> 
-- The Global GLO-JOPE Conference, Maastricht, NL, Europe [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
+- Eastern Economic Association, New York [2025] `|` <span style="font-size:13px;"> Presenter, Discussant, Session Chair </span>
+- Eurasian Business and Economic Society, Lisbon [2025] `|` <span style="font-size:13px;"> Presenter, Session Chair </span> 
+- The Global GLO-JOPE Conference, Maastricht [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - Global Labor Organization (GLO) Virtual Young Scholar Seminar Series [2024] `|` <span style="font-size:13px;"> Presenter </span>
-- Western Economic Association International, Seattle, WA, USA [2024] `|` <span style="font-size:13px;"> Co-author Presenter </span>
-- Midwest Economics Association, Chicago, IL, USA [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
-- Eastern Economic Association, Boston, MA, USA [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
+- Western Economic Association International, Seattle [2024] `|` <span style="font-size:13px;"> Co-author Presenter </span>
+- Midwest Economics Association, Chicago [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
+- Eastern Economic Association, Boston [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - Global Labor Organization (GLO) Seminar Series (Virtual) [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - XXXIIIrd Annual Conference on Contemporary Issues in Development Economics, Jadavpur University, Kolkata, India [2023] `|` <span style="font-size:13px;"> Presenter </span>
-- Midwest Economics Association, Cleveland, OH, USA [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
-- Eastern Economic Association, Manhattan, NYC, USA [2023] `|` <span style="font-size:13px;"> Presenter </span>
-- Association for Public Policy Analysis & Management, Washington, DC, USA [2022] `|` <span style="font-size:13px;"> Co-author Presenter </span>
-- Southern Economic Assiciation, Houston, TX, USA [2021]  `|` <span style="font-size:13px;"> Presenter, Discussant </span>
-- New York State Economics Association, NY, USA [2021] `|` <span style="font-size:13px;"> Session Chair, Presenter, Discussant </span>
+- Midwest Economics Association, Cleveland [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
+- Eastern Economic Association, Manhattan [2023] `|` <span style="font-size:13px;"> Presenter </span>
+- Association for Public Policy Analysis & Management, Washington D.C. [2022] `|` <span style="font-size:13px;"> Co-author Presenter </span>
+- Southern Economic Assiciation, Houston [2021]  `|` <span style="font-size:13px;"> Presenter, Discussant </span>
+- New York State Economics Association, New York [2021] `|` <span style="font-size:13px;"> Session Chair, Presenter, Discussant </span>
 - Bengal Economic Association, Kolkata, India [2014]  `|` <span style="font-size:13px;"> Presenter </span>
 
 **Invited Talks**
-- Towson University [2025] `|` <span style="font-size:13px;"> (Forthcoming) </span>
-- Fordham University [2024] `|` <span style="font-size:13px;"> </span>
+- Towson University, Department of Economics [2025] 
+- Fordham University, Department of Economics [2024] 
 - Dickinson College, Department of International Studies/Economics [2024]
 - Allegheny College, Department of Business and Economics [2023]
 - Capital One [2023]
