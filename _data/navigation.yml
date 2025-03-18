@@ -11,9 +11,6 @@ main:
 
   - title: "Conferences"
     url: /conference/
-
-  - title: "Work Experience"
-    url: /workexp/
     
   - title: "Awards & Honours"
     url: /awards/
