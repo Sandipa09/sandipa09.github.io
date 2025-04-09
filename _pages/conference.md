@@ -8,7 +8,8 @@ header:
 ---
 
 **Conferences**
-- Eastern Economic Association, New York [2025] `|` <span style="font-size:13px;"> Presenter, Discussant, Session Chair </span>
+- Southern Economic Association (Presidential Session), Florida [2025] `|` <span style="font-size:13px;"> (Scheduled) </span>
+- Eastern Economic Association (AEA CSWEP Session), New York [2025] `|` <span style="font-size:13px;"> Presenter, Discussant, Session Chair </span>
 - Eurasian Business and Economic Society, Lisbon [2025] `|` <span style="font-size:13px;"> Presenter, Session Chair </span> 
 - The Global GLO-JOPE Conference, Maastricht [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - Global Labor Organization (GLO) Virtual Young Scholar Seminar Series [2024] `|` <span style="font-size:13px;"> Presenter </span>
