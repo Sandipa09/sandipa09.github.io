@@ -33,9 +33,15 @@ header:
 
 **Works in Progress**
 
+- Time Allocation and Labor Supply <span style="font-size:13px;"> *with [Timothy Haase](https://www.ramapo.edu/asb/faculty/timothy-haase/)* </span>
+
 - Women's Empowerment in India: Evidence from the Conditional Cash Transfer (CCT) policy <span style="font-size:13px;"> *with [Sharbani Bhattacharjee](https://sites.google.com/view/sharbani/home?authuser=0)* </span>
 
 - Family and Professional Liaison and its Effect on Immigrants Labor Market
 
 - Age Discrimination and Health of Older Workers
+
+**Other Professional Writing**
+
+- [Healthiest & Unhealthiest Cities in America, WalletHub (March 31, 2025)](https://wallethub.com/edu/healthiest-cities/31072#expert=Sandipa_Bhattacharjee) 
 
