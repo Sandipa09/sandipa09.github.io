@@ -19,21 +19,21 @@ header:
 - Global Labor Organization (GLO) Seminar Series (Virtual) [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - XXXIIIrd Annual Conference on Contemporary Issues in Development Economics, Jadavpur University, Kolkata, India [2023] `|` <span style="font-size:13px;"> Presenter </span>
 - Midwest Economics Association, Cleveland [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
-- Eastern Economic Association, Manhattan [2023] `|` <span style="font-size:13px;"> Presenter </span>
+- Eastern Economic Association, New York [2023] `|` <span style="font-size:13px;"> Presenter </span>
 - Association for Public Policy Analysis & Management, Washington D.C. [2022] `|` <span style="font-size:13px;"> Co-author Presenter </span>
 - Southern Economic Assiciation, Houston [2021]  `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - New York State Economics Association, New York [2021] `|` <span style="font-size:13px;"> Session Chair, Presenter, Discussant </span>
 - Bengal Economic Association, Kolkata, India [2014]  `|` <span style="font-size:13px;"> Presenter </span>
 
 **Invited Talks**
-- Towson University, Department of Economics [2025] 
-- Fordham University, Department of Economics [2024] 
-- Dickinson College, Department of International Studies/Economics [2024]
-- Allegheny College, Department of Business and Economics [2023]
-- Capital One [2023]
-- Washington College, Department of Economics [2023]
-- Ramapo College of New Jersey, Department of Economics [2023]
-- The State University of New York at Oneonta, Department of Economics [2023]
+- Towson University, Department of Economics (Maryland) [2025] 
+- Fordham University, Department of Economics (New York) [2024] 
+- Dickinson College, Department of International Studies/Economics (Pennsylvania) [2024]
+- Allegheny College, Department of Business and Economics (Pennsylvania) [2023]
+- Capital One (Virginia) [2023]
+- Washington College, Department of Economics (Maryland) [2023]
+- Ramapo College of New Jersey, Department of Economics (New Jersey) [2023]
+- The State University of New York at Oneonta, Department of Economics (New York) [2023]
   
 **Workshops/ Seminars**
 - Workshop on Household and Development Economics, Dickinson College [2024] `|` <span style="font-size:13px;"> Presenter </span>
