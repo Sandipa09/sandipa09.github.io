@@ -26,9 +26,9 @@ header:
 - Bengal Economic Association, Kolkata, India [2014]  `|` <span style="font-size:13px;"> Presenter </span>
 
 **Invited Talks**
-- Towson University, Department of Economics (Maryland) [2025] 
-- Fordham University, Department of Economics (New York) [2024] 
-- Dickinson College, Department of International Studies/Economics (Pennsylvania) [2024]
+- Towson University, Department of Economics, Research Seminar (Maryland) [2025] 
+- Fordham University, Department of Economics, Research Seminar (New York) [2024] 
+- Dickinson College, Department of Economics, Research Seminar (Pennsylvania) [2024]
 - Allegheny College, Department of Business and Economics (Pennsylvania) [2023]
 - Capital One (Virginia) [2023]
 - Washington College, Department of Economics (Maryland) [2023]
