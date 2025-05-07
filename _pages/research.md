@@ -10,7 +10,7 @@ header:
 **Working Papers**
 
 - Exchange Rate Volatility and International Students’ Educational Choice: Evidence from U.S. (Revise and Resubmit)
-- Do Compulsory Schooling Laws Affect Fertility Behaviors and Marriages? Evidence from India (Under Review) `|` [GLO Discussion Paper 1588](https://ideas.repec.org/p/zbw/glodps/1588.html)
+- Do Compulsory Schooling Laws Affect Fertility Behaviors and Marriages? Evidence from India (Revise and Resubmit with Minor Revisions) `|` [GLO Discussion Paper 1588](https://ideas.repec.org/p/zbw/glodps/1588.html)
 - Impact of COVID-19 Lockdowns on Childbirth Delivery Care in India <span style="font-size:13px;"> </span> (Under Review)
 - Underemployed Worker’s Health: Evidence from States’ Minimum Wage Levels <span style="font-size:13px;"> *with [Soumak Basumallik](https://www.linkedin.com/in/soumakbasumallik/)* </span> (Under Review)
 - The Intergenerational Effect of Parental Education on Child Health: Evidence from India 
