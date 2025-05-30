@@ -39,5 +39,6 @@ header:
 
 **Other Professional Writing**
 
+- [Rental Car Insurance](https://wallethub.com/edu/ci/rental-car-insurance/10030#expert=Sandipa_Bhattacharjee), WalletHub (May 30, 2025)
 - [Healthiest & Unhealthiest Cities in America](https://wallethub.com/edu/healthiest-cities/31072#expert=Sandipa_Bhattacharjee), WalletHub (March 31, 2025)
 
