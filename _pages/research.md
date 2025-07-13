@@ -9,20 +9,20 @@ header:
 
 **Peer-Reviewed Publications**
 - Do Compulsory Schooling Laws Affect Fertility Behaviors and Marriages? Evidence from India (2025)<br>
-  *Solo-authored*<br>
+  <span style="font-size:13px;"> *Solo-authored* </span> <br>
   [Review of Development Economics](http://doi.org/10.1111/rode.70016)<br>
   Pre-Submission Version: [GLO Discussion Paper 1588](https://ideas.repec.org/p/zbw/glodps/1588.html)
 
 **Working Papers**
 
 - Exchange Rate Volatility and International Students’ Educational Choice: Evidence from U.S.<br>
-  *Solo-authored*<br>
+  <span style="font-size:13px;"> *Solo-authored* </span> <br>
   Revise and Resubmit, Eastern Economic Journal
 - Impact of COVID-19 Lockdowns on Childbirth Delivery Care in India<br>
-  *with [Shamma Alam](https://sites.google.com/view/shamma-alam) and [Bijetri Bose](https://bijetri.github.io/)*<br>
+  <span style="font-size:13px;"> *with [Shamma Alam](https://sites.google.com/view/shamma-alam) and [Bijetri Bose](https://bijetri.github.io/)* </span> <br>
   Under Review
 - Underemployed Worker’s Health: Evidence from States’ Minimum Wage Levels<br> 
-  *with [Soumak Basumallik](https://www.linkedin.com/in/soumakbasumallik/)*<br>
+  <span style="font-size:13px;"> *with [Soumak Basumallik](https://www.linkedin.com/in/soumakbasumallik/)* </span> <br>
   Under Review
 - The Intergenerational Effect of Parental Education on Child Health: Evidence from India 
     
