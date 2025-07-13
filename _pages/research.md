@@ -7,7 +7,7 @@ header:
   og_image: "research/ecdf.png"
 ---
 
-**Publications**
+**Peer-Reviewed Publications**
 - Do Compulsory Schooling Laws Affect Fertility Behaviors and Marriages? Evidence from India (2025)<br>
   *Solo-authored*<br>
   [Review of Development Economics](http://doi.org/10.1111/rode.70016)<br>
