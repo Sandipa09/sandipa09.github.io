@@ -8,7 +8,7 @@ header:
 ---
 
 **Publications**
-- *Do Compulsory Schooling Laws Affect Fertility Behaviors and Marriages? Evidence from India* (2025)<br>
+- Do Compulsory Schooling Laws Affect Fertility Behaviors and Marriages? Evidence from India (2025)<br>
   Solo-authored<br>
   [Review of Development Economics](http://doi.org/10.1111/rode.70016)<br>
   Pre-Submission Version: [GLO Discussion Paper 1588](https://ideas.repec.org/p/zbw/glodps/1588.html)
