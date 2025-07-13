@@ -15,9 +15,15 @@ header:
 
 **Working Papers**
 
-- Exchange Rate Volatility and International Students’ Educational Choice: Evidence from U.S. (Revise and Resubmit)
-- Impact of COVID-19 Lockdowns on Childbirth Delivery Care in India <span style="font-size:13px;"> </span> (Under Review)
-- Underemployed Worker’s Health: Evidence from States’ Minimum Wage Levels <span style="font-size:13px;"> *with [Soumak Basumallik](https://www.linkedin.com/in/soumakbasumallik/)* </span> (Under Review)
+- Exchange Rate Volatility and International Students’ Educational Choice: Evidence from U.S.<br>
+  *Solo-authored*<br>
+  Revise and Resubmit, Eastern Economic Journal
+- Impact of COVID-19 Lockdowns on Childbirth Delivery Care in India<br>
+  *with [Shamma Alam](https://sites.google.com/view/shamma-alam) and [Bijetri Bose](https://bijetri.github.io/)*<br>
+  Under Review
+- Underemployed Worker’s Health: Evidence from States’ Minimum Wage Levels<br> 
+  *with [Soumak Basumallik](https://www.linkedin.com/in/soumakbasumallik/)*<br>
+  Under Review
 - The Intergenerational Effect of Parental Education on Child Health: Evidence from India 
     
     <details style="font-size:80%; background-color:#fffbfa;">
