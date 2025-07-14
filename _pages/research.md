@@ -43,9 +43,11 @@ header:
 
 **Works in Progress**
 
-- Working Less or Working Differently? Home Production and Time Use in the Household <span style="font-size:13px;"> *with [Timothy Haase](https://www.ramapo.edu/asb/faculty/timothy-haase/)* </span>
+- Working Less or Working Differently? Home Production and Time Use in the Household <br>
+  <span style="font-size:13px;"> *with [Timothy Haase](https://www.ramapo.edu/asb/faculty/timothy-haase/)* </span>
 
-- Women's Empowerment in India: Evidence from the Conditional Cash Transfer (CCT) policy <span style="font-size:13px;"> *with [Sharbani Bhattacharjee](https://sites.google.com/view/sharbani/home?authuser=0)* </span>
+- Women's Empowerment in India: Evidence from the Conditional Cash Transfer (CCT) policy <br>
+  <span style="font-size:13px;"> *with [Sharbani Bhattacharjee](https://sites.google.com/view/sharbani/home?authuser=0)* </span>
 
 - Family and Professional Liaison and its Effect on Immigrants Labor Market
 
