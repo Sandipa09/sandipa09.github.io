@@ -6,10 +6,11 @@ author_profile: true
 header:
   og_image: "research/ecdf.png"
 ---
+- GLO Research Fellow `|` <span style="font-size:13px;"> Global Labor Organization [2025-Present]</span>
 - Research and Engagement Academy, Research Fellow `|` <span style="font-size:13px;"> Ramapo College of New Jersey [2025]</span>
 - Faculty Scholarship Funding `|` <span style="font-size:13px;"> Ramapo College of New Jersey [2024-2025]</span>
 - GLO Virtual Young Scholars (VirtYS) Program 2023-24 Cohort [Fellow](https://glabor.org/user/sandipab/) `|` <span style="font-size:13px;"> Global Labor Organization [2023-2024]</span>
-- GLO Affiliate `|` <span style="font-size:13px;"> Global Labor Organization [2023]</span>
+- GLO Affiliate `|` <span style="font-size:13px;"> Global Labor Organization [2023-Present]</span>
 - [Excellence in Research, Scholarship & Creativity Award](https://www.buffalo.edu/celebration-of-academic-excellence/StudentExcellence/PreviousStudentExcellence/ub-awards/ub-excellence-in-research--scholarship-and-creativity.html) `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2023]</span>
 - ALANA Academic Achievement Award `|` <span style="font-size:13px;"> Intercultural and Diversity Center, University at Buffalo, SUNY [2023]</span>
 - International Graduate Student Academic Excellence Award `|` <span style="font-size:13px;"> University at Buffalo, SUNY [2023]</span>
