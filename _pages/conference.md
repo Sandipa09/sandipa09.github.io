@@ -17,7 +17,7 @@ header:
 - Midwest Economics Association, Chicago [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - Eastern Economic Association, Boston [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - Global Labor Organization (GLO) Seminar Series (Virtual) [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
-- Conference on Contemporary Issues in Development Economics, Jadavpur University, Kolkata, India [2023] `|` <span style="font-size:13px;"> Presenter </span>
+- Contemporary Issues in Development Economics, Jadavpur University, Kolkata, India [2023] `|` <span style="font-size:13px;"> Presenter </span>
 - Midwest Economics Association, Cleveland [2023] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
 - Eastern Economic Association, New York [2023] `|` <span style="font-size:13px;"> Presenter </span>
 - Association for Public Policy Analysis & Management, Washington D.C. [2022] `|` <span style="font-size:13px;"> Co-author Presenter </span>
