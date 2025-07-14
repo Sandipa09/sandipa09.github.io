@@ -8,7 +8,6 @@ header:
 ---
 **Media Links**
 
- - [Healthiest & Unhealthiest Cities in America (2025), Expert Comments](https://wallethub.com/edu/healthiest-cities/31072#expert=Sandipa_Bhattacharjee) - WalletHub
  - [Graduate Assistant Spotlight](https://arts-sciences.buffalo.edu/economics/news-events/student-news/graduate-assistant-spotlight-sandipa-bhattacharjee.html) - University at Buffalo, SUNY, Department of Economics, Student News
  - [In Student News](https://arts-sciences.buffalo.edu/economics/news-events/student-news/sandipa-bhattacharjee.html) - University at Buffalo, SUNY, Department of Economics
  - [Ph.D. Alumni](https://arts-sciences.buffalo.edu/economics/graduate/phd/phd-alumni-collapsable.html#collapsible_1808566155) - University at Buffalo, SUNY, Department of Economics
