@@ -9,11 +9,13 @@ title: "Teaching"
      - Spring 2025
 
  - **ECO 102: Introduction to Macroeconomics**
-     - Spring 2025
+     - Fall 2025, 2 sections
+     - Spring 2025, 1 section
      - Fall 2024, 2 sections
      - Spring 2024, 2 sections
 
  - **ECO 101: Microeconomics**
+     - Fall 2025, 1 section
      - Spring 2025, 2 sections
      - Fall 2024, 1 section
      - Spring 2024, 1 section
