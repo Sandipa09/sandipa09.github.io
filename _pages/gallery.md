@@ -21,10 +21,11 @@ author_profile: true
             </div>
           {% endif %}
         </div>
-
+        
         <div class="carousel-container">
           {% if gallery_item.images.size > 1 %}
-            <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": false, "pauseAutoPlayOnHover": false }'>
+            <!-- Multiple images: Use carousel -->
+            <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": false, "pauseAutoPlayOnHover": false, "wrapAround": true }'>
               {% for image in gallery_item.images %}
                 <div class="carousel-cell">
                   <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
@@ -32,6 +33,7 @@ author_profile: true
               {% endfor %}
             </div>
           {% else %}
+            <!-- Single image: Just display it -->
             <div class="single-image">
               {% for image in gallery_item.images %}
                 <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
@@ -45,25 +47,71 @@ author_profile: true
 </div>
 
 <style>
-/* Ensure spacing and responsiveness */
-.photo-gallery {
-  max-width: 100%;
-  padding: 0 1rem;
-  margin-top: -20px; /* Add negative margin to reduce top spacing */
+.carousel-container {
+  flex: 1;
+  max-width: 500px;
 }
 
-/* Layout */
+.carousel {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden; /* Ensure content stays within bounds */
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 300px;
+  margin-right: 10px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Prevent flickity from resizing cells incorrectly */
+  flex-shrink: 0;
+}
+
+.carousel-cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  /* Prevent image dragging issues on mobile */
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+/* Single image styling */
+.single-image {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 .gallery-section {
-  margin-bottom: 10px; /* Reduced from 30px */
+  margin-bottom: 60px;
   border-bottom: 1px solid #eee;
-  padding-bottom: 5px; /* Reduced from 20px */
+  padding-bottom: 40px;
 }
 
 .gallery-content {
   display: flex;
-  flex-wrap: wrap;
   align-items: flex-start;
-  gap: 20px; /* Reduced from 40px */
+  gap: 40px;
 }
 
 .gallery-info {
@@ -79,74 +127,13 @@ author_profile: true
   flex-direction: row-reverse;
 }
 
-/* Carousel styling */
-.carousel-container {
-  flex: 1;
-  max-width: 500px;
-  margin: 0; /* Remove any default margin */
-}
-
-.carousel {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  margin: 0; /* Remove any margin */
-  padding: 0; /* Remove any padding */
-}
-
-.carousel-cell {
-  width: 100%;
-  margin-right: 10px;
-  background: #f8f8f8;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0; /* Remove padding */
-}
-
-.carousel-cell img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  margin: 0; /* Remove any margin */
-  padding: 0; /* Remove any padding */
-  display: block; /* Remove any inline spacing */
-}
-
-/* Single image styling */
-.single-image {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0; /* Remove any margin */
-  padding: 0; /* Remove any padding */
-}
-
-.single-image img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  margin: 0; /* Remove any margin */
-  padding: 0; /* Remove any padding */
-  display: block; /* Remove any inline spacing */
-}
-
-/* Gallery text */
 .gallery-text {
-  margin-top: 10px; /* Reduced from 20px */
+  margin-top: 20px;
   font-size: 1.1em;
   line-height: 1.6;
 }
 
-/* Flickity custom */
+/* Flickity custom styling */
 .flickity-page-dots {
   bottom: -30px;
 }
@@ -175,81 +162,125 @@ author_profile: true
   background: rgba(0, 0, 0, 0.8);
 }
 
-/* Responsive Design */
+/* Responsive design */
 @media (max-width: 768px) {
-  .gallery-section.left .gallery-content,
-  .gallery-section.right .gallery-content {
-    flex-direction: column;
-    gap: 15px; /* Reduced from 20px */
+  .gallery-content {
+    flex-direction: column !important;
   }
-
-  .gallery-info,
+  
+  .gallery-info {
+    min-width: auto;
+  }
+  
   .carousel-container {
+    max-width: 100%;
+  }
+  
+  /* Mobile-specific carousel fixes */
+  .carousel {
+    margin: 0;
     width: 100%;
-    min-width: unset;
   }
-
-  .carousel-cell,
-  .single-image img {
-    height: auto;
+  
+  .carousel-cell {
+    height: 250px; /* Slightly smaller on mobile */
+    margin-right: 5px; /* Reduce margin on mobile */
   }
-
+  
+  /* Improve touch interaction */
+  .flickity-viewport {
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Adjust navigation buttons for mobile */
   .flickity-prev-next-button {
     width: 35px;
     height: 35px;
+    top: 50%;
+    transform: translateY(-50%);
   }
-
-  .flickity-page-dots {
-    bottom: -25px;
+  
+  .flickity-prev-next-button.previous {
+    left: 10px;
   }
-
+  
+  .flickity-prev-next-button.next {
+    right: 10px;
+  }
+  
+  /* Make dots more touch-friendly */
   .flickity-page-dots .dot {
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
+    margin: 0 8px;
   }
 }
 
+/* Extra small devices */
 @media (max-width: 480px) {
+  .carousel-cell {
+    height: 200px;
+  }
+  
+  .single-image img {
+    height: 200px;
+  }
+  
   .gallery-content {
-    gap: 10px; /* Reduced from 15px */
+    gap: 20px;
   }
-
+  
   .gallery-section {
-    margin-bottom: 5px; /* Reduced from 20px */
-    padding-bottom: 5px; /* Reduced from 15px */
-  }
-
-  .gallery-text {
-    font-size: 1em;
+    margin-bottom: 40px;
   }
 }
 </style>
 
 <!-- Flickity JS -->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  // Initialize all carousels
   const carousels = document.querySelectorAll('.carousel');
+  
   carousels.forEach(function(carousel) {
+    const isMobile = window.innerWidth <= 768;
+    
     const flkty = new Flickity(carousel, {
       cellAlign: 'left',
       contain: true,
       autoPlay: false,
-      pauseAutoPlayOnHover: false
+      pauseAutoPlayOnHover: false,
+      wrapAround: true,
+      // Mobile-specific options
+      friction: isMobile ? 0.8 : 0.28,
+      selectedAttraction: isMobile ? 0.2 : 0.025,
+      freeScrollFriction: isMobile ? 0.8 : 0.075,
+      // Prevent issues with touch devices
+      accessibility: true,
+      setGallerySize: false
     });
-
-    // Add hover autoplay for desktop
-    if (window.innerWidth > 768) {
+    
+    // Only add hover behavior on non-touch devices
+    if (!('ontouchstart' in window)) {
+      // Start autoplay on hover with 2 second interval
       carousel.addEventListener('mouseenter', function() {
-        flkty.options.autoPlay = 2000;
+        flkty.options.autoPlay = 2000;  // Set autoplay interval
         flkty.playPlayer();
       });
-
+      
+      // Stop autoplay when mouse leaves
       carousel.addEventListener('mouseleave', function() {
         flkty.pausePlayer();
-        flkty.options.autoPlay = false;
+        flkty.options.autoPlay = false;  // Disable autoplay
       });
     }
+    
+    // Handle resize events
+    window.addEventListener('resize', function() {
+      flkty.resize();
+    });
   });
 });
 </script>
