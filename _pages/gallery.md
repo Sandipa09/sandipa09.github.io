@@ -5,9 +5,8 @@ permalink: /gallery/
 author_profile: true
 ---
 
-<!-- Glide.js CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+<!-- Flickity CSS -->
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 <div class="photo-gallery">
   {% for gallery_item in site.gallery %}
@@ -25,28 +24,13 @@ author_profile: true
         
         <div class="carousel-container">
           {% if gallery_item.images.size > 1 %}
-            <!-- Multiple images: Use Glide -->
-            <div class="glide gallery-glide" data-gallery="gallery-{{ forloop.index }}">
-              <div class="glide__track" data-glide-el="track">
-                <ul class="glide__slides">
-                  {% for image in gallery_item.images %}
-                    <li class="glide__slide">
-                      <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-              
-              <div class="glide__arrows" data-glide-el="controls">
-                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">‹</button>
-                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">›</button>
-              </div>
-              
-              <div class="glide__bullets" data-glide-el="controls[nav]">
-                {% for image in gallery_item.images %}
-                  <button class="glide__bullet" data-glide-dir="={{ forloop.index0 }}"></button>
-                {% endfor %}
-              </div>
+            <!-- Multiple images: Use carousel -->
+            <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": false, "pauseAutoPlayOnHover": false }'>
+              {% for image in gallery_item.images %}
+                <div class="carousel-cell">
+                  <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
+                </div>
+              {% endfor %}
             </div>
           {% else %}
             <!-- Single image: Just display it -->
@@ -66,34 +50,33 @@ author_profile: true
 .carousel-container {
   flex: 1;
   max-width: 500px;
-  position: relative;
 }
 
-.gallery-glide {
-  width: 100%;
-  height: 300px;
+.carousel {
+  background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  overflow: hidden;
-  background: #fff;
-  position: relative;
 }
 
-.glide__slide {
+.carousel-cell {
+  width: 100%;
+  height: 300px;
+  margin-right: 10px;
+  background: #f8f8f8;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f8f8f8;
-  height: 300px;
 }
 
-.glide__slide img {
+.carousel-cell img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
-/* Single image styling - match glide dimensions */
+/* Single image styling - match carousel dimensions */
 .single-image {
   width: 100%;
   height: 300px;
@@ -103,13 +86,13 @@ author_profile: true
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 .single-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .gallery-section {
@@ -143,70 +126,36 @@ author_profile: true
   line-height: 1.6;
 }
 
-/* Custom Glide styling */
-.glide__arrows {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  pointer-events: none;
-  z-index: 10;
+/* Flickity custom styling */
+.flickity-page-dots {
+  bottom: -30px;
 }
 
-.glide__arrow {
-  position: absolute;
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  background: #bbb;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: #333;
+}
+
+.flickity-prev-next-button {
   background: rgba(0, 0, 0, 0.5);
   color: white;
-  border: none;
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  font-size: 18px;
-  cursor: pointer;
-  pointer-events: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.3s;
 }
 
-.glide__arrow:hover {
+.flickity-prev-next-button:hover {
   background: rgba(0, 0, 0, 0.8);
 }
 
-.glide__arrow--left {
-  left: 10px;
-}
-
-.glide__arrow--right {
-  right: 10px;
-}
-
-.glide__bullets {
-  position: absolute;
-  bottom: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 8px;
-  z-index: 10;
-}
-
-.glide__bullet {
-  background: rgba(255, 255, 255, 0.6);
-  border: none;
-  border-radius: 50%;
-  width: 12px;
-  height: 12px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.glide__bullet--active {
-  background: white;
-}
-
-/* Responsive design */
+/* Mobile responsive fixes */
 @media (max-width: 768px) {
   .gallery-content {
     flex-direction: column !important;
@@ -221,43 +170,42 @@ author_profile: true
     width: 100%;
   }
   
-  .gallery-glide {
+  .carousel {
     height: 250px;
   }
   
-  .glide__slide {
+  .carousel-cell {
     height: 250px;
+    margin-right: 5px;
   }
   
   .single-image {
     height: 250px;
-    width: 100%;
   }
   
-  .glide__arrow {
+  .flickity-prev-next-button {
     width: 35px;
     height: 35px;
-    font-size: 16px;
   }
   
-  .glide__bullet {
+  .flickity-page-dots .dot {
     width: 14px;
     height: 14px;
+    margin: 0 8px;
   }
 }
 
 @media (max-width: 480px) {
-  .gallery-glide {
+  .carousel {
     height: 200px;
   }
   
-  .glide__slide {
+  .carousel-cell {
     height: 200px;
   }
   
   .single-image {
     height: 200px;
-    width: 100%;
   }
   
   .gallery-content {
@@ -268,90 +216,76 @@ author_profile: true
     margin-bottom: 40px;
   }
   
-  .glide__arrow {
+  .flickity-prev-next-button {
     width: 30px;
     height: 30px;
-    font-size: 14px;
   }
 }
 </style>
 
-<!-- Glide.js JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+<!-- Flickity JS -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 <script>
-console.log('Script tag loaded');
-
-window.addEventListener('load', function() {
-  console.log('🚀 Window loaded, starting gallery initialization...');
+// Robust initialization for Jekyll
+function initFlickity() {
+  console.log('🚀 Initializing Flickity...');
+  console.log('Flickity available:', typeof Flickity !== 'undefined');
+  console.log('Carousels found:', document.querySelectorAll('.carousel').length);
   
-  // Check if Glide is available
-  if (typeof Glide === 'undefined') {
-    console.error('❌ Glide.js is not loaded!');
+  const carousels = document.querySelectorAll('.carousel');
+  
+  if (typeof Flickity === 'undefined') {
+    console.log('⏳ Flickity not ready, retrying...');
+    setTimeout(initFlickity, 200);
     return;
   }
   
-  console.log('✅ Glide.js is loaded');
-  
-  // Find all gallery elements
-  const galleries = document.querySelectorAll('.gallery-glide');
-  console.log('Found', galleries.length, 'galleries');
-  
-  if (galleries.length === 0) {
-    console.log('No galleries found');
+  if (carousels.length === 0) {
+    console.log('⏳ No carousels found, retrying...');
+    setTimeout(initFlickity, 200);
     return;
   }
   
-  galleries.forEach(function(gallery, index) {
-    const galleryId = gallery.getAttribute('data-gallery') || 'gallery-' + index;
-    console.log('Initializing gallery:', galleryId);
+  carousels.forEach(function(carousel, index) {
+    // Skip if already initialized
+    if (carousel.flickityData) {
+      console.log(`✅ Carousel ${index + 1} already initialized`);
+      return;
+    }
     
     try {
-      // Create Glide instance
-      const glide = new Glide(gallery, {
-        type: 'carousel',
-        startAt: 0,
-        perView: 1,
-        focusAt: 'center',
-        gap: 0,
-        autoplay: false,
-        hoverpause: true,
-        animationDuration: 400,
-        animationTimingFunc: 'ease',
-        keyboard: true,
-        swipeThreshold: 80,
-        dragThreshold: 120
+      const flkty = new Flickity(carousel, {
+        cellAlign: 'left',
+        contain: true,
+        autoPlay: false,
+        pauseAutoPlayOnHover: false
       });
       
-      // Store reference
-      gallery._glide = glide;
+      console.log(`✅ Carousel ${index + 1} initialized successfully`);
       
-      // Mount the glide
-      glide.mount();
-      
-      console.log('✅ Gallery', galleryId, 'initialized successfully');
-      
-      // Test if controls work
-      const arrows = gallery.querySelectorAll('.glide__arrow');
-      const bullets = gallery.querySelectorAll('.glide__bullet');
-      console.log('Found', arrows.length, 'arrows and', bullets.length, 'bullets');
-      
-      // Add hover autoplay for desktop only
+      // Add hover autoplay for non-touch devices only
       if (!('ontouchstart' in window)) {
-        gallery.addEventListener('mouseenter', function() {
-          glide.update({ autoplay: 2000 });
-          glide.play();
+        carousel.addEventListener('mouseenter', function() {
+          flkty.options.autoPlay = 2000;
+          flkty.playPlayer();
         });
         
-        gallery.addEventListener('mouseleave', function() {
-          glide.pause();
-          glide.update({ autoplay: false });
+        carousel.addEventListener('mouseleave', function() {
+          flkty.pausePlayer();
+          flkty.options.autoPlay = false;
         });
       }
       
     } catch (error) {
-      console.error('❌ Error initializing gallery', galleryId, ':', error);
+      console.error(`❌ Error initializing carousel ${index + 1}:`, error);
     }
   });
-});
+}
+
+// Multiple initialization attempts
+document.addEventListener('DOMContentLoaded', initFlickity);
+window.addEventListener('load', initFlickity);
+setTimeout(initFlickity, 1000); // Jekyll fallback
+setTimeout(initFlickity, 2000); // Final fallback
 </script>
