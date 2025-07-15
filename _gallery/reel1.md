@@ -1,5 +1,5 @@
 ---
-title: "3 Minute Thesis Competition"
+title: "3 Minute Thesis Competition 2023"
 description: "Second Place and People's Choice Award Winner"
 images:
   - "/images/gallery/converted-image-GIT_3MT_1.jpg"
@@ -14,4 +14,4 @@ images:
 date: 2024-07-15
 ---
 
-Additional text content about this gallery collection goes here.
+[About the competition](https://www.buffalo.edu/three-minute-thesis/past/2023.html)
