@@ -23,7 +23,7 @@ author_profile: true
         </div>
         
         <div class="carousel-container">
-          <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": 3000, "pauseAutoPlayOnHover": true }'>
+          <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": false, "pauseAutoPlayOnHover": false }'>
             {% for image in gallery_item.images %}
               <div class="carousel-cell">
                 <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
@@ -144,3 +144,29 @@ author_profile: true
 
 <!-- Flickity JS -->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Initialize all carousels
+  const carousels = document.querySelectorAll('.carousel');
+  
+  carousels.forEach(function(carousel) {
+    const flkty = new Flickity(carousel, {
+      cellAlign: 'left',
+      contain: true,
+      autoPlay: false,
+      pauseAutoPlayOnHover: false
+    });
+    
+    // Start autoplay on hover
+    carousel.addEventListener('mouseenter', function() {
+      flkty.playPlayer();
+    });
+    
+    // Stop autoplay when mouse leaves
+    carousel.addEventListener('mouseleave', function() {
+      flkty.pausePlayer();
+    });
+  });
+});
+</script>
