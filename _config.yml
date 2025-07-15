@@ -187,6 +187,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  gallery:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -237,6 +240,14 @@ defaults:
       share: true
       comment: true
   # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+  # _gallery
   - scope:
       path: ""
       type: talks
