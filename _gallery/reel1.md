@@ -1,11 +1,11 @@
 ---
-title: "Talk 1 on Relevant Topic in Your Field"
-collection: gallery
-type: "Talk"
-permalink: /gallery/1
-venue: "UC San Francisco, Department of Testing"
-date: 2012-03-01
-location: "San Francisco, CA, USA"
+title: "Vacation 2024"
+description: "Summer vacation photos from our trip to Europe"
+images:
+  - /images/gallery/vacation1.jpg
+  - /images/gallery/vacation2.jpg
+  - /images/gallery/vacation3.jpg
+date: 2024-07-15
 ---
 
-This is a description of your talk, which is a markdown file that can be all markdown-ified like any other post. Yay markdown!
+Additional text content about this gallery collection goes here.
