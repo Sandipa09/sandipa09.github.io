@@ -23,12 +23,16 @@ author_profile: true
         </div>
         
         <div class="carousel-container">
+          <!-- Debug info -->
+          <p>Debug: {{ gallery_item.images.size }} images found</p>
+          
           <section class="splide" id="splide-{{ forloop.index }}">
             <div class="splide__track">
               <ul class="splide__list">
                 {% for image in gallery_item.images %}
                   <li class="splide__slide">
                     <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
+                    <p>Debug: {{ image }}</p>
                   </li>
                 {% endfor %}
               </ul>
@@ -44,18 +48,28 @@ author_profile: true
 .carousel-container {
   flex: 1;
   max-width: 500px;
+  border: 2px solid red; /* Debug border */
+}
+
+.splide {
+  border: 2px solid blue; /* Debug border */
+  min-height: 300px;
 }
 
 .splide__slide {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 300px;
+  border: 1px solid green; /* Debug border */
 }
 
 .splide__slide img {
   width: 100%;
-  height: 300px;  /* Fixed height back to ensure visibility */
-  object-fit: cover;  /* Changed back to cover for now */
+  max-width: 400px;
+  height: 250px;
+  object-fit: cover;
   border-radius: 10px;
   display: block;
 }
@@ -91,61 +105,6 @@ author_profile: true
   line-height: 1.6;
 }
 
-/* Custom Splide styling */
-.splide {
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.splide__pagination {
-  bottom: -40px;
-}
-
-.splide__pagination__page {
-  background-color: #bbb;
-  width: 12px;
-  height: 12px;
-  margin: 0 5px;
-  transition: background-color 0.3s ease;
-}
-
-.splide__pagination__page:hover {
-  background-color: #717171;
-}
-
-.splide__pagination__page.is-active {
-  background-color: #333;
-}
-
-/* Arrow styling */
-.splide__arrow {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.splide__arrow:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.splide__arrow--prev {
-  left: 10px;
-}
-
-.splide__arrow--next {
-  right: 10px;
-}
-
-.splide__arrow svg {
-  width: 20px;
-  height: 20px;
-}
-
 /* Responsive design */
 @media (max-width: 768px) {
   .gallery-content {
@@ -159,11 +118,6 @@ author_profile: true
   .carousel-container {
     max-width: 100%;
   }
-  
-  .splide__arrow {
-    width: 35px;
-    height: 35px;
-  }
 }
 </style>
 
@@ -172,23 +126,32 @@ author_profile: true
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+  console.log('DOM loaded, initializing carousels...');
+  
   {% for gallery_item in site.gallery %}
-    new Splide('#splide-{{ forloop.index }}', {
-      type: 'loop',
-      autoplay: true,  // Changed to true to start autoplay
-      interval: 4000,   // 4 seconds between slides
-      arrows: true,
-      pagination: true,
-      perPage: 1,
-      gap: 0,
-      pauseOnHover: true,
-      pauseOnFocus: true,
-      breakpoints: {
-        768: {
+    console.log('Initializing carousel {{ forloop.index }}');
+    
+    const splideElement = document.getElementById('splide-{{ forloop.index }}');
+    if (splideElement) {
+      console.log('Found element:', splideElement);
+      
+      try {
+        new Splide('#splide-{{ forloop.index }}', {
+          type: 'loop',
+          autoplay: false,  // Disable autoplay for debugging
           arrows: true,
-        }
+          pagination: true,
+          perPage: 1,
+          gap: 0
+        }).mount();
+        
+        console.log('Carousel {{ forloop.index }} mounted successfully');
+      } catch (error) {
+        console.error('Error mounting carousel {{ forloop.index }}:', error);
       }
-    }).mount();
+    } else {
+      console.error('Could not find element splide-{{ forloop.index }}');
+    }
   {% endfor %}
 });
 </script>
