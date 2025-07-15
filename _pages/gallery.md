@@ -280,25 +280,31 @@ author_profile: true
 <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
 
 <script>
-// Check if Glide is loaded
-if (typeof Glide === 'undefined') {
-  console.error('❌ Glide.js is not loaded!');
-} else {
-  console.log('✅ Glide.js is loaded');
-}
-
-// Simple, reliable initialization for Jekyll
-document.addEventListener('DOMContentLoaded', function() {
-  console.log('🚀 Initializing Glide galleries...');
+(function() {
+  'use strict';
   
-  // Wait a bit to ensure everything is loaded
-  setTimeout(function() {
+  function initializeGalleries() {
+    console.log('🚀 Starting gallery initialization...');
+    
+    // Check if Glide is available
+    if (typeof Glide === 'undefined') {
+      console.error('❌ Glide.js is not loaded!');
+      return;
+    }
+    
+    console.log('✅ Glide.js is loaded');
+    
     // Find all gallery elements
     const galleries = document.querySelectorAll('.gallery-glide');
     console.log('Found', galleries.length, 'galleries');
     
+    if (galleries.length === 0) {
+      console.log('No galleries found');
+      return;
+    }
+    
     galleries.forEach(function(gallery, index) {
-      const galleryId = gallery.getAttribute('data-gallery');
+      const galleryId = gallery.getAttribute('data-gallery') || 'gallery-' + index;
       console.log('Initializing gallery:', galleryId);
       
       try {
@@ -348,6 +354,17 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error('❌ Error initializing gallery', galleryId, ':', error);
       }
     });
-  }, 100); // Small delay to ensure DOM is ready
-});
+  }
+  
+  // Try multiple initialization methods
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeGalleries);
+  } else {
+    initializeGalleries();
+  }
+  
+  // Also try with a delay in case Jekyll is slow
+  setTimeout(initializeGalleries, 500);
+  
+})();
 </script>
