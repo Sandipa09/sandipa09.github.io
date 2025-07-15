@@ -8,4 +8,4 @@ images:
 date: 2024-07-15
 ---
 
-2025 Graduate Honoree.
+2023 Graduate Honoree.
