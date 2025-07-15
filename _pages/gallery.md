@@ -21,11 +21,10 @@ author_profile: true
             </div>
           {% endif %}
         </div>
-        
+
         <div class="carousel-container">
           {% if gallery_item.images.size > 1 %}
-            <!-- Multiple images: Use carousel -->
-            <div class="carousel">
+            <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": false, "pauseAutoPlayOnHover": false }'>
               {% for image in gallery_item.images %}
                 <div class="carousel-cell">
                   <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
@@ -33,7 +32,6 @@ author_profile: true
               {% endfor %}
             </div>
           {% else %}
-            <!-- Single image: Just display it -->
             <div class="single-image">
               {% for image in gallery_item.images %}
                 <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
@@ -47,52 +45,13 @@ author_profile: true
 </div>
 
 <style>
-.carousel-container {
-  flex: 1;
-  max-width: 500px;
+/* Ensure spacing and responsiveness */
+.photo-gallery {
+  max-width: 100%;
+  padding: 0 1rem;
 }
 
-.carousel {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.carousel-cell {
-  width: 100%;
-  height: 300px;
-  margin-right: 10px;
-  background: #f8f8f8;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.carousel-cell img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-/* Single image styling */
-.single-image {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.single-image img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
+/* Layout */
 .gallery-section {
   margin-bottom: 60px;
   border-bottom: 1px solid #eee;
@@ -101,6 +60,7 @@ author_profile: true
 
 .gallery-content {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 40px;
 }
@@ -118,13 +78,62 @@ author_profile: true
   flex-direction: row-reverse;
 }
 
+/* Carousel styling */
+.carousel-container {
+  flex: 1;
+  max-width: 500px;
+}
+
+.carousel {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.carousel-cell {
+  width: 100%;
+  margin-right: 10px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-cell img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Single image styling */
+.single-image {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-image img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Gallery text */
 .gallery-text {
   margin-top: 20px;
   font-size: 1.1em;
   line-height: 1.6;
 }
 
-/* Flickity custom styling */
+/* Flickity custom */
 .flickity-page-dots {
   bottom: -30px;
 }
@@ -135,7 +144,6 @@ author_profile: true
   background: #bbb;
   border-radius: 50%;
   margin: 0 5px;
-  cursor: pointer;
 }
 
 .flickity-page-dots .dot.is-selected {
@@ -148,100 +156,77 @@ author_profile: true
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  cursor: pointer;
 }
 
 .flickity-prev-next-button:hover {
   background: rgba(0, 0, 0, 0.8);
 }
 
-/* Enhanced mobile responsive design */
+/* Responsive Design */
 @media (max-width: 768px) {
-  .gallery-content {
-    flex-direction: column !important;
+  .gallery-section.left .gallery-content,
+  .gallery-section.right .gallery-content {
+    flex-direction: column;
     gap: 20px;
   }
-  
-  .gallery-info {
-    min-width: auto;
-    order: 2;
-  }
-  
+
+  .gallery-info,
   .carousel-container {
-    max-width: 100%;
-    order: 1;
+    width: 100%;
+    min-width: unset;
   }
-  
-  .carousel-cell {
-    height: 250px;
-  }
-  
+
+  .carousel-cell,
   .single-image img {
-    height: 250px;
+    height: auto;
   }
-  
+
   .flickity-prev-next-button {
     width: 35px;
     height: 35px;
   }
-  
+
   .flickity-page-dots {
     bottom: -25px;
   }
-  
+
   .flickity-page-dots .dot {
     width: 10px;
     height: 10px;
   }
 }
 
-/* Fix for very small screens */
 @media (max-width: 480px) {
-  .carousel-cell {
-    height: 200px;
-  }
-  
-  .single-image img {
-    height: 200px;
-  }
-  
-  .gallery-info {
-    min-width: auto;
-  }
-  
   .gallery-content {
     gap: 15px;
+  }
+
+  .gallery-text {
+    font-size: 1em;
   }
 }
 </style>
 
 <!-- Flickity JS -->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Simple initialization for all carousels
   const carousels = document.querySelectorAll('.carousel');
-  
   carousels.forEach(function(carousel) {
-    // Initialize Flickity with basic options
     const flkty = new Flickity(carousel, {
       cellAlign: 'left',
       contain: true,
       autoPlay: false,
-      wrapAround: true,
-      dragThreshold: 10,
-      lazyLoad: true,
-      imagesLoaded: true
+      pauseAutoPlayOnHover: false
     });
-    
-    // Add hover autoplay only for desktop
+
+    // Add hover autoplay for desktop
     if (window.innerWidth > 768) {
       carousel.addEventListener('mouseenter', function() {
         flkty.options.autoPlay = 2000;
         flkty.playPlayer();
       });
-      
+
       carousel.addEventListener('mouseleave', function() {
         flkty.pausePlayer();
         flkty.options.autoPlay = false;
