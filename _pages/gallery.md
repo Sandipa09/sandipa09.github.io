@@ -249,162 +249,134 @@ author_profile: true
 }
 </style>
 
-<!-- Swiper JS -->
+<!-- Swiper JS with multiple loading strategies -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+<!-- Inline script with immediate execution -->
 <script>
-// More robust loading and initialization
+// Wrap everything in IIFE to avoid conflicts
 (function() {
-  let initAttempts = 0;
-  const maxAttempts = 50; // 5 seconds total
+  'use strict';
   
-  function checkAndInit() {
-    initAttempts++;
-    console.log(`Init attempt ${initAttempts}: Swiper available = ${typeof Swiper !== 'undefined'}, DOM ready = ${document.readyState}`);
+  console.log('🔧 Gallery script loading...');
+  console.log('Document ready state:', document.readyState);
+  console.log('Swiper available:', typeof Swiper);
+  
+  // Configuration object
+  const GalleryConfig = {
+    maxAttempts: 100,
+    attemptDelay: 100,
+    attempts: 0,
     
-    // Check if Swiper is loaded and DOM is ready
-    if (typeof Swiper !== 'undefined' && document.readyState !== 'loading') {
-      console.log('✅ Ready to initialize swipers');
-      initializeSwipers();
-      return true;
-    }
-    
-    // Keep trying if we haven't exceeded max attempts
-    if (initAttempts < maxAttempts) {
-      console.log('⏳ Not ready yet, retrying in 100ms...');
-      setTimeout(checkAndInit, 100);
-    } else {
-      console.error('❌ Failed to initialize after', maxAttempts, 'attempts');
-    }
-    
-    return false;
-  }
-
-  // Function to initialize swipers
-  function initializeSwipers() {
-    console.log('🚀 Initializing swipers...');
-    
-    const swipers = document.querySelectorAll('.gallery-swiper');
-    console.log('Found', swipers.length, 'swiper elements');
-    
-    if (swipers.length === 0) {
-      console.log('No swiper elements found, will retry...');
-      // Reset attempts and try again
-      initAttempts = Math.max(0, initAttempts - 10);
-      setTimeout(checkAndInit, 500);
-      return;
-    }
-    
-    let successCount = 0;
-    
-    swipers.forEach(function(swiperEl, index) {
-      console.log(`Initializing swiper ${index + 1}...`);
+    init: function() {
+      this.attempts++;
+      console.log(`Attempt ${this.attempts}: Checking conditions...`);
       
-      // Skip if already initialized
-      if (swiperEl.swiper) {
-        console.log(`Swiper ${index + 1} already initialized`);
-        successCount++;
-        return;
+      // Check all conditions
+      const swiperLoaded = typeof Swiper !== 'undefined';
+      const domReady = document.readyState !== 'loading';
+      const elementsExist = document.querySelectorAll('.gallery-swiper').length > 0;
+      
+      console.log(`- Swiper: ${swiperLoaded}`);
+      console.log(`- DOM: ${domReady}`);
+      console.log(`- Elements: ${elementsExist}`);
+      
+      if (swiperLoaded && domReady && elementsExist) {
+        console.log('✅ All conditions met, initializing...');
+        this.initializeSwipers();
+        return true;
       }
       
-      // Check if this swiper has the required structure
-      const wrapper = swiperEl.querySelector('.swiper-wrapper');
-      const slides = swiperEl.querySelectorAll('.swiper-slide');
-      
-      if (!wrapper || slides.length === 0) {
-        console.warn(`Swiper ${index + 1} missing structure - wrapper: ${!!wrapper}, slides: ${slides.length}`);
-        return;
+      if (this.attempts < this.maxAttempts) {
+        setTimeout(() => this.init(), this.attemptDelay);
+      } else {
+        console.error('❌ Max attempts reached');
       }
+      return false;
+    },
+    
+    initializeSwipers: function() {
+      const swipers = document.querySelectorAll('.gallery-swiper');
+      console.log(`🚀 Found ${swipers.length} swiper elements`);
       
-      try {
-        const galleryIndex = swiperEl.getAttribute('data-gallery-index');
-        console.log(`Creating swiper ${index + 1} with gallery index: ${galleryIndex}`);
-        
-        const swiper = new Swiper(swiperEl, {
-          slidesPerView: 1,
-          spaceBetween: 0,
-          loop: slides.length > 1, // Only loop if more than 1 slide
-          speed: 400,
-          
-          // Autoplay configuration
-          autoplay: {
-            delay: 2000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-          
-          // Pagination - use unique selector for this gallery
-          pagination: {
-            el: `[data-gallery="${galleryIndex}"].swiper-pagination`,
-            clickable: true,
-            dynamicBullets: true,
-          },
-          
-          // Navigation arrows - use unique selectors for this gallery
-          navigation: {
-            nextEl: `[data-gallery="${galleryIndex}"].swiper-button-next`,
-            prevEl: `[data-gallery="${galleryIndex}"].swiper-button-prev`,
-          },
-          
-          // Touch settings for better mobile experience
-          touchRatio: 1,
-          touchAngle: 45,
-          simulateTouch: true,
-          allowTouchMove: true,
-          
-          // Enable keyboard control
-          keyboard: {
-            enabled: true,
-          },
-          
-          // Prevent issues
-          watchOverflow: true,
-          observer: true,
-          observeParents: true,
-        });
-        
-        console.log(`✅ Swiper ${index + 1} created successfully - slides: ${swiper.slides.length}`);
-        
-        // Stop autoplay initially
-        swiper.autoplay.stop();
-        
-        // Add hover autoplay for non-touch devices only
-        if (!('ontouchstart' in window)) {
-          swiperEl.addEventListener('mouseenter', function() {
-            swiper.autoplay.start();
-          });
-          
-          swiperEl.addEventListener('mouseleave', function() {
-            swiper.autoplay.stop();
-          });
+      swipers.forEach((swiperEl, index) => {
+        if (swiperEl.swiper) {
+          console.log(`Swiper ${index + 1} already initialized`);
+          return;
         }
         
-        successCount++;
+        const galleryIndex = swiperEl.getAttribute('data-gallery-index');
+        const slides = swiperEl.querySelectorAll('.swiper-slide');
         
-      } catch (error) {
-        console.error(`❌ Error initializing swiper ${index + 1}:`, error);
-      }
-    });
-    
-    console.log(`🎉 Initialization complete: ${successCount}/${swipers.length} swipers created`);
-  }
-
-  // Start the initialization process immediately
-  checkAndInit();
-
-  // Also try on DOM events as backup
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', checkAndInit);
-  }
-  
-  window.addEventListener('load', checkAndInit);
-  
-  // Final fallback after page fully loads
-  setTimeout(function() {
-    if (typeof Swiper !== 'undefined') {
-      console.log('🔄 Final fallback initialization attempt...');
-      initializeSwipers();
+        console.log(`Initializing swiper ${index + 1}, gallery: ${galleryIndex}, slides: ${slides.length}`);
+        
+        try {
+          const swiper = new Swiper(swiperEl, {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loop: slides.length > 1,
+            speed: 400,
+            autoplay: {
+              delay: 2000,
+              disableOnInteraction: false,
+            },
+            pagination: {
+              el: `[data-gallery="${galleryIndex}"].swiper-pagination`,
+              clickable: true,
+            },
+            navigation: {
+              nextEl: `[data-gallery="${galleryIndex}"].swiper-button-next`,
+              prevEl: `[data-gallery="${galleryIndex}"].swiper-button-prev`,
+            },
+            touchRatio: 1,
+            simulateTouch: true,
+            allowTouchMove: true,
+            observer: true,
+            observeParents: true,
+          });
+          
+          // Stop autoplay initially
+          swiper.autoplay.stop();
+          
+          // Hover autoplay for desktop
+          if (!('ontouchstart' in window)) {
+            swiperEl.addEventListener('mouseenter', () => swiper.autoplay.start());
+            swiperEl.addEventListener('mouseleave', () => swiper.autoplay.stop());
+          }
+          
+          console.log(`✅ Swiper ${index + 1} initialized successfully`);
+          
+        } catch (error) {
+          console.error(`❌ Error with swiper ${index + 1}:`, error);
+        }
+      });
     }
-  }, 2000);
+  };
+  
+  // Start initialization immediately
+  GalleryConfig.init();
+  
+  // Also try on page events
+  document.addEventListener('DOMContentLoaded', () => {
+    console.log('📄 DOMContentLoaded triggered');
+    GalleryConfig.init();
+  });
+  
+  window.addEventListener('load', () => {
+    console.log('🌐 Window load triggered');
+    GalleryConfig.init();
+  });
+  
+  // Jekyll-specific: Try after a delay for late-loading content
+  setTimeout(() => {
+    console.log('⏰ Timeout fallback triggered');
+    GalleryConfig.init();
+  }, 1000);
+  
+  setTimeout(() => {
+    console.log('⏰ Final fallback triggered');
+    GalleryConfig.init();
+  }, 3000);
+  
 })();
 </script>
