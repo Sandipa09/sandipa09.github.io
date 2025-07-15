@@ -16,7 +16,7 @@ main:
     url: /awards/
 
   - title: "Gallery"
-  url: /awards/
+    url: /awards/
   
   - title: "Other"
     url: /other/
