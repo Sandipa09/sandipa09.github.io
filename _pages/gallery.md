@@ -23,8 +23,21 @@ author_profile: true
         </div>
         
         <div class="carousel-container">
-          <!-- Debug info -->
+          <!-- Enhanced Debug info -->
           <p>Debug: {{ gallery_item.images.size }} images found</p>
+          <p>Debug: Gallery item title: {{ gallery_item.title }}</p>
+          <p>Debug: Images array: {{ gallery_item.images }}</p>
+          
+          <!-- Test if images exist -->
+          {% if gallery_item.images %}
+            <p>Debug: Images array exists</p>
+            {% for image in gallery_item.images %}
+              <p>Debug: Image {{ forloop.index }}: {{ image }}</p>
+              <p>Debug: Image with absolute_url: {{ image | absolute_url }}</p>
+            {% endfor %}
+          {% else %}
+            <p>Debug: No images array found</p>
+          {% endif %}
           
           <section class="splide" id="splide-{{ forloop.index }}">
             <div class="splide__track">
