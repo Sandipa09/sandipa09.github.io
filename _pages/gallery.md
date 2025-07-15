@@ -280,77 +280,74 @@ author_profile: true
 <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
 
 <script>
+// Check if Glide is loaded
+if (typeof Glide === 'undefined') {
+  console.error('❌ Glide.js is not loaded!');
+} else {
+  console.log('✅ Glide.js is loaded');
+}
+
 // Simple, reliable initialization for Jekyll
 document.addEventListener('DOMContentLoaded', function() {
   console.log('🚀 Initializing Glide galleries...');
   
-  // Find all gallery elements
-  const galleries = document.querySelectorAll('.gallery-glide');
-  console.log('Found', galleries.length, 'galleries');
-  
-  galleries.forEach(function(gallery, index) {
-    const galleryId = gallery.getAttribute('data-gallery');
-    console.log('Initializing gallery:', galleryId);
+  // Wait a bit to ensure everything is loaded
+  setTimeout(function() {
+    // Find all gallery elements
+    const galleries = document.querySelectorAll('.gallery-glide');
+    console.log('Found', galleries.length, 'galleries');
     
-    try {
-      // Create Glide instance
-      const glide = new Glide(gallery, {
-        type: 'carousel',
-        startAt: 0,
-        perView: 1,
-        focusAt: 'center',
-        gap: 0,
-        autoplay: false, // Start with autoplay off
-        hoverpause: true,
-        animationDuration: 400,
-        animationTimingFunc: 'ease'
-      });
+    galleries.forEach(function(gallery, index) {
+      const galleryId = gallery.getAttribute('data-gallery');
+      console.log('Initializing gallery:', galleryId);
       
-      // Mount the glide
-      glide.mount();
-      
-      console.log('✅ Gallery', galleryId, 'initialized successfully');
-      
-      // Add hover autoplay for desktop only
-      if (!('ontouchstart' in window)) {
-        gallery.addEventListener('mouseenter', function() {
-          glide.update({ autoplay: 2000 });
-          glide.play();
-        });
-        
-        gallery.addEventListener('mouseleave', function() {
-          glide.pause();
-          glide.update({ autoplay: false });
-        });
-      }
-      
-    } catch (error) {
-      console.error('❌ Error initializing gallery', galleryId, ':', error);
-    }
-  });
-});
-
-// Fallback initialization
-window.addEventListener('load', function() {
-  console.log('🔄 Window loaded - checking for uninitialized galleries...');
-  
-  const galleries = document.querySelectorAll('.gallery-glide');
-  galleries.forEach(function(gallery) {
-    // Check if Glide instance exists
-    if (!gallery._glide) {
-      console.log('🆘 Reinitializing gallery:', gallery.getAttribute('data-gallery'));
       try {
+        // Create Glide instance
         const glide = new Glide(gallery, {
           type: 'carousel',
+          startAt: 0,
           perView: 1,
+          focusAt: 'center',
+          gap: 0,
           autoplay: false,
-          animationDuration: 400
+          hoverpause: true,
+          animationDuration: 400,
+          animationTimingFunc: 'ease',
+          keyboard: true,
+          swipeThreshold: 80,
+          dragThreshold: 120
         });
+        
+        // Store reference
+        gallery._glide = glide;
+        
+        // Mount the glide
         glide.mount();
+        
+        console.log('✅ Gallery', galleryId, 'initialized successfully');
+        
+        // Test if controls work
+        const arrows = gallery.querySelectorAll('.glide__arrow');
+        const bullets = gallery.querySelectorAll('.glide__bullet');
+        console.log('Found', arrows.length, 'arrows and', bullets.length, 'bullets');
+        
+        // Add hover autoplay for desktop only
+        if (!('ontouchstart' in window)) {
+          gallery.addEventListener('mouseenter', function() {
+            glide.update({ autoplay: 2000 });
+            glide.play();
+          });
+          
+          gallery.addEventListener('mouseleave', function() {
+            glide.pause();
+            glide.update({ autoplay: false });
+          });
+        }
+        
       } catch (error) {
-        console.error('❌ Fallback initialization failed:', error);
+        console.error('❌ Error initializing gallery', galleryId, ':', error);
       }
-    }
-  });
+    });
+  }, 100); // Small delay to ensure DOM is ready
 });
 </script>
