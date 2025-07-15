@@ -11,13 +11,11 @@ author_profile: true
       <h2>{{ gallery_item.title }}</h2>
       <p>{{ gallery_item.description }}</p>
       
-      <div class="image-grid">
+      <article class="gallery">
         {% for image in gallery_item.images %}
-          <div class="image-item">
-            <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}">
-          </div>
+          <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" tabindex="0" />
         {% endfor %}
-      </div>
+      </article>
       
       {% if gallery_item.content != "" %}
         <div class="gallery-text">
@@ -29,23 +27,56 @@ author_profile: true
 </div>
 
 <style>
-.image-grid {
+.gallery {
+  --size: 100px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 15px;
-  margin: 20px 0;
+  grid-template-columns: repeat(6, var(--size));
+  grid-auto-rows: var(--size);
+  margin-bottom: var(--size);
+  place-items: start center;
+  gap: 5px;
 }
 
-.image-item img {
-  width: 100%;
-  height: 200px;
+.gallery:has(:hover) img:not(:hover),
+.gallery:has(:focus) img:not(:focus) {
+  filter: brightness(0.5) contrast(0.5);
+}
+
+.gallery img {
   object-fit: cover;
-  border-radius: 8px;
+  width: calc(var(--size) * 2);
+  height: calc(var(--size) * 2);
+  clip-path: path("M90,10 C100,0 100,0 110,10 190,90 190,90 190,90 200,100 200,100 190,110 190,110 110,190 110,190 100,200 100,200 90,190 90,190 10,110 10,110 0,100 0,100 10,90Z");
+  transition: clip-path 0.25s, filter 0.75s;
+  grid-column: auto / span 2;
+  border-radius: 5px;
+}
+
+.gallery img:nth-child(5n - 1) { 
+  grid-column: 2 / span 2;
+}
+
+.gallery img:hover,
+.gallery img:focus {
+  clip-path: path("M0,0 C0,0 200,0 200,0 200,0 200,100 200,100 200,100 200,200 200,200 200,200 100,200 100,200 100,200 100,200 0,200 0,200 0,100 0,100 0,100 0,100 0,100Z");
+  z-index: 1;
+  transition: clip-path 0.25s, filter 0.25s;
+}
+
+.gallery img:focus {
+  outline: 1px dashed black;
+  outline-offset: -5px;
 }
 
 .gallery-section {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   border-bottom: 1px solid #eee;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+}
+
+.gallery-text {
+  margin-top: 30px;
+  font-size: 1.1em;
+  line-height: 1.6;
 }
 </style>
