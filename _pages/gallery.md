@@ -186,7 +186,8 @@ author_profile: true
   }
   
   .carousel-container {
-    max-width: 100%;
+    max-width: 100%; /* Allow full width on mobile */
+    width: 100%; /* Ensure it takes full width */
   }
   
   .gallery-swiper {
@@ -195,6 +196,7 @@ author_profile: true
   
   .single-image img {
     height: 250px;
+    width: 100%; /* Ensure full width */
   }
   
   .swiper-button-next,
@@ -221,8 +223,13 @@ author_profile: true
     height: 200px;
   }
   
+  .single-image {
+    width: 100%; /* Ensure single image container is full width */
+  }
+  
   .single-image img {
     height: 200px;
+    width: 100%; /* Ensure full width on small mobile */
   }
   
   .gallery-content {
