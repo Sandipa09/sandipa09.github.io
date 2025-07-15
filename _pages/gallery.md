@@ -5,8 +5,8 @@ permalink: /gallery/
 author_profile: true
 ---
 
-<!-- Flickity CSS -->
-<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 <div class="photo-gallery">
   {% for gallery_item in site.gallery %}
@@ -21,17 +21,24 @@ author_profile: true
             </div>
           {% endif %}
         </div>
-
+        
         <div class="carousel-container">
           {% if gallery_item.images.size > 1 %}
-            <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": false, "pauseAutoPlayOnHover": false }'>
-              {% for image in gallery_item.images %}
-                <div class="carousel-cell">
-                  <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
-                </div>
-              {% endfor %}
+            <!-- Multiple images: Use Swiper -->
+            <div class="swiper gallery-swiper">
+              <div class="swiper-wrapper">
+                {% for image in gallery_item.images %}
+                  <div class="swiper-slide">
+                    <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
+                  </div>
+                {% endfor %}
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
           {% else %}
+            <!-- Single image: Just display it -->
             <div class="single-image">
               {% for image in gallery_item.images %}
                 <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
@@ -45,25 +52,61 @@ author_profile: true
 </div>
 
 <style>
-/* Ensure spacing and responsiveness */
-.photo-gallery {
-  max-width: 100%;
-  padding: 0 1rem;
-  margin-top: -20px; /* Add negative margin to reduce top spacing */
+.carousel-container {
+  flex: 1;
+  max-width: 500px;
+  position: relative;
 }
 
-/* Layout */
+.gallery-swiper {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  background: #fff;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f8f8;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Single image styling */
+.single-image {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.single-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
 .gallery-section {
-  margin-bottom: 10px; /* Reduced from 30px */
+  margin-bottom: 60px;
   border-bottom: 1px solid #eee;
-  padding-bottom: 5px; /* Reduced from 20px */
+  padding-bottom: 40px;
 }
 
 .gallery-content {
   display: flex;
-  flex-wrap: wrap;
   align-items: flex-start;
-  gap: 20px; /* Reduced from 40px */
+  gap: 40px;
 }
 
 .gallery-info {
@@ -79,175 +122,187 @@ author_profile: true
   flex-direction: row-reverse;
 }
 
-/* Carousel styling */
-.carousel-container {
-  flex: 1;
-  max-width: 500px;
-  margin: 0; /* Remove any default margin */
-}
-
-.carousel {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  margin: 0; /* Remove any margin */
-  padding: 0; /* Remove any padding */
-}
-
-.carousel-cell {
-  width: 100%;
-  margin-right: 10px;
-  background: #f8f8f8;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0; /* Remove padding */
-}
-
-.carousel-cell img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  margin: 0; /* Remove any margin */
-  padding: 0; /* Remove any padding */
-  display: block; /* Remove any inline spacing */
-}
-
-/* Single image styling */
-.single-image {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0; /* Remove any margin */
-  padding: 0; /* Remove any padding */
-}
-
-.single-image img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  margin: 0; /* Remove any margin */
-  padding: 0; /* Remove any padding */
-  display: block; /* Remove any inline spacing */
-}
-
-/* Gallery text */
 .gallery-text {
-  margin-top: 10px; /* Reduced from 20px */
+  margin-top: 20px;
   font-size: 1.1em;
   line-height: 1.6;
 }
 
-/* Flickity custom */
-.flickity-page-dots {
-  bottom: -30px;
+/* Swiper custom styling */
+.swiper-pagination {
+  bottom: 10px !important;
 }
 
-.flickity-page-dots .dot {
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.8);
   width: 12px;
   height: 12px;
-  background: #bbb;
-  border-radius: 50%;
-  margin: 0 5px;
+  margin: 0 5px !important;
+  opacity: 0.8;
 }
 
-.flickity-page-dots .dot.is-selected {
-  background: #333;
+.swiper-pagination-bullet-active {
+  background: #fff;
+  opacity: 1;
 }
 
-.flickity-prev-next-button {
+.swiper-button-next,
+.swiper-button-prev {
   background: rgba(0, 0, 0, 0.5);
-  color: white;
+  width: 40px !important;
+  height: 40px !important;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  color: white !important;
+  margin-top: -20px !important;
 }
 
-.flickity-prev-next-button:hover {
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
   background: rgba(0, 0, 0, 0.8);
 }
 
-/* Responsive Design */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px !important;
+  font-weight: bold;
+}
+
+.swiper-button-next {
+  right: 10px !important;
+}
+
+.swiper-button-prev {
+  left: 10px !important;
+}
+
+/* Responsive design */
 @media (max-width: 768px) {
-  .gallery-section.left .gallery-content,
-  .gallery-section.right .gallery-content {
-    flex-direction: column;
-    gap: 15px; /* Reduced from 20px */
+  .gallery-content {
+    flex-direction: column !important;
   }
-
-  .gallery-info,
+  
+  .gallery-info {
+    min-width: auto;
+  }
+  
   .carousel-container {
-    width: 100%;
-    min-width: unset;
+    max-width: 100%;
   }
-
-  .carousel-cell,
+  
+  .gallery-swiper {
+    height: 250px;
+  }
+  
   .single-image img {
-    height: auto;
+    height: 250px;
   }
-
-  .flickity-prev-next-button {
-    width: 35px;
-    height: 35px;
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 35px !important;
+    height: 35px !important;
+    margin-top: -17.5px !important;
   }
-
-  .flickity-page-dots {
-    bottom: -25px;
+  
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 14px !important;
   }
-
-  .flickity-page-dots .dot {
-    width: 10px;
-    height: 10px;
+  
+  .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    margin: 0 8px !important;
   }
 }
 
 @media (max-width: 480px) {
+  .gallery-swiper {
+    height: 200px;
+  }
+  
+  .single-image img {
+    height: 200px;
+  }
+  
   .gallery-content {
-    gap: 10px; /* Reduced from 15px */
+    gap: 20px;
   }
-
+  
   .gallery-section {
-    margin-bottom: 5px; /* Reduced from 20px */
-    padding-bottom: 5px; /* Reduced from 15px */
+    margin-bottom: 40px;
   }
-
-  .gallery-text {
-    font-size: 1em;
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: -15px !important;
+  }
+  
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 12px !important;
   }
 }
 </style>
 
-<!-- Flickity JS -->
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const carousels = document.querySelectorAll('.carousel');
-  carousels.forEach(function(carousel) {
-    const flkty = new Flickity(carousel, {
-      cellAlign: 'left',
-      contain: true,
-      autoPlay: false,
-      pauseAutoPlayOnHover: false
+  // Initialize all Swiper instances
+  const swipers = document.querySelectorAll('.gallery-swiper');
+  
+  swipers.forEach(function(swiperEl) {
+    const swiper = new Swiper(swiperEl, {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      autoplay: false, // Disabled by default
+      speed: 400,
+      
+      // Pagination
+      pagination: {
+        el: swiperEl.querySelector('.swiper-pagination'),
+        clickable: true,
+      },
+      
+      // Navigation arrows
+      navigation: {
+        nextEl: swiperEl.querySelector('.swiper-button-next'),
+        prevEl: swiperEl.querySelector('.swiper-button-prev'),
+      },
+      
+      // Touch settings for better mobile experience
+      touchRatio: 1,
+      touchAngle: 45,
+      simulateTouch: true,
+      
+      // Responsive breakpoints (optional - Swiper handles most automatically)
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 1,
+        },
+        1024: {
+          slidesPerView: 1,
+        },
+      }
     });
-
-    // Add hover autoplay for desktop
-    if (window.innerWidth > 768) {
-      carousel.addEventListener('mouseenter', function() {
-        flkty.options.autoPlay = 2000;
-        flkty.playPlayer();
+    
+    // Add hover autoplay for non-touch devices only
+    if (!('ontouchstart' in window)) {
+      swiperEl.addEventListener('mouseenter', function() {
+        swiper.autoplay.start();
+        swiper.params.autoplay.delay = 2000;
       });
-
-      carousel.addEventListener('mouseleave', function() {
-        flkty.pausePlayer();
-        flkty.options.autoPlay = false;
+      
+      swiperEl.addEventListener('mouseleave', function() {
+        swiper.autoplay.stop();
       });
     }
   });
