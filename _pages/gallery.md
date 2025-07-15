@@ -45,13 +45,6 @@ author_profile: true
 </div>
 
 <style>
-/* Ensure spacing and responsiveness */
-.photo-gallery {
-  max-width: 100%;
-  padding: 0 1rem;
-  margin-top: -20px; /* Add negative margin to reduce top spacing */
-}
-
 /* Layout */
 .gallery-section {
   margin-bottom: 30px; /* Reduced from 60px */
@@ -125,6 +118,13 @@ author_profile: true
   max-width: 100%;
   object-fit: cover;
   border-radius: 10px;
+}
+
+/* Ensure spacing and responsiveness */
+.photo-gallery {
+  max-width: 100%;
+  padding: 0 1rem;
+  margin-top: -20px; /* Add negative margin to reduce top spacing */
 }
 
 /* Gallery text */
