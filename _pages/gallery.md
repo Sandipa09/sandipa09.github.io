@@ -76,8 +76,10 @@ author_profile: true
   border-radius: 10px;
 }
 
-/* Single image styling */
+/* Single image styling - match carousel dimensions */
 .single-image {
+  width: 100%;
+  height: 300px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -88,7 +90,7 @@ author_profile: true
 
 .single-image img {
   width: 100%;
-  height: 300px;
+  height: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -153,7 +155,7 @@ author_profile: true
   background: rgba(0, 0, 0, 0.8);
 }
 
-/* Responsive design */
+/* Mobile responsive fixes */
 @media (max-width: 768px) {
   .gallery-content {
     flex-direction: column !important;
@@ -165,6 +167,58 @@ author_profile: true
   
   .carousel-container {
     max-width: 100%;
+    width: 100%;
+  }
+  
+  .carousel {
+    height: 250px;
+  }
+  
+  .carousel-cell {
+    height: 250px;
+    margin-right: 5px;
+  }
+  
+  .single-image {
+    height: 250px;
+  }
+  
+  .flickity-prev-next-button {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .flickity-page-dots .dot {
+    width: 14px;
+    height: 14px;
+    margin: 0 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    height: 200px;
+  }
+  
+  .carousel-cell {
+    height: 200px;
+  }
+  
+  .single-image {
+    height: 200px;
+  }
+  
+  .gallery-content {
+    gap: 20px;
+  }
+  
+  .gallery-section {
+    margin-bottom: 40px;
+  }
+  
+  .flickity-prev-next-button {
+    width: 30px;
+    height: 30px;
   }
 }
 </style>
@@ -173,29 +227,65 @@ author_profile: true
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Initialize all carousels
+// Robust initialization for Jekyll
+function initFlickity() {
+  console.log('🚀 Initializing Flickity...');
+  console.log('Flickity available:', typeof Flickity !== 'undefined');
+  console.log('Carousels found:', document.querySelectorAll('.carousel').length);
+  
   const carousels = document.querySelectorAll('.carousel');
   
-  carousels.forEach(function(carousel) {
-    const flkty = new Flickity(carousel, {
-      cellAlign: 'left',
-      contain: true,
-      autoPlay: false,
-      pauseAutoPlayOnHover: false
-    });
+  if (typeof Flickity === 'undefined') {
+    console.log('⏳ Flickity not ready, retrying...');
+    setTimeout(initFlickity, 200);
+    return;
+  }
+  
+  if (carousels.length === 0) {
+    console.log('⏳ No carousels found, retrying...');
+    setTimeout(initFlickity, 200);
+    return;
+  }
+  
+  carousels.forEach(function(carousel, index) {
+    // Skip if already initialized
+    if (carousel.flickityData) {
+      console.log(`✅ Carousel ${index + 1} already initialized`);
+      return;
+    }
     
-    // Start autoplay on hover with 2 second interval
-    carousel.addEventListener('mouseenter', function() {
-      flkty.options.autoPlay = 2000;  // Set autoplay interval
-      flkty.playPlayer();
-    });
-    
-    // Stop autoplay when mouse leaves
-    carousel.addEventListener('mouseleave', function() {
-      flkty.pausePlayer();
-      flkty.options.autoPlay = false;  // Disable autoplay
-    });
+    try {
+      const flkty = new Flickity(carousel, {
+        cellAlign: 'left',
+        contain: true,
+        autoPlay: false,
+        pauseAutoPlayOnHover: false
+      });
+      
+      console.log(`✅ Carousel ${index + 1} initialized successfully`);
+      
+      // Add hover autoplay for non-touch devices only
+      if (!('ontouchstart' in window)) {
+        carousel.addEventListener('mouseenter', function() {
+          flkty.options.autoPlay = 2000;
+          flkty.playPlayer();
+        });
+        
+        carousel.addEventListener('mouseleave', function() {
+          flkty.pausePlayer();
+          flkty.options.autoPlay = false;
+        });
+      }
+      
+    } catch (error) {
+      console.error(`❌ Error initializing carousel ${index + 1}:`, error);
+    }
   });
-});
+}
+
+// Multiple initialization attempts
+document.addEventListener('DOMContentLoaded', initFlickity);
+window.addEventListener('load', initFlickity);
+setTimeout(initFlickity, 1000); // Jekyll fallback
+setTimeout(initFlickity, 2000); // Final fallback
 </script>
