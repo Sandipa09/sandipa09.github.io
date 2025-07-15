@@ -1,10 +1,9 @@
 ---
-title: "Vacation 2025"
-description: "Summer vacation photos from our trip to Europe"
+title: "Excellence in Art of Research"
+description: "Buffalo Musuem of Science"
 images:
-  - "/images/gallery/china_nl.png"
-  - "/images/gallery/gp-bma.png"
-  - "/images/gallery/vacation3.jpg"
+  - "/images/gallery/converted-image-Art_1.jpg"
+  - "/images/gallery/converted-image-Art_2.jpg"
 date: 2024-07-15
 ---
 
