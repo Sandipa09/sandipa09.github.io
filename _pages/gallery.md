@@ -5,8 +5,8 @@ permalink: /gallery/
 author_profile: true
 ---
 
-<!-- Splide CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+<!-- Flickity CSS -->
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 <div class="photo-gallery">
   {% for gallery_item in site.gallery %}
@@ -23,34 +23,13 @@ author_profile: true
         </div>
         
         <div class="carousel-container">
-          <!-- Enhanced Debug info -->
-          <p>Debug: {{ gallery_item.images.size }} images found</p>
-          <p>Debug: Gallery item title: {{ gallery_item.title }}</p>
-          <p>Debug: Images array: {{ gallery_item.images }}</p>
-          
-          <!-- Test if images exist -->
-          {% if gallery_item.images %}
-            <p>Debug: Images array exists</p>
+          <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": 3000, "pauseAutoPlayOnHover": true }'>
             {% for image in gallery_item.images %}
-              <p>Debug: Image {{ forloop.index }}: {{ image }}</p>
-              <p>Debug: Image with absolute_url: {{ image | absolute_url }}</p>
+              <div class="carousel-cell">
+                <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
+              </div>
             {% endfor %}
-          {% else %}
-            <p>Debug: No images array found</p>
-          {% endif %}
-          
-          <section class="splide" id="splide-{{ forloop.index }}">
-            <div class="splide__track">
-              <ul class="splide__list">
-                {% for image in gallery_item.images %}
-                  <li class="splide__slide">
-                    <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
-                    <p>Debug: {{ image }}</p>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </section>
+          </div>
         </div>
       </div>
     </div>
@@ -61,30 +40,30 @@ author_profile: true
 .carousel-container {
   flex: 1;
   max-width: 500px;
-  border: 2px solid red; /* Debug border */
 }
 
-.splide {
-  border: 2px solid blue; /* Debug border */
-  min-height: 300px;
+.carousel {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.splide__slide {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 300px;
-  border: 1px solid green; /* Debug border */
-}
-
-.splide__slide img {
+.carousel-cell {
   width: 100%;
-  max-width: 400px;
-  height: 250px;
+  height: 300px;
+  margin-right: 10px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-cell img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 10px;
-  display: block;
 }
 
 .gallery-section {
@@ -118,6 +97,35 @@ author_profile: true
   line-height: 1.6;
 }
 
+/* Flickity custom styling */
+.flickity-page-dots {
+  bottom: -30px;
+}
+
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  background: #bbb;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: #333;
+}
+
+.flickity-prev-next-button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.flickity-prev-next-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .gallery-content {
@@ -134,37 +142,5 @@ author_profile: true
 }
 </style>
 
-<!-- Splide JS -->
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  console.log('DOM loaded, initializing carousels...');
-  
-  {% for gallery_item in site.gallery %}
-    console.log('Initializing carousel {{ forloop.index }}');
-    
-    const splideElement = document.getElementById('splide-{{ forloop.index }}');
-    if (splideElement) {
-      console.log('Found element:', splideElement);
-      
-      try {
-        new Splide('#splide-{{ forloop.index }}', {
-          type: 'loop',
-          autoplay: false,  // Disable autoplay for debugging
-          arrows: true,
-          pagination: true,
-          perPage: 1,
-          gap: 0
-        }).mount();
-        
-        console.log('Carousel {{ forloop.index }} mounted successfully');
-      } catch (error) {
-        console.error('Error mounting carousel {{ forloop.index }}:', error);
-      }
-    } else {
-      console.error('Could not find element splide-{{ forloop.index }}');
-    }
-  {% endfor %}
-});
-</script>
+<!-- Flickity JS -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
