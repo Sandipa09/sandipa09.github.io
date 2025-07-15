@@ -5,6 +5,9 @@ permalink: /gallery/
 author_profile: true
 ---
 
+<!-- Splide CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
 <div class="photo-gallery">
   {% for gallery_item in site.gallery %}
     <div class="gallery-section {% cycle 'left', 'right' %}">
@@ -20,22 +23,17 @@ author_profile: true
         </div>
         
         <div class="carousel-container">
-          <div class="carousel-wrapper">
-            <div class="carousel-slides" id="carousel-{{ forloop.index }}">
-              {% for image in gallery_item.images %}
-                <div class="slide {% if forloop.first %}active{% endif %}">
-                  <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
-                </div>
-              {% endfor %}
+          <section class="splide" id="splide-{{ forloop.index }}">
+            <div class="splide__track">
+              <ul class="splide__list">
+                {% for image in gallery_item.images %}
+                  <li class="splide__slide">
+                    <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
+                  </li>
+                {% endfor %}
+              </ul>
             </div>
-          </div>
-          
-          <!-- Carousel Dots -->
-          <div class="carousel-dots">
-            {% for image in gallery_item.images %}
-              <span class="dot{% if forloop.first %} active{% endif %}" onclick="currentSlide({{ forloop.index }}, {{ forloop.parentloop.index }})"></span>
-            {% endfor %}
-          </div>
+          </section>
         </div>
       </div>
     </div>
@@ -48,57 +46,11 @@ author_profile: true
   max-width: 500px;
 }
 
-.carousel-wrapper {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.carousel-slides {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-.slide {
-  min-width: 100%;
-  display: none;
-}
-
-.slide.active {
-  display: block;
-}
-
-.slide img {
+.splide__slide img {
   width: 100%;
   height: 350px;
   object-fit: cover;
   border-radius: 10px;
-}
-
-/* Carousel Dots */
-.carousel-dots {
-  text-align: center;
-  margin-top: 15px;
-}
-
-.dot {
-  cursor: pointer;
-  height: 12px;
-  width: 12px;
-  margin: 0 5px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.3s ease;
-}
-
-.dot:hover {
-  background-color: #717171;
-}
-
-.dot.active {
-  background-color: #333;
 }
 
 .gallery-section {
@@ -132,6 +84,32 @@ author_profile: true
   line-height: 1.6;
 }
 
+/* Custom Splide styling */
+.splide {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.splide__pagination {
+  bottom: -40px;
+}
+
+.splide__pagination__page {
+  background-color: #bbb;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+.splide__pagination__page:hover {
+  background-color: #717171;
+}
+
+.splide__pagination__page.is-active {
+  background-color: #333;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .gallery-content {
@@ -148,18 +126,26 @@ author_profile: true
 }
 </style>
 
+<!-- Splide JS -->
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
 <script>
-function currentSlide(slideIndex, carouselIndex) {
-  const carouselContainer = document.querySelectorAll('.carousel-container')[carouselIndex - 1];
-  const slides = carouselContainer.querySelectorAll('.slide');
-  const dots = carouselContainer.querySelectorAll('.dot');
-  
-  // Hide all slides and remove active from dots
-  slides.forEach(slide => slide.classList.remove('active'));
-  dots.forEach(dot => dot.classList.remove('active'));
-  
-  // Show selected slide and activate corresponding dot
-  slides[slideIndex - 1].classList.add('active');
-  dots[slideIndex - 1].classList.add('active');
-}
+document.addEventListener('DOMContentLoaded', function () {
+  {% for gallery_item in site.gallery %}
+    new Splide('#splide-{{ forloop.index }}', {
+      type: 'loop',
+      autoplay: false,
+      interval: 3000,
+      arrows: false,
+      pagination: true,
+      perPage: 1,
+      gap: 0,
+      breakpoints: {
+        768: {
+          arrows: false,
+        }
+      }
+    }).mount();
+  {% endfor %}
+});
 </script>
