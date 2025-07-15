@@ -1,5 +1,5 @@
 ---
-title: "Vacation 2024"
+title: "Vacation 2025"
 description: "Summer vacation photos from our trip to Europe"
 images:
   - /images/gallery/china_nl.png
