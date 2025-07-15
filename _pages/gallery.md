@@ -45,11 +45,18 @@ author_profile: true
 </div>
 
 <style>
+/* Ensure spacing and responsiveness */
+.photo-gallery {
+  max-width: 100%;
+  padding: 0 1rem;
+  margin-top: -20px; /* Add negative margin to reduce top spacing */
+}
+
 /* Layout */
 .gallery-section {
-  margin-bottom: 30px; /* Reduced from 60px */
+  margin-bottom: 10px; /* Reduced from 30px */
   border-bottom: 1px solid #eee;
-  padding-bottom: 20px; /* Reduced from 40px */
+  padding-bottom: 5px; /* Reduced from 20px */
 }
 
 .gallery-content {
@@ -76,12 +83,15 @@ author_profile: true
 .carousel-container {
   flex: 1;
   max-width: 500px;
+  margin: 0; /* Remove any default margin */
 }
 
 .carousel {
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
 }
 
 .carousel-cell {
@@ -92,6 +102,7 @@ author_profile: true
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0; /* Remove padding */
 }
 
 .carousel-cell img {
@@ -100,6 +111,9 @@ author_profile: true
   max-width: 100%;
   object-fit: cover;
   border-radius: 10px;
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
+  display: block; /* Remove any inline spacing */
 }
 
 /* Single image styling */
@@ -110,6 +124,8 @@ author_profile: true
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
 }
 
 .single-image img {
@@ -118,13 +134,9 @@ author_profile: true
   max-width: 100%;
   object-fit: cover;
   border-radius: 10px;
-}
-
-/* Ensure spacing and responsiveness */
-.photo-gallery {
-  max-width: 100%;
-  padding: 0 1rem;
-  margin-top: -20px; /* Add negative margin to reduce top spacing */
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
+  display: block; /* Remove any inline spacing */
 }
 
 /* Gallery text */
@@ -203,8 +215,8 @@ author_profile: true
   }
 
   .gallery-section {
-    margin-bottom: 20px; /* Add mobile-specific reduced margin */
-    padding-bottom: 15px;
+    margin-bottom: 5px; /* Reduced from 20px */
+    padding-bottom: 5px; /* Reduced from 15px */
   }
 
   .gallery-text {
