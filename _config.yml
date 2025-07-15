@@ -250,7 +250,7 @@ defaults:
   # _gallery
   - scope:
       path: ""
-      type: talks
+      type: gallery
     values:
       layout: talk
       author_profile: true
