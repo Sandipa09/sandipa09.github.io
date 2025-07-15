@@ -5,8 +5,9 @@ permalink: /gallery/
 author_profile: true
 ---
 
-<!-- Swiper CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!-- Glide.js CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
 
 <div class="photo-gallery">
   {% for gallery_item in site.gallery %}
@@ -24,18 +25,28 @@ author_profile: true
         
         <div class="carousel-container">
           {% if gallery_item.images.size > 1 %}
-            <!-- Multiple images: Use Swiper -->
-            <div class="swiper gallery-swiper" data-gallery-index="{{ forloop.index }}">
-              <div class="swiper-wrapper">
+            <!-- Multiple images: Use Glide -->
+            <div class="glide gallery-glide" data-gallery="gallery-{{ forloop.index }}">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  {% for image in gallery_item.images %}
+                    <li class="glide__slide">
+                      <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+              
+              <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">‹</button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">›</button>
+              </div>
+              
+              <div class="glide__bullets" data-glide-el="controls[nav]">
                 {% for image in gallery_item.images %}
-                  <div class="swiper-slide">
-                    <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
-                  </div>
+                  <button class="glide__bullet" data-glide-dir="={{ forloop.index0 }}"></button>
                 {% endfor %}
               </div>
-              <div class="swiper-pagination" data-gallery="{{ forloop.index }}"></div>
-              <div class="swiper-button-next" data-gallery="{{ forloop.index }}"></div>
-              <div class="swiper-button-prev" data-gallery="{{ forloop.index }}"></div>
             </div>
           {% else %}
             <!-- Single image: Just display it -->
@@ -58,29 +69,31 @@ author_profile: true
   position: relative;
 }
 
-.gallery-swiper {
+.gallery-glide {
   width: 100%;
   height: 300px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   overflow: hidden;
   background: #fff;
+  position: relative;
 }
 
-.swiper-slide {
+.glide__slide {
   display: flex;
   align-items: center;
   justify-content: center;
   background: #f8f8f8;
+  height: 300px;
 }
 
-.swiper-slide img {
+.glide__slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* Single image styling - match swiper dimensions */
+/* Single image styling - match glide dimensions */
 .single-image {
   width: 100%;
   height: 300px;
@@ -130,51 +143,67 @@ author_profile: true
   line-height: 1.6;
 }
 
-/* Swiper custom styling */
-.swiper-pagination {
-  bottom: 10px !important;
+/* Custom Glide styling */
+.glide__arrows {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  pointer-events: none;
+  z-index: 10;
 }
 
-.swiper-pagination-bullet {
-  background: rgba(255, 255, 255, 0.8);
-  width: 12px;
-  height: 12px;
-  margin: 0 5px !important;
-  opacity: 0.8;
-}
-
-.swiper-pagination-bullet-active {
-  background: #fff;
-  opacity: 1;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
+.glide__arrow {
+  position: absolute;
   background: rgba(0, 0, 0, 0.5);
-  width: 40px !important;
-  height: 40px !important;
+  color: white;
+  border: none;
   border-radius: 50%;
-  color: white !important;
-  margin-top: -20px !important;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
 }
 
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
+.glide__arrow:hover {
   background: rgba(0, 0, 0, 0.8);
 }
 
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  font-size: 16px !important;
-  font-weight: bold;
+.glide__arrow--left {
+  left: 10px;
 }
 
-.swiper-button-next {
-  right: 10px !important;
+.glide__arrow--right {
+  right: 10px;
 }
 
-.swiper-button-prev {
-  left: 10px !important;
+.glide__bullets {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.glide__bullet {
+  background: rgba(255, 255, 255, 0.6);
+  border: none;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.glide__bullet--active {
+  background: white;
 }
 
 /* Responsive design */
@@ -189,42 +218,46 @@ author_profile: true
   
   .carousel-container {
     max-width: 100%;
+    width: 100%;
   }
   
-  .gallery-swiper {
+  .gallery-glide {
     height: 250px;
   }
   
-  .single-image img {
+  .glide__slide {
     height: 250px;
   }
   
-  .swiper-button-next,
-  .swiper-button-prev {
-    width: 35px !important;
-    height: 35px !important;
-    margin-top: -17.5px !important;
+  .single-image {
+    height: 250px;
+    width: 100%;
   }
   
-  .swiper-button-next::after,
-  .swiper-button-prev::after {
-    font-size: 14px !important;
+  .glide__arrow {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
   }
   
-  .swiper-pagination-bullet {
+  .glide__bullet {
     width: 14px;
     height: 14px;
-    margin: 0 8px !important;
   }
 }
 
 @media (max-width: 480px) {
-  .gallery-swiper {
+  .gallery-glide {
     height: 200px;
   }
   
-  .single-image img {
+  .glide__slide {
     height: 200px;
+  }
+  
+  .single-image {
+    height: 200px;
+    width: 100%;
   }
   
   .gallery-content {
@@ -235,148 +268,89 @@ author_profile: true
     margin-bottom: 40px;
   }
   
-  .swiper-button-next,
-  .swiper-button-prev {
-    width: 30px !important;
-    height: 30px !important;
-    margin-top: -15px !important;
-  }
-  
-  .swiper-button-next::after,
-  .swiper-button-prev::after {
-    font-size: 12px !important;
+  .glide__arrow {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
   }
 }
 </style>
 
-<!-- Swiper JS with multiple loading strategies -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Glide.js JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
 
-<!-- Inline script with immediate execution -->
 <script>
-// Wrap everything in IIFE to avoid conflicts
-(function() {
-  'use strict';
+// Simple, reliable initialization for Jekyll
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('🚀 Initializing Glide galleries...');
   
-  console.log('🔧 Gallery script loading...');
-  console.log('Document ready state:', document.readyState);
-  console.log('Swiper available:', typeof Swiper);
+  // Find all gallery elements
+  const galleries = document.querySelectorAll('.gallery-glide');
+  console.log('Found', galleries.length, 'galleries');
   
-  // Configuration object
-  const GalleryConfig = {
-    maxAttempts: 100,
-    attemptDelay: 100,
-    attempts: 0,
+  galleries.forEach(function(gallery, index) {
+    const galleryId = gallery.getAttribute('data-gallery');
+    console.log('Initializing gallery:', galleryId);
     
-    init: function() {
-      this.attempts++;
-      console.log(`Attempt ${this.attempts}: Checking conditions...`);
-      
-      // Check all conditions
-      const swiperLoaded = typeof Swiper !== 'undefined';
-      const domReady = document.readyState !== 'loading';
-      const elementsExist = document.querySelectorAll('.gallery-swiper').length > 0;
-      
-      console.log(`- Swiper: ${swiperLoaded}`);
-      console.log(`- DOM: ${domReady}`);
-      console.log(`- Elements: ${elementsExist}`);
-      
-      if (swiperLoaded && domReady && elementsExist) {
-        console.log('✅ All conditions met, initializing...');
-        this.initializeSwipers();
-        return true;
-      }
-      
-      if (this.attempts < this.maxAttempts) {
-        setTimeout(() => this.init(), this.attemptDelay);
-      } else {
-        console.error('❌ Max attempts reached');
-      }
-      return false;
-    },
-    
-    initializeSwipers: function() {
-      const swipers = document.querySelectorAll('.gallery-swiper');
-      console.log(`🚀 Found ${swipers.length} swiper elements`);
-      
-      swipers.forEach((swiperEl, index) => {
-        if (swiperEl.swiper) {
-          console.log(`Swiper ${index + 1} already initialized`);
-          return;
-        }
-        
-        const galleryIndex = swiperEl.getAttribute('data-gallery-index');
-        const slides = swiperEl.querySelectorAll('.swiper-slide');
-        
-        console.log(`Initializing swiper ${index + 1}, gallery: ${galleryIndex}, slides: ${slides.length}`);
-        
-        try {
-          const swiper = new Swiper(swiperEl, {
-            slidesPerView: 1,
-            spaceBetween: 0,
-            loop: slides.length > 1,
-            speed: 400,
-            autoplay: {
-              delay: 2000,
-              disableOnInteraction: false,
-            },
-            pagination: {
-              el: `[data-gallery="${galleryIndex}"].swiper-pagination`,
-              clickable: true,
-            },
-            navigation: {
-              nextEl: `[data-gallery="${galleryIndex}"].swiper-button-next`,
-              prevEl: `[data-gallery="${galleryIndex}"].swiper-button-prev`,
-            },
-            touchRatio: 1,
-            simulateTouch: true,
-            allowTouchMove: true,
-            observer: true,
-            observeParents: true,
-          });
-          
-          // Stop autoplay initially
-          swiper.autoplay.stop();
-          
-          // Hover autoplay for desktop
-          if (!('ontouchstart' in window)) {
-            swiperEl.addEventListener('mouseenter', () => swiper.autoplay.start());
-            swiperEl.addEventListener('mouseleave', () => swiper.autoplay.stop());
-          }
-          
-          console.log(`✅ Swiper ${index + 1} initialized successfully`);
-          
-        } catch (error) {
-          console.error(`❌ Error with swiper ${index + 1}:`, error);
-        }
+    try {
+      // Create Glide instance
+      const glide = new Glide(gallery, {
+        type: 'carousel',
+        startAt: 0,
+        perView: 1,
+        focusAt: 'center',
+        gap: 0,
+        autoplay: false, // Start with autoplay off
+        hoverpause: true,
+        animationDuration: 400,
+        animationTimingFunc: 'ease'
       });
+      
+      // Mount the glide
+      glide.mount();
+      
+      console.log('✅ Gallery', galleryId, 'initialized successfully');
+      
+      // Add hover autoplay for desktop only
+      if (!('ontouchstart' in window)) {
+        gallery.addEventListener('mouseenter', function() {
+          glide.update({ autoplay: 2000 });
+          glide.play();
+        });
+        
+        gallery.addEventListener('mouseleave', function() {
+          glide.pause();
+          glide.update({ autoplay: false });
+        });
+      }
+      
+    } catch (error) {
+      console.error('❌ Error initializing gallery', galleryId, ':', error);
     }
-  };
-  
-  // Start initialization immediately
-  GalleryConfig.init();
-  
-  // Also try on page events
-  document.addEventListener('DOMContentLoaded', () => {
-    console.log('📄 DOMContentLoaded triggered');
-    GalleryConfig.init();
   });
+});
+
+// Fallback initialization
+window.addEventListener('load', function() {
+  console.log('🔄 Window loaded - checking for uninitialized galleries...');
   
-  window.addEventListener('load', () => {
-    console.log('🌐 Window load triggered');
-    GalleryConfig.init();
+  const galleries = document.querySelectorAll('.gallery-glide');
+  galleries.forEach(function(gallery) {
+    // Check if Glide instance exists
+    if (!gallery._glide) {
+      console.log('🆘 Reinitializing gallery:', gallery.getAttribute('data-gallery'));
+      try {
+        const glide = new Glide(gallery, {
+          type: 'carousel',
+          perView: 1,
+          autoplay: false,
+          animationDuration: 400
+        });
+        glide.mount();
+      } catch (error) {
+        console.error('❌ Fallback initialization failed:', error);
+      }
+    }
   });
-  
-  // Jekyll-specific: Try after a delay for late-loading content
-  setTimeout(() => {
-    console.log('⏰ Timeout fallback triggered');
-    GalleryConfig.init();
-  }, 1000);
-  
-  setTimeout(() => {
-    console.log('⏰ Final fallback triggered');
-    GalleryConfig.init();
-  }, 3000);
-  
-})();
+});
 </script>
