@@ -23,13 +23,23 @@ author_profile: true
         </div>
         
         <div class="carousel-container">
-          <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": false, "pauseAutoPlayOnHover": false }'>
-            {% for image in gallery_item.images %}
-              <div class="carousel-cell">
+          {% if gallery_item.images.size > 1 %}
+            <!-- Multiple images: Use carousel -->
+            <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": false, "pauseAutoPlayOnHover": false }'>
+              {% for image in gallery_item.images %}
+                <div class="carousel-cell">
+                  <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
+                </div>
+              {% endfor %}
+            </div>
+          {% else %}
+            <!-- Single image: Just display it -->
+            <div class="single-image">
+              {% for image in gallery_item.images %}
                 <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
-              </div>
-            {% endfor %}
-          </div>
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -62,6 +72,23 @@ author_profile: true
 .carousel-cell img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Single image styling */
+.single-image {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-image img {
+  width: 100%;
+  height: 300px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -158,14 +185,16 @@ document.addEventListener('DOMContentLoaded', function() {
       pauseAutoPlayOnHover: false
     });
     
-    // Start autoplay on hover
+    // Start autoplay on hover with 2 second interval
     carousel.addEventListener('mouseenter', function() {
+      flkty.options.autoPlay = 2000;  // Set autoplay interval
       flkty.playPlayer();
     });
     
     // Stop autoplay when mouse leaves
     carousel.addEventListener('mouseleave', function() {
       flkty.pausePlayer();
+      flkty.options.autoPlay = false;  // Disable autoplay
     });
   });
 });
