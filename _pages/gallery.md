@@ -46,12 +46,18 @@ author_profile: true
   max-width: 500px;
 }
 
+.splide__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .splide__slide img {
   width: 100%;
-  height: auto;
-  max-height: 400px;
-  object-fit: contain;
+  height: 300px;  /* Fixed height back to ensure visibility */
+  object-fit: cover;  /* Changed back to cover for now */
   border-radius: 10px;
+  display: block;
 }
 
 .gallery-section {
@@ -112,12 +118,6 @@ author_profile: true
 }
 
 /* Arrow styling */
-.splide__arrows {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 .splide__arrow {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
@@ -172,60 +172,23 @@ author_profile: true
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  const splideInstances = [];
-  
   {% for gallery_item in site.gallery %}
-    const splide{{ forloop.index }} = new Splide('#splide-{{ forloop.index }}', {
+    new Splide('#splide-{{ forloop.index }}', {
       type: 'loop',
-      autoplay: false,  // Start with autoplay off
-      interval: 3000,   // 3 seconds between slides
+      autoplay: true,  // Changed to true to start autoplay
+      interval: 4000,   // 4 seconds between slides
       arrows: true,
       pagination: true,
       perPage: 1,
       gap: 0,
-      pauseOnHover: true,  // Pause when hovering
-      pauseOnFocus: true,  // Pause when focused
+      pauseOnHover: true,
+      pauseOnFocus: true,
       breakpoints: {
         768: {
           arrows: true,
         }
       }
     }).mount();
-    
-    splideInstances.push(splide{{ forloop.index }});
   {% endfor %}
-  
-  // Intersection Observer to start autoplay when section comes into view
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      const splideElement = entry.target.querySelector('.splide');
-      if (splideElement) {
-        const splideId = splideElement.id;
-        const index = parseInt(splideId.replace('splide-', '')) - 1;
-        const splideInstance = splideInstances[index];
-        
-        if (entry.isIntersecting) {
-          // Start autoplay with a 2-second delay when section comes into view
-          setTimeout(() => {
-            if (splideInstance && splideInstance.Components.Autoplay) {
-              splideInstance.Components.Autoplay.play();
-            }
-          }, 2000);
-        } else {
-          // Stop autoplay when section leaves view
-          if (splideInstance && splideInstance.Components.Autoplay) {
-            splideInstance.Components.Autoplay.pause();
-          }
-        }
-      }
-    });
-  }, {
-    threshold: 0.5  // Trigger when 50% of the section is visible
-  });
-  
-  // Observe all gallery sections
-  document.querySelectorAll('.gallery-section').forEach((section) => {
-    observer.observe(section);
-  });
 });
 </script>
