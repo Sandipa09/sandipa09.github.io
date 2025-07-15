@@ -25,7 +25,7 @@ author_profile: true
         <div class="carousel-container">
           {% if gallery_item.images.size > 1 %}
             <!-- Multiple images: Use carousel -->
-            <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": false, "pauseAutoPlayOnHover": false, "wrapAround": true, "dragThreshold": 10 }'>
+            <div class="carousel">
               {% for image in gallery_item.images %}
                 <div class="carousel-cell">
                   <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
@@ -164,16 +164,16 @@ author_profile: true
   
   .gallery-info {
     min-width: auto;
-    order: 2; /* Show text after image on mobile */
+    order: 2;
   }
   
   .carousel-container {
     max-width: 100%;
-    order: 1; /* Show image first on mobile */
+    order: 1;
   }
   
   .carousel-cell {
-    height: 250px; /* Slightly smaller on mobile */
+    height: 250px;
   }
   
   .single-image img {
@@ -220,31 +220,28 @@ author_profile: true
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Initialize all carousels
+  // Simple initialization for all carousels
   const carousels = document.querySelectorAll('.carousel');
   
   carousels.forEach(function(carousel) {
+    // Initialize Flickity with basic options
     const flkty = new Flickity(carousel, {
       cellAlign: 'left',
       contain: true,
       autoPlay: false,
-      pauseAutoPlayOnHover: false,
       wrapAround: true,
       dragThreshold: 10,
-      // Mobile-specific settings
-      adaptiveHeight: false,
-      setGallerySize: true
+      lazyLoad: true,
+      imagesLoaded: true
     });
     
-    // Check if device supports hover (not mobile)
-    if (window.matchMedia('(hover: hover)').matches) {
-      // Start autoplay on hover with 2 second interval
+    // Add hover autoplay only for desktop
+    if (window.innerWidth > 768) {
       carousel.addEventListener('mouseenter', function() {
         flkty.options.autoPlay = 2000;
         flkty.playPlayer();
       });
       
-      // Stop autoplay when mouse leaves
       carousel.addEventListener('mouseleave', function() {
         flkty.pausePlayer();
         flkty.options.autoPlay = false;
