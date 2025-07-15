@@ -14,7 +14,7 @@ author_profile: true
       <div class="image-grid">
         {% for image in gallery_item.images %}
           <div class="image-item">
-            <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}">
+            <img src="{{ image | relative_url }}" alt="{{ gallery_item.title }}">
           </div>
         {% endfor %}
       </div>

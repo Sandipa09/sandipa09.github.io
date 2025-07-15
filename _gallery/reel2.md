@@ -2,9 +2,9 @@
 title: "Vacation 2025"
 description: "Summer vacation photos from our trip to Europe"
 images:
-  - /images/gallery/china_nl.png
-  - /images/gallery/gp-bma.png
-  - /images/gallery/vacation3.jpg
+  - "{{ site.url }}{{ site.baseurl }}/images/gallery/china_nl.png"
+  - "{{ site.url }}{{ site.baseurl }}/images/gallery/gp-bma.png"
+  - "{{ site.url }}{{ site.baseurl }}/images/gallery/vacation3.jpg"
 date: 2024-07-15
 ---
 
