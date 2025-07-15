@@ -14,7 +14,10 @@ main:
     
   - title: "Awards & Honours"
     url: /awards/
-    
+
+  - title: "Gallery"
+    url: /gallery/
+  
   - title: "Other"
     url: /other/
   
