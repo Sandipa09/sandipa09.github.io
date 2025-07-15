@@ -186,8 +186,7 @@ author_profile: true
   }
   
   .carousel-container {
-    max-width: 100%; /* Allow full width on mobile */
-    width: 100%; /* Ensure it takes full width */
+    max-width: 100%;
   }
   
   .gallery-swiper {
@@ -196,7 +195,6 @@ author_profile: true
   
   .single-image img {
     height: 250px;
-    width: 100%; /* Ensure full width */
   }
   
   .swiper-button-next,
@@ -223,13 +221,8 @@ author_profile: true
     height: 200px;
   }
   
-  .single-image {
-    width: 100%; /* Ensure single image container is full width */
-  }
-  
   .single-image img {
     height: 200px;
-    width: 100%; /* Ensure full width on small mobile */
   }
   
   .gallery-content {
@@ -267,8 +260,14 @@ document.addEventListener('DOMContentLoaded', function() {
       slidesPerView: 1,
       spaceBetween: 0,
       loop: true,
-      autoplay: false, // Disabled by default
       speed: 400,
+      
+      // Autoplay configuration
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
       
       // Pagination
       pagination: {
@@ -286,26 +285,24 @@ document.addEventListener('DOMContentLoaded', function() {
       touchRatio: 1,
       touchAngle: 45,
       simulateTouch: true,
+      allowTouchMove: true,
       
-      // Responsive breakpoints (optional - Swiper handles most automatically)
-      breakpoints: {
-        320: {
-          slidesPerView: 1,
-        },
-        768: {
-          slidesPerView: 1,
-        },
-        1024: {
-          slidesPerView: 1,
-        },
-      }
+      // Enable keyboard control
+      keyboard: {
+        enabled: true,
+      },
+      
+      // Mouse wheel control
+      mousewheel: false,
     });
+    
+    // Stop autoplay initially
+    swiper.autoplay.stop();
     
     // Add hover autoplay for non-touch devices only
     if (!('ontouchstart' in window)) {
       swiperEl.addEventListener('mouseenter', function() {
         swiper.autoplay.start();
-        swiper.params.autoplay.delay = 2000;
       });
       
       swiperEl.addEventListener('mouseleave', function() {
