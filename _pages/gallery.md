@@ -7,21 +7,24 @@ author_profile: true
 
 <div class="photo-gallery">
   {% for gallery_item in site.gallery %}
-    <div class="gallery-section">
-      <h2>{{ gallery_item.title }}</h2>
-      <p>{{ gallery_item.description }}</p>
-      
-      <article class="gallery">
-        {% for image in gallery_item.images %}
-          <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" tabindex="0" />
-        {% endfor %}
-      </article>
-      
-      {% if gallery_item.content != "" %}
-        <div class="gallery-text">
-          {{ gallery_item.content }}
+    <div class="gallery-section {% cycle 'left', 'right' %}">
+      <div class="gallery-content">
+        <div class="gallery-info">
+          <h2>{{ gallery_item.title }}</h2>
+          <p>{{ gallery_item.description }}</p>
+          {% if gallery_item.content != "" %}
+            <div class="gallery-text">
+              {{ gallery_item.content }}
+            </div>
+          {% endif %}
         </div>
-      {% endif %}
+        
+        <article class="gallery">
+          {% for image in gallery_item.images %}
+            <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" tabindex="0" />
+          {% endfor %}
+        </article>
+      </div>
     </div>
   {% endfor %}
 </div>
@@ -74,9 +77,39 @@ author_profile: true
   padding-bottom: 40px;
 }
 
+.gallery-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.gallery-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.gallery-section.left .gallery-content {
+  flex-direction: row;
+}
+
+.gallery-section.right .gallery-content {
+  flex-direction: row-reverse;
+}
+
 .gallery-text {
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 1.1em;
   line-height: 1.6;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .gallery-content {
+    flex-direction: column !important;
+  }
+  
+  .gallery-info {
+    min-width: auto;
+  }
 }
 </style>
