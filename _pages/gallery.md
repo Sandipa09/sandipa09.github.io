@@ -280,91 +280,78 @@ author_profile: true
 <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
 
 <script>
-(function() {
-  'use strict';
+console.log('Script tag loaded');
+
+window.addEventListener('load', function() {
+  console.log('🚀 Window loaded, starting gallery initialization...');
   
-  function initializeGalleries() {
-    console.log('🚀 Starting gallery initialization...');
+  // Check if Glide is available
+  if (typeof Glide === 'undefined') {
+    console.error('❌ Glide.js is not loaded!');
+    return;
+  }
+  
+  console.log('✅ Glide.js is loaded');
+  
+  // Find all gallery elements
+  const galleries = document.querySelectorAll('.gallery-glide');
+  console.log('Found', galleries.length, 'galleries');
+  
+  if (galleries.length === 0) {
+    console.log('No galleries found');
+    return;
+  }
+  
+  galleries.forEach(function(gallery, index) {
+    const galleryId = gallery.getAttribute('data-gallery') || 'gallery-' + index;
+    console.log('Initializing gallery:', galleryId);
     
-    // Check if Glide is available
-    if (typeof Glide === 'undefined') {
-      console.error('❌ Glide.js is not loaded!');
-      return;
-    }
-    
-    console.log('✅ Glide.js is loaded');
-    
-    // Find all gallery elements
-    const galleries = document.querySelectorAll('.gallery-glide');
-    console.log('Found', galleries.length, 'galleries');
-    
-    if (galleries.length === 0) {
-      console.log('No galleries found');
-      return;
-    }
-    
-    galleries.forEach(function(gallery, index) {
-      const galleryId = gallery.getAttribute('data-gallery') || 'gallery-' + index;
-      console.log('Initializing gallery:', galleryId);
+    try {
+      // Create Glide instance
+      const glide = new Glide(gallery, {
+        type: 'carousel',
+        startAt: 0,
+        perView: 1,
+        focusAt: 'center',
+        gap: 0,
+        autoplay: false,
+        hoverpause: true,
+        animationDuration: 400,
+        animationTimingFunc: 'ease',
+        keyboard: true,
+        swipeThreshold: 80,
+        dragThreshold: 120
+      });
       
-      try {
-        // Create Glide instance
-        const glide = new Glide(gallery, {
-          type: 'carousel',
-          startAt: 0,
-          perView: 1,
-          focusAt: 'center',
-          gap: 0,
-          autoplay: false,
-          hoverpause: true,
-          animationDuration: 400,
-          animationTimingFunc: 'ease',
-          keyboard: true,
-          swipeThreshold: 80,
-          dragThreshold: 120
+      // Store reference
+      gallery._glide = glide;
+      
+      // Mount the glide
+      glide.mount();
+      
+      console.log('✅ Gallery', galleryId, 'initialized successfully');
+      
+      // Test if controls work
+      const arrows = gallery.querySelectorAll('.glide__arrow');
+      const bullets = gallery.querySelectorAll('.glide__bullet');
+      console.log('Found', arrows.length, 'arrows and', bullets.length, 'bullets');
+      
+      // Add hover autoplay for desktop only
+      if (!('ontouchstart' in window)) {
+        gallery.addEventListener('mouseenter', function() {
+          glide.update({ autoplay: 2000 });
+          glide.play();
         });
         
-        // Store reference
-        gallery._glide = glide;
-        
-        // Mount the glide
-        glide.mount();
-        
-        console.log('✅ Gallery', galleryId, 'initialized successfully');
-        
-        // Test if controls work
-        const arrows = gallery.querySelectorAll('.glide__arrow');
-        const bullets = gallery.querySelectorAll('.glide__bullet');
-        console.log('Found', arrows.length, 'arrows and', bullets.length, 'bullets');
-        
-        // Add hover autoplay for desktop only
-        if (!('ontouchstart' in window)) {
-          gallery.addEventListener('mouseenter', function() {
-            glide.update({ autoplay: 2000 });
-            glide.play();
-          });
-          
-          gallery.addEventListener('mouseleave', function() {
-            glide.pause();
-            glide.update({ autoplay: false });
-          });
-        }
-        
-      } catch (error) {
-        console.error('❌ Error initializing gallery', galleryId, ':', error);
+        gallery.addEventListener('mouseleave', function() {
+          glide.pause();
+          glide.update({ autoplay: false });
+        });
       }
-    });
-  }
-  
-  // Try multiple initialization methods
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initializeGalleries);
-  } else {
-    initializeGalleries();
-  }
-  
-  // Also try with a delay in case Jekyll is slow
-  setTimeout(initializeGalleries, 500);
-  
-})();
+      
+    } catch (error) {
+      console.error('❌ Error initializing gallery', galleryId, ':', error);
+    }
+  });
+});
 </script>
