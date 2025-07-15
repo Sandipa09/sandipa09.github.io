@@ -25,7 +25,7 @@ author_profile: true
         <div class="carousel-container">
           {% if gallery_item.images.size > 1 %}
             <!-- Multiple images: Use carousel -->
-            <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": false, "pauseAutoPlayOnHover": false }'>
+            <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": false, "pauseAutoPlayOnHover": false, "wrapAround": true, "dragThreshold": 10 }'>
               {% for image in gallery_item.images %}
                 <div class="carousel-cell">
                   <img src="{{ image | absolute_url }}" alt="{{ gallery_item.title }}" />
@@ -135,6 +135,7 @@ author_profile: true
   background: #bbb;
   border-radius: 50%;
   margin: 0 5px;
+  cursor: pointer;
 }
 
 .flickity-page-dots .dot.is-selected {
@@ -147,24 +148,69 @@ author_profile: true
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 
 .flickity-prev-next-button:hover {
   background: rgba(0, 0, 0, 0.8);
 }
 
-/* Responsive design */
+/* Enhanced mobile responsive design */
 @media (max-width: 768px) {
   .gallery-content {
     flex-direction: column !important;
+    gap: 20px;
+  }
+  
+  .gallery-info {
+    min-width: auto;
+    order: 2; /* Show text after image on mobile */
+  }
+  
+  .carousel-container {
+    max-width: 100%;
+    order: 1; /* Show image first on mobile */
+  }
+  
+  .carousel-cell {
+    height: 250px; /* Slightly smaller on mobile */
+  }
+  
+  .single-image img {
+    height: 250px;
+  }
+  
+  .flickity-prev-next-button {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .flickity-page-dots {
+    bottom: -25px;
+  }
+  
+  .flickity-page-dots .dot {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* Fix for very small screens */
+@media (max-width: 480px) {
+  .carousel-cell {
+    height: 200px;
+  }
+  
+  .single-image img {
+    height: 200px;
   }
   
   .gallery-info {
     min-width: auto;
   }
   
-  .carousel-container {
-    max-width: 100%;
+  .gallery-content {
+    gap: 15px;
   }
 }
 </style>
@@ -182,20 +228,28 @@ document.addEventListener('DOMContentLoaded', function() {
       cellAlign: 'left',
       contain: true,
       autoPlay: false,
-      pauseAutoPlayOnHover: false
+      pauseAutoPlayOnHover: false,
+      wrapAround: true,
+      dragThreshold: 10,
+      // Mobile-specific settings
+      adaptiveHeight: false,
+      setGallerySize: true
     });
     
-    // Start autoplay on hover with 2 second interval
-    carousel.addEventListener('mouseenter', function() {
-      flkty.options.autoPlay = 2000;  // Set autoplay interval
-      flkty.playPlayer();
-    });
-    
-    // Stop autoplay when mouse leaves
-    carousel.addEventListener('mouseleave', function() {
-      flkty.pausePlayer();
-      flkty.options.autoPlay = false;  // Disable autoplay
-    });
+    // Check if device supports hover (not mobile)
+    if (window.matchMedia('(hover: hover)').matches) {
+      // Start autoplay on hover with 2 second interval
+      carousel.addEventListener('mouseenter', function() {
+        flkty.options.autoPlay = 2000;
+        flkty.playPlayer();
+      });
+      
+      // Stop autoplay when mouse leaves
+      carousel.addEventListener('mouseleave', function() {
+        flkty.pausePlayer();
+        flkty.options.autoPlay = false;
+      });
+    }
   });
 });
 </script>
