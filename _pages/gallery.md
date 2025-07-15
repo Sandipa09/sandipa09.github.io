@@ -251,64 +251,110 @@ author_profile: true
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Initialize all Swiper instances
-  const swipers = document.querySelectorAll('.gallery-swiper');
+// Function to initialize swipers
+function initializeSwipers() {
+  console.log('Initializing swipers...');
   
-  swipers.forEach(function(swiperEl) {
-    const swiper = new Swiper(swiperEl, {
-      slidesPerView: 1,
-      spaceBetween: 0,
-      loop: true,
-      speed: 400,
-      
-      // Autoplay configuration
-      autoplay: {
-        delay: 2000,
-        disableOnInteraction: false,
-        pauseOnMouseEnter: true,
-      },
-      
-      // Pagination
-      pagination: {
-        el: swiperEl.querySelector('.swiper-pagination'),
-        clickable: true,
-      },
-      
-      // Navigation arrows
-      navigation: {
-        nextEl: swiperEl.querySelector('.swiper-button-next'),
-        prevEl: swiperEl.querySelector('.swiper-button-prev'),
-      },
-      
-      // Touch settings for better mobile experience
-      touchRatio: 1,
-      touchAngle: 45,
-      simulateTouch: true,
-      allowTouchMove: true,
-      
-      // Enable keyboard control
-      keyboard: {
-        enabled: true,
-      },
-      
-      // Mouse wheel control
-      mousewheel: false,
-    });
+  const swipers = document.querySelectorAll('.gallery-swiper');
+  console.log('Found', swipers.length, 'swiper elements');
+  
+  if (swipers.length === 0) {
+    console.log('No swiper elements found, retrying in 500ms...');
+    setTimeout(initializeSwipers, 500);
+    return;
+  }
+  
+  swipers.forEach(function(swiperEl, index) {
+    console.log('Initializing swiper', index + 1);
     
-    // Stop autoplay initially
-    swiper.autoplay.stop();
+    // Skip if already initialized
+    if (swiperEl.swiper) {
+      console.log('Swiper', index + 1, 'already initialized');
+      return;
+    }
     
-    // Add hover autoplay for non-touch devices only
-    if (!('ontouchstart' in window)) {
-      swiperEl.addEventListener('mouseenter', function() {
-        swiper.autoplay.start();
+    try {
+      const swiper = new Swiper(swiperEl, {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        speed: 400,
+        
+        // Autoplay configuration
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        },
+        
+        // Pagination
+        pagination: {
+          el: swiperEl.querySelector('.swiper-pagination'),
+          clickable: true,
+        },
+        
+        // Navigation arrows
+        navigation: {
+          nextEl: swiperEl.querySelector('.swiper-button-next'),
+          prevEl: swiperEl.querySelector('.swiper-button-prev'),
+        },
+        
+        // Touch settings for better mobile experience
+        touchRatio: 1,
+        touchAngle: 45,
+        simulateTouch: true,
+        allowTouchMove: true,
+        
+        // Enable keyboard control
+        keyboard: {
+          enabled: true,
+        },
+        
+        // Mouse wheel control
+        mousewheel: false,
       });
       
-      swiperEl.addEventListener('mouseleave', function() {
-        swiper.autoplay.stop();
-      });
+      console.log('Swiper', index + 1, 'created successfully, slides:', swiper.slides.length);
+      
+      // Stop autoplay initially
+      swiper.autoplay.stop();
+      
+      // Add hover autoplay for non-touch devices only
+      if (!('ontouchstart' in window)) {
+        swiperEl.addEventListener('mouseenter', function() {
+          swiper.autoplay.start();
+        });
+        
+        swiperEl.addEventListener('mouseleave', function() {
+          swiper.autoplay.stop();
+        });
+      }
+      
+    } catch (error) {
+      console.error('Error initializing swiper', index + 1, ':', error);
     }
   });
-});
+}
+
+// Multiple initialization attempts to ensure it works
+function waitForSwiper() {
+  if (typeof Swiper !== 'undefined') {
+    console.log('Swiper library loaded, initializing...');
+    initializeSwipers();
+  } else {
+    console.log('Swiper not ready, waiting...');
+    setTimeout(waitForSwiper, 100);
+  }
+}
+
+// Try multiple initialization methods
+document.addEventListener('DOMContentLoaded', waitForSwiper);
+window.addEventListener('load', waitForSwiper);
+
+// Fallback - initialize after a delay
+setTimeout(function() {
+  if (typeof Swiper !== 'undefined') {
+    initializeSwipers();
+  }
+}, 1000);
 </script>
