@@ -76,8 +76,8 @@
   margin-bottom: 1em;
 
   img {
-    width: 60%;
-    max-width: 250px;
+    width: 100%; // Full width of available space
+    max-width: none; // Remove max-width constraint
     border-radius: 2%;
     display: block;
     margin: 0 auto;
@@ -86,14 +86,14 @@
   }
 
   @include breakpoint($large) {
-    display: block; // Changed from table-cell to block
+    display: block;
     width: 100%; // Take full width of sidebar
     text-align: center; // Center the image
     margin-bottom: 20px; // Add space below
     
     img {
-      max-width: 300px; // Increased from 200px
-      width: 80%; // Use percentage instead of fixed width
+      width: 100%; // Full width of sidebar
+      max-width: none; // Remove max-width constraint
       height: auto; // Let height scale proportionally
       border-radius: 1%;
       padding: 5px;
