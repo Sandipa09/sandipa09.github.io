@@ -4,6 +4,7 @@ description: "The workshop focussed on a range of critical research areas relate
 images:
   - "/images/gallery/converted-image-Dickinson_1.jpg"
   - "/images/gallery/converted-image-Dickinson_2.jpg"
+  - "/images/gallery/converted-image-Dickinson_3.jpg"
 date: 2024-07-15
 ---
 
