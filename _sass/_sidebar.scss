@@ -86,16 +86,14 @@
   }
 
   @include breakpoint($large) {
-    display: table-cell;
-    vertical-align: top;
-    width: auto; // Remove the 36px constraint
-    height: auto; // Remove the 36px constraint
-    text-align: left;
-    margin-bottom: 0;
+    display: block; // Changed from table-cell to block
+    width: 100%; // Take full width of sidebar
+    text-align: center; // Center the image
+    margin-bottom: 20px; // Add space below
     
     img {
       max-width: 300px; // Increased from 200px
-      width: 250px; // Increased from 150px
+      width: 80%; // Use percentage instead of fixed width
       height: auto; // Let height scale proportionally
       border-radius: 1%;
       padding: 5px;
