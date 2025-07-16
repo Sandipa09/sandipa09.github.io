@@ -4,6 +4,8 @@ description: "Buffalo Musuem of Science"
 images:
   - "/images/gallery/converted-image-Art_1.jpg"
   - "/images/gallery/converted-image-Art_2.jpg"
+  - "/images/gallery/converted-image-Art_3.jpg"
+  - "/images/gallery/converted-image-Art_4.jpg"
 date: 2024-07-15
 ---
 
