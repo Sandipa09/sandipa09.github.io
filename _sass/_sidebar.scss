@@ -78,7 +78,11 @@
   img {
     width: 60%;
     max-width: 250px;
-    border-radius: 2%; // Slightly more rounded than 1% but still square-ish
+    border-radius: 2%;
+    display: block;
+    margin: 0 auto;
+    height: auto; // Important for responsive images
+    object-fit: cover; // Ensures proper image scaling
   }
 
   @include breakpoint($large) {
@@ -94,6 +98,9 @@
       border-radius: 1%;
       padding: 5px;
       border: 1px solid $border-color;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 }
