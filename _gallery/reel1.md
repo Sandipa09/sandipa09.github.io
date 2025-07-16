@@ -1,11 +1,18 @@
 ---
-title: "Vacation 2024"
-description: "Summer vacation photos from our trip to Europe"
+title: "3 Minute Thesis Competition 2023"
+description: "Developed by the University of Queensland, the Three Minute Thesis (3MT) competition celebrates the exciting research conducted by PhD students by cultivating students’ academic, presentation and research communication skills. Participants are judged on the ability to effectively convey the essence and importance of their research in an engaging way to a non-specialist audience in just three minutes, with one PowerPoint slide."
 images:
-  - "/images/gallery/china_nl.png"
-  - "/images/gallery/gp-bma.png"
-  - "https://plus.unsplash.com/premium_photo-1668024966086-bd66ba04262f?q=80&w=2092&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  - "/images/gallery/converted-image-GIT_3MT_1.jpg"
+  - "/images/gallery/converted-image-GIT_3MT_2.jpg"
+  - "/images/gallery/converted-image-GIT_3MT_3.jpg"
+  - "/images/gallery/converted-image-GIT_3MT_4.jpg"
+  - "/images/gallery/converted-image-GIT_3MT_5.jpg"
+  - "/images/gallery/converted-image-GIT_3MT_6.jpg"
+  - "/images/gallery/converted-image-GIT_3MT_7.jpg"
+  - "/images/gallery/converted-image-GIT_3MT_8.jpg"
+  - "/images/gallery/converted-image-GIT_3MT_9.jpg"
 date: 2024-07-15
 ---
+Second Place and People's Choice Award Winner.
+[More about the competition](https://www.buffalo.edu/three-minute-thesis/past/2023.html)
 
-Additional text content about this gallery collection goes here.
