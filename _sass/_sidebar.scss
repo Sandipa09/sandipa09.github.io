@@ -70,23 +70,28 @@
    ========================================================================== */
 
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 36px;
-  // set width only, for non-square avatars
-  height: 36px;
-
-  @include breakpoint($large) {
-    display: block;
-    width: auto;
-    height: auto;
-  }
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
 
   img {
-    max-width: 200px;
-    border-radius: 1%;
+    width: 60%;
+    max-width: 250px;
+    border-radius: 2%; // Slightly more rounded than 1% but still square-ish
+  }
 
-    @include breakpoint($large) {
+  @include breakpoint($large) {
+    display: table-cell;
+    vertical-align: top;
+    width: 36px;
+    height: 36px;
+    text-align: left;
+    margin-bottom: 0;
+    
+    img {
+      max-width: 200px;
+      border-radius: 1%;
       padding: 5px;
       border: 1px solid $border-color;
     }
