@@ -8,16 +8,16 @@ header:
 ---
 
 **Peer-Reviewed Publications**
+- Exchange Rate Volatility and International Students’ Educational Choice: Evidence from U.S.<br>
+  <span style="font-size:13px;"> *Solo-authored* </span> <br>
+  <span style="font-size:13px;"> Forthcoming, **Eastern Economic Journal** </span>
+  
 - [Do Compulsory Schooling Laws Affect Fertility Behaviors and Marriages? Evidence from India](http://doi.org/10.1111/rode.70016) <br>
   <span style="font-size:13px;"> *Solo-authored* </span> <br>
   <span style="font-size:13px;"> **Review of Development Economics**, July 2025 </span> <br>
   <span style="font-size:13px;"> Pre-Submission Version: [GLO Discussion Paper 1588](https://ideas.repec.org/p/zbw/glodps/1588.html) </span>
 
 **Working Papers**
-
-- Exchange Rate Volatility and International Students’ Educational Choice: Evidence from U.S.<br>
-  <span style="font-size:13px;"> *Solo-authored* </span> <br>
-  <span style="font-size:13px;"> Revise and Resubmit, Eastern Economic Journal </span>
   
 - Impact of COVID-19 Lockdowns on Childbirth Delivery Care in India<br>
   <span style="font-size:13px;"> *with [Shamma Alam](https://sites.google.com/view/shamma-alam) and [Bijetri Bose](https://bijetri.github.io/)* </span> <br>
