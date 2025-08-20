@@ -8,7 +8,7 @@ header:
 ---
 
 **Conferences**
-- Southern Economic Association (Presidential Session), Florida [2025] `|` <span style="font-size:13px;"> (Scheduled) </span>
+- Southern Economic Association (Presidential Session, AEA CSWEP Session), Florida [2025] `|` <span style="font-size:13px;"> Presenter </span>
 - Eastern Economic Association (AEA CSWEP Session), New York [2025] `|` <span style="font-size:13px;"> Presenter, Discussant, Session Chair </span>
 - Eurasian Business and Economic Society, Lisbon [2025] `|` <span style="font-size:13px;"> Presenter, Session Chair </span> 
 - The Global GLO-JOPE Conference, Maastricht [2024] `|` <span style="font-size:13px;"> Presenter, Discussant </span>
@@ -38,6 +38,7 @@ header:
 - The State University of New York at Oneonta, Department of Economics (New York) [2023]
   
 **Workshops/ Seminars**
+- LACDev Conference, Reed College [2025] `|` <span style="font-size:13px;"> Attendee </span>  
 - Workshop on Household and Development Economics, Dickinson College [2024] `|` <span style="font-size:13px;"> Presenter </span>
 - From Grad to Greatness - Your Guide to Successful Teaching, Macmilan Learning [2024] `|` <span style="font-size:13px;"> Discussant </span>
 - UC San Diego 21CIC Indian Economy Seminar [2023 - Present] `|` <span style="font-size:13px;"> Attendee </span>
