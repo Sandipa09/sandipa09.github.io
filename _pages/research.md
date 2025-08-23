@@ -27,7 +27,7 @@ header:
   <span style="font-size:13px;"> *with [Soumak Basumallik](https://www.linkedin.com/in/soumakbasumallik/)* </span> <br>
   <span style="font-size:13px;"> Under Review </span>
   
-- The Intergenerational Effect of Parental Education on Child Health: Evidence from India 
+- The Intergenerational Effect of Parental Education on Child Health: Evidence from India <br>
   <span style="font-size:13px;"> *with [Sharbani Bhattacharjee](https://sites.google.com/view/sharbani/home?authuser=0)* </span>  
     <details style="font-size:80%; background-color:#fffbfa;">
     <summary style="color:#a51417; font-family:courier; font-size:100%;"> Abstract </summary> 
