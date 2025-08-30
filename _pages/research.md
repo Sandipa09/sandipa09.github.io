@@ -8,9 +8,9 @@ header:
 ---
 
 **Peer-Reviewed Publications**
-- Exchange Rate Volatility and International Students’ Educational Choice: Evidence from U.S.<br>
+- [Exchange Rate Volatility and International Students’ Educational Choice: Evidence from U.S.](https://link.springer.com/article/10.1057/s41302-025-00308-6?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250830&utm_content=10.1057%2Fs41302-025-00308-6#citeas) <br>
   <span style="font-size:13px;"> *Solo-authored* </span> <br>
-  <span style="font-size:13px;"> **Eastern Economic Journal**, Forthcoming </span>
+  <span style="font-size:13px;"> **Eastern Economic Journal**, August 2025 </span>
   
 - [Do Compulsory Schooling Laws Affect Fertility Behaviors and Marriages? Evidence from India](http://doi.org/10.1111/rode.70016) <br>
   <span style="font-size:13px;"> *Solo-authored* </span> <br>
