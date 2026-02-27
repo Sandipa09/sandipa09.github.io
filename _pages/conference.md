@@ -26,6 +26,7 @@ header:
 - Bengal Economic Association, Kolkata, India [2014]  `|` <span style="font-size:13px;"> Presenter </span>
 
 **Invited Talks**
+- Middlesex College, American Statistical Association, Research Seminar (New Jersey) [2026] 
 - Bergen Arts & Sciences Charter High School, Guest Speaker, AP Macroeconomics (New Jersey) [2025]
 - Towson University, Department of Economics, Research Seminar (Maryland) [2025]
 - Bergen County Academies, TEDxYouth Speaker (New Jersey) [2025]
@@ -38,6 +39,8 @@ header:
 - The State University of New York at Oneonta, Department of Economics (New York) [2023]
   
 **Workshops/ Seminars**
+- AEA CSWEP CeMENT: Mentoring for Junior Faculty Workshop Workshop, Fed Chicago [2026] `|` <span style="font-size:13px;"> Participant </span>  
+- AEA Expanding Diversity in Undergraduate Classes with Advancements in the Teaching of Economics (EDUCATE) Workshop [2026] `|` <span style="font-size:13px;"> Participant </span>  
 - LACDev Conference, Reed College [2025] `|` <span style="font-size:13px;"> Attendee </span>  
 - Workshop on Household and Development Economics, Dickinson College [2024] `|` <span style="font-size:13px;"> Presenter </span>
 - From Grad to Greatness - Your Guide to Successful Teaching, Macmilan Learning [2024] `|` <span style="font-size:13px;"> Discussant </span>
