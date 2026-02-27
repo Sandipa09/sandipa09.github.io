@@ -8,6 +8,7 @@ header:
 ---
 
 **Conferences**
+- Eastern Economic Association (AEA CSWEP Session), Dominican Republic [2026] `|` <span style="font-size:13px;"> Presenter, Discussant, Session Chair </span>
 - Southern Economic Association (Presidential Session, AEA CSWEP Session), Florida [2025] `|` <span style="font-size:13px;"> Presenter </span>
 - Eastern Economic Association (AEA CSWEP Session), New York [2025] `|` <span style="font-size:13px;"> Presenter, Discussant, Session Chair </span>
 - Eurasian Business and Economic Society, Lisbon [2025] `|` <span style="font-size:13px;"> Presenter, Session Chair </span> 
@@ -39,8 +40,8 @@ header:
 - The State University of New York at Oneonta, Department of Economics (New York) [2023]
   
 **Workshops/ Seminars**
-- AEA CSWEP CeMENT: Mentoring for Junior Faculty Workshop Workshop, Fed Chicago [2026] `|` <span style="font-size:13px;"> Participant </span>  
-- AEA Expanding Diversity in Undergraduate Classes with Advancements in the Teaching of Economics (EDUCATE) Workshop [2026] `|` <span style="font-size:13px;"> Participant </span>  
+- AEA CSWEP CeMENT: Mentoring for Junior Faculty Workshop, Fed Chicago [2026] `|` <span style="font-size:13px;"> Participant </span>  
+- AEA Expanding Diversity in Undergraduate Classes with Advancements in the Teaching of Economics Workshop [2026] `|` <span style="font-size:13px;"> Participant </span>  
 - LACDev Conference, Reed College [2025] `|` <span style="font-size:13px;"> Attendee </span>  
 - Workshop on Household and Development Economics, Dickinson College [2024] `|` <span style="font-size:13px;"> Presenter </span>
 - From Grad to Greatness - Your Guide to Successful Teaching, Macmilan Learning [2024] `|` <span style="font-size:13px;"> Discussant </span>
