@@ -5,21 +5,29 @@ title: "Teaching"
 
 **Instructor, [Ramapo College of New Jersey](https://www.ramapo.edu/majors-minors/majors/economics/)**  
 
+ - **ECO 322: Labor Economics**
+     - Fall 2026
+ 
+ - **ECO 303: Environmental Economics**
+     - Spring 2026
+
  - **ECO 332: Health Economics: An International Perspective**
-     - Spring 2025
+     - Spring 2025, Spring 2027
 
  - **ECO 102: Introduction to Macroeconomics**
+     - Spring 2026, 1 section
      - Fall 2025, 2 sections
      - Spring 2025, 1 section
      - Fall 2024, 2 sections
      - Spring 2024, 2 sections
 
  - **ECO 101: Microeconomics**
+     - Spring 2026, 2 sections
      - Fall 2025, 1 section
      - Spring 2025, 2 sections
      - Fall 2024, 1 section
      - Spring 2024, 1 section
-     - Fall 2023 - 2 sections
+     - Fall 2023, 2 sections
 
 **Adjunct Instructor, [University at Buffalo, SUNY](https://arts-sciences.buffalo.edu/economics.html)**  
 
