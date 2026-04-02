@@ -15,6 +15,7 @@ title: "Teaching"
      - Spring 2025, Spring 2027
 
  - **ECO 102: Introduction to Macroeconomics**
+     - Fall 2026, 2 sections
      - Spring 2026, 1 section
      - Fall 2025, 2 sections
      - Spring 2025, 1 section
