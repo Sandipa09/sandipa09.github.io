@@ -6,7 +6,7 @@ author_profile: true
 header:
   og_image: "research/ecdf.png"
 ---
-- Outstanding Professor of the Year `|` <span style="font-size:13px;"> Ramapo College of New Jersey [2026]</span>
+- Beta Gamma Sigma Outstanding Professor of the Year `|` <span style="font-size:13px;"> Ramapo College of New Jersey [2026]</span>
 - GLO Research Fellow `|` <span style="font-size:13px;"> Global Labor Organization [2025-Present]</span>
 - Research and Engagement Academy, Research Fellow `|` <span style="font-size:13px;"> Ramapo College of New Jersey [2025]</span>
 - Faculty Scholarship Funding `|` <span style="font-size:13px;"> Ramapo College of New Jersey [2024-2025]</span>
