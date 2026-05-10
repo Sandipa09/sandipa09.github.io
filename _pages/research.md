@@ -26,6 +26,10 @@ header:
 - Underemployed Worker’s Health: Evidence from States’ Minimum Wage Levels<br> 
   <span style="font-size:13px;"> *with [Soumak Basumallik](https://www.linkedin.com/in/soumakbasumallik/)* </span> <br>
   <span style="font-size:13px;"> Under Review </span>
+
+- Home Production and Technology: Why Time-Saving Innovations Do Not Always Save Time <br>
+  <span style="font-size:13px;"> *with [Timothy Haase](https://scholar.google.com/citations?user=iXUJmkgAAAAJ&hl=en)* </span>  
+  <span style="font-size:13px;"> Under Review </span>
   
 - The Intergenerational Effect of Parental Education on Child Health: Evidence from India <br>
   <span style="font-size:13px;"> *with [Sharbani Bhattacharjee](https://sites.google.com/view/sharbani/home?authuser=0)* </span>  
@@ -42,9 +46,6 @@ header:
     </details> 
 
 **Works in Progress**
-
-- Working Less or Working Differently? Home Production and Time Use in the Household <br>
-  <span style="font-size:13px;"> *with [Timothy Haase](https://www.ramapo.edu/asb/faculty/timothy-haase/)* </span>
 
 - Women's Empowerment in India: Evidence from the Conditional Cash Transfer (CCT) policy <br>
   <span style="font-size:13px;"> *with [Sharbani Bhattacharjee](https://sites.google.com/view/sharbani/home?authuser=0)* </span>
