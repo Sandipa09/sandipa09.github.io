@@ -40,8 +40,8 @@ header:
 - The State University of New York at Oneonta, Department of Economics (New York) [2023]
   
 **Workshops/ Seminars**
-- AEA CSWEP CeMENT: Mentoring for Junior Faculty Workshop, Fed Chicago [2026] 
-- AEA Expanding Diversity in Undergraduate Classes with Advancements in the Teaching of Economics Workshop [2026] 
+- AEA CSWEP CeMENT: Mentoring for Junior Faculty Workshop, (Fed Chicago) [2026] 
+- AEA Expanding Diversity in Undergraduate Classes with Advancements in the Teaching of Economics Workshop, (Las Vegas) [2026] 
 - Towson International Development Economics Symposium (TIDES), Towson University [2026] 
 - LACDev Conference, Reed College [2025]
 - Workshop on Household and Development Economics, Dickinson College [2024] 
