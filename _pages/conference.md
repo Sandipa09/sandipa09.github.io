@@ -8,6 +8,8 @@ header:
 ---
 
 **Conferences**
+- LACDev Conference, Wesleyan University [2026]
+- Southern Economic Association (Presidential Session), Houston [2026] 
 - Eastern Economic Association (AEA CSWEP Session), Dominican Republic [2026] 
 - Southern Economic Association (Presidential Session, AEA CSWEP Session), Florida [2025] 
 - Eastern Economic Association (AEA CSWEP Session), New York [2025] 
