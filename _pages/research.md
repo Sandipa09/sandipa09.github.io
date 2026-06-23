@@ -20,7 +20,7 @@ header:
 **Working Papers**
   
 - Impact of COVID-19 Lockdowns on Childbirth Delivery Care in India<br>
-  <span style="font-size:13px;"> *with [Shamma Alam](https://sites.google.com/view/shamma-alam) and [Bijetri Bose](https://bijetri.github.io/)* </span> <br>
+  <span style="font-size:13px;"> *with [Shamma A. Alam](https://sites.google.com/view/shamma-alam) and [Bijetri Bose](https://bijetri.github.io/)* </span> <br>
   <span style="font-size:13px;"> Under Review </span>
   
 - Underemployed Worker’s Health: Evidence from States’ Minimum Wage Levels<br> 
@@ -38,6 +38,12 @@ header:
    The paper investigates the causal impact of parental education on child health outcomes by exploiting a compulsory schooling reform in India which required parents to complete eight years of primary education. The exogenous variation in parental education induced by the reform implementation timing in different states across the birth cohorts of parents is explored using an instrumental variable difference-in-difference approach. Findings based on data from the National Family Health Survey suggest that increased total years of parental education improved the birth weight, weight-for-age, and height of their offspring. Parental education also increased the probability of a child being currently breastfed and improved understanding of a child's measles immunization. I also examine different household socio-economic pathways which can impact children's health. I find significant improvements in all the household facilities and improved sanitation in Indian society. There is little evidence of a causal relationship between a father's education and his health behavior, but mothers in Indian society take better care of their health in terms of having antenatal and postnatal care and increased probability of health check-ups which gets transmitted to improved health outcomes for their children.
     </details> 
 
+- Healthcare Strikes and Maternal Care in India <br>
+  <span style="font-size:13px;"> *with [Shamma A. Alam](https://sites.google.com/view/shamma-alam) and [Bijetri Bose](https://bijetri.github.io/)* </span> 
+
+- Household Decision Dynamics, Women’s Mental Health, and Intimate Partner Violence in Cameroon <br>
+  <span style="font-size:13px;"> *with [Shamma A. Alam](https://sites.google.com/view/shamma-alam), [Rachael Susan Pierotti](https://sites.google.com/view/rachael-pierotti/home), [Estelle Koussoube](https://www.estellekoussoube.com/), [Clémence Pougué Biyong](https://voxdev.org/clemence-pougue-biyong)* </span> 
+  
 - The Effect of Affordable Care Act (ACA) on Insurance Coverage by the U.S. Natives and Immigrants 
 
     <details style="font-size:80%; background-color:#fffbfa;">
