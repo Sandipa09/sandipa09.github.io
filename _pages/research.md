@@ -44,7 +44,7 @@ header:
 - Household Decision Dynamics, Women’s Mental Health, and Intimate Partner Violence in Cameroon <br>
   <span style="font-size:13px;"> *with [Shamma A. Alam](https://sites.google.com/view/shamma-alam), [Rachael Susan Pierotti](https://sites.google.com/view/rachael-pierotti/home), [Estelle Koussoube](https://www.estellekoussoube.com/), and [Clémence Pougué Biyong](https://voxdev.org/clemence-pougue-biyong)* </span>
 
-- Workplace Characteristics and Job Satisfaction <br>
+- Workplace Characteristics and Job Satisfaction: Do Aspirations Matter? <br>
   <span style="font-size:13px;"> *with [Tufan Ekici](https://scholar.google.com/citations?user=ORVOPkkAAAAJ&hl=en)* </span>   
   
 - The Effect of Affordable Care Act (ACA) on Insurance Coverage by the U.S. Natives and Immigrants 
