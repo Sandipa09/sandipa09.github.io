@@ -6,4 +6,4 @@ images:
 date: 2026-06-05
 ---
 2026 Cohort.
-[More about the program]([https://www.aeaweb.org/about-aea/committees/economic-education/educate-workshop])
+[More about the program](https://www.aeaweb.org/about-aea/committees/economic-education/educate-workshop)
