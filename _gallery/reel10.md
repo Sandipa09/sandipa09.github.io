@@ -1,6 +1,6 @@
 ---
 title: "CeMENT: Mentoring for Junior Faculty"
-description: "The CeMENT Workshop, organized by the Committee on the Status of Women in the Economics Profession (CSWEP) and sponsored by the American Economic Association (AEA), provides mentoring and professional development for women and nonbinary faculty in tenure-track positions at economics departments and related institutions across North America."
+description: "The CeMENT Workshop, organized by the Committee on the Status of Women in the Economics Profession (CSWEP) and sponsored by the American Economic Association (AEA), provides mentoring and professional development for women and nonbinary faculty in tenure-track positions at economics departments and related institutions across North America. I was part of the Development Economics mentoring group, where I was mentored by [Melanie Khamis](https://melaniekhamis.com/) and [Sheetal Sekhri](https://sites.google.com/trie.org/sheetal-sekhri)."
 images:
   - "/images/gallery/CEMENT1.jpg"
   - "/images/gallery/CEMENT2.jpg"
