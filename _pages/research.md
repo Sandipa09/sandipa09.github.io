@@ -42,13 +42,13 @@ header:
   <span style="font-size:13px;"> *with [Shamma A. Alam](https://sites.google.com/view/shamma-alam) and [Bijetri Bose](https://bijetri.github.io/)* </span> 
 
 - Household Decision Dynamics, Women’s Mental Health, and Intimate Partner Violence in Cameroon <br>
-  <span style="font-size:13px;"> *with [Shamma A. Alam](https://sites.google.com/view/shamma-alam), [Rachael Susan Pierotti](https://sites.google.com/view/rachael-pierotti/home), [Estelle Koussoube](https://www.estellekoussoube.com/), and [Clémence Pougué Biyong](https://voxdev.org/clemence-pougue-biyong)* </span>
+  <span style="font-size:13px;"> *with [Shamma A. Alam](https://sites.google.com/view/shamma-alam), [Rachael Susan Pierotti](https://sites.google.com/view/rachael-pierotti/home), [Estelle Koussoube](https://www.estellekoussoube.com/) and [Clémence Pougué Biyong](https://voxdev.org/clemence-pougue-biyong)* </span>
 
 - Workplace Characteristics and Job Satisfaction: Do Aspirations Matter? <br>
   <span style="font-size:13px;"> *with [Tufan Ekici](https://scholar.google.com/citations?user=ORVOPkkAAAAJ&hl=en)* </span>
 
 - Does Crime-Related Google Search Predict Urban Crime? Evidence and Measurement Lessons from Three Cities <br>
-  <span style="font-size:13px;"> *with [Timothy Haase](https://scholar.google.com/citations?user=iXUJmkgAAAAJ&hl=en), and [Michael Mullane](https://www.linkedin.com/in/michaelnmullane/)* </span>     
+  <span style="font-size:13px;"> *with [Timothy Haase](https://scholar.google.com/citations?user=iXUJmkgAAAAJ&hl=en) and [Michael Mullane](https://www.linkedin.com/in/michaelnmullane/)* </span>     
   
 - The Effect of Affordable Care Act (ACA) on Insurance Coverage by the U.S. Natives and Immigrants 
 
