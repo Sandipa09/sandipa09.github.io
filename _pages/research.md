@@ -48,10 +48,12 @@ header:
   <span style="font-size:13px;"> *with [Tufan Ekici](https://scholar.google.com/citations?user=ORVOPkkAAAAJ&hl=en)* </span>
 
 - Does Crime-Related Google Search Predict Urban Crime? Evidence and Measurement Lessons from Three Cities <br>
-  <span style="font-size:13px;"> *with [Timothy Haase](https://scholar.google.com/citations?user=iXUJmkgAAAAJ&hl=en) and [Michael Mullane](https://www.linkedin.com/in/michaelnmullane/)* </span>     
-  
-- The Effect of Affordable Care Act (ACA) on Insurance Coverage by the U.S. Natives and Immigrants 
+  <span style="font-size:13px;"> *with [Michael Mullane](https://www.linkedin.com/in/michaelnmullane/) and [Timothy Haase](https://scholar.google.com/citations?user=iXUJmkgAAAAJ&hl=en)* </span>
 
+- Cultural Differentiation and International Market Allocation: Evidence from Japan and South Korea Using a Relative Spending Framework
+   <span style="font-size:13px;"> *with [Jesiah Owens](https://www.linkedin.com/in/jesiah-owens/) and [Timothy Haase](https://scholar.google.com/citations?user=iXUJmkgAAAAJ&hl=en)* </span>
+   
+- The Effect of Affordable Care Act (ACA) on Insurance Coverage by the U.S. Natives and Immigrants <br>
     <details style="font-size:80%; background-color:#fffbfa;">
     <summary style="color:#a51417; font-family:courier; font-size:100%;"> Abstract </summary> 
     The Affordable Care Act (ACA) of 2010 included an expansion of Medicaid public health insurance to more low income individuals beginning in 2014. The ACA aimed to achieve nearly universal health insurance coverage in the United States through a combination of mandates, regulations on insurers, expanding Medicaid subsidies and health insurance exchanges, most of which took effect in 2014. This paper estimates the effects of the ACA on health insurance coverage using data from the American Community Survey (ACS) by utilizing difference-in-difference-in-differences model that exploit cross-sectional variation in the intensity of treatment arising from state participation in the Medicaid expansion in 2014 and comparing the effects among natives and immigrants. This study contributes to understand the limits of the ACA in reducing disparities in insurance coverage and exploring how patterns of coverage differ for different sources of insurance among the natives and immigrants. It is observed that the gap is lower in magnitude between the natives and immigrants in terms of public and Medicaid insurance coverage after the ACA implementation. 
