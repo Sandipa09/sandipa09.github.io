@@ -47,10 +47,10 @@ header:
 - Workplace Characteristics and Job Satisfaction: Do Aspirations Matter? <br>
   <span style="font-size:13px;"> *with [Tufan Ekici](https://scholar.google.com/citations?user=ORVOPkkAAAAJ&hl=en)* </span>
 
-- Does Crime-Related Google Search Predict Urban Crime? Evidence and Measurement Lessons from Three Cities <br>
+- Does Crime-Related Google Search Predict Urban Crime? Evidence & Measurement Lessons from Three Cities <br>
   <span style="font-size:13px;"> *with [Michael Mullane](https://www.linkedin.com/in/michaelnmullane/) and [Timothy Haase](https://scholar.google.com/citations?user=iXUJmkgAAAAJ&hl=en)* </span>
 
-- Cultural Differentiation and International Market Allocation: Evidence from Japan and South Korea Using a Relative Spending Framework
+- Cultural Differentiation and International Market Allocation: Evidence from Japan and South Korea <br>
    <span style="font-size:13px;"> *with [Jesiah Owens](https://www.linkedin.com/in/jesiah-owens/) and [Timothy Haase](https://scholar.google.com/citations?user=iXUJmkgAAAAJ&hl=en)* </span>
    
 - The Effect of Affordable Care Act (ACA) on Insurance Coverage by the U.S. Natives and Immigrants <br>
